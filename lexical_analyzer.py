@@ -117,12 +117,42 @@ class Solution:
             # print i
             fg = False
             for keyword in keywords:
-                re_res = re.match(keyword, t_str[i:])
+                dupfg=(False,None,0)
+                if keywords[keyword][1]=='F_STOP':
+                    re_res = re.match(r'[\s\t\n]*\.\.',t_str[i:])
+                    if re_res:
+                        dupfg=(True,'RANGE',len(re_res.group(0)))
+                elif keywords[keyword][1]=='MULTI':
+                    re_res = re.match(r'[\s\t\n]*\*\*',t_str[i:])
+                    if re_res:
+                        dupfg=(True,'EXP',len(re_res.group(0)))
+                elif keywords[keyword][1]=='GT':
+                    re_res = re.match(r'[\s\t\n]*>=',t_str[i:])
+                    if re_res:
+                        dupfg=(True,'GE',len(re_res.group(0)))
+                elif keywords[keyword][1]=='LT':
+                    re_res = re.match(r'[\s\t\n]*<=',t_str[i:])
+                    if re_res:
+                        dupfg=(True,'LE',len(re_res.group(0)))
+                    re_res = re.match(r'[\s\t\n]*<>',t_str[i:])
+                    if re_res:
+                        dupfg=(True,'NE',len(re_res.group(0)))
+                elif keywords[keyword][1]=='COLON':
+                    re_res = re.match(r'[\s\t\n]*:=',t_str[i:])
+                    if re_res:
+                        dupfg=(True,'ASSIGN',len(re_res.group(0)))
+
+                if not dupfg[0]:
+                    re_res = re.match(keyword, t_str[i:])
                 if re_res:
                     # print keyword
                     # print re_res
-                    ret.append((keywords[keyword][1], 0))
-                    i += len(re_res.group(0))
+                    if dupfg[0]:
+                        ret.append((dupfg[1],0))
+                        i+=dupfg[2]
+                    else:
+                        ret.append((keywords[keyword][1], 0))
+                        i += len(re_res.group(0))
                     # print re_res.group(0)
                     fg = True
                     break
@@ -171,8 +201,8 @@ class Solution:
                     j += 1
                 i += j
             i += 1
-        #for lex in ret:
-        #    print lex
+        for lex in ret:
+            print lex
         #return lex
         return ret
 
@@ -202,4 +232,4 @@ try:
 except:
     print 'error'
 hehe = cnm.lex_analyzer(text)
-#print hehe
+print hehe
