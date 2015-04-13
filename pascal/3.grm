@@ -1,0 +1,33 @@
+[nonterminal]
+	statement
+	procedure_statement
+	compound_statement
+ 	variable expression
+	expression_list
+	simple_expression
+	term factor sign
+	relop addop mulop num
+[terminal]
+	if then else while do
+	assign lt gt le ge ne eq  minus plus multi rdiv
+	 not
+[production]
+	statement => variable assign expression |
+				 procedure_statement |
+				 compound_statement |
+				 if expression then statement else statement |
+				 while expression do statement ;
+	variable => id | id ls_brac expression rs_brac ;
+	procedure_statement => id | id lr_brac expression_list rr_brac ;
+	expression_list => expression | expression_list comma expression ;
+	expression => simple_expression |
+				  simple_expression relop simple_expression ;
+	simple_expression => term | sign term |
+						 simple_expression addop term ;
+	term => factor | term mulop factor ;
+	factor => id | id lr_brac expression_list rr_brac | num | lr_brac expression rr_brac | not factor ;
+	sign => addop ;
+	relop => lt | gt | le | ge | ne | eq ;
+	addop => minus | plus ;
+	mulop => rdiv | multi ;
+	num => int | real ;

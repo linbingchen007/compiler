@@ -1,0 +1,21 @@
+//这是一个小型pascal文法
+[nonterminal]
+	subprogram_declarations subprogram_declaration
+	subprogram_head arguments parameter_list
+	optional_statements statement_list statement
+[terminal]
+	begin end func proc
+[production]
+	subprogram_declarations => subprogram_declarations
+							   subprogram_declaration semic | ;
+	subprogram_declaration => subprogram_head
+							  declarations
+							  compound_statement ;
+	subprogram_head => func id arguments colon standard_type semic |
+					   proc id arguments semic ;
+	arguments => lr_brac parameter_list rr_brac | ;
+	parameter_list => identifier_list colon type |
+					  parameter_list semic identifier_list colon type ;
+	compound_statement => begin optional_statements end ;
+	optional_statements => statement_list | ;
+	statement_list => statement | statement_list semic statement ;

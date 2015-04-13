@@ -1,0 +1,14 @@
+program p1(cnm,cnm) ;
+var a,b,sum:integer ;
+	c:real ;
+function hehe(a,a:array[1..3] of real ; c:integer) : real ;
+begin
+	if b >= 4 then b:=4 else b:=2
+end ;
+procedure haha ;
+begin
+ b:=4
+end;
+begin
+  h := (1+2) * 3+881
+end

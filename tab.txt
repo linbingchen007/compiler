@@ -1,0 +1,8374 @@
+<tr>
+<td nowrap>prog</td>
+<td nowrap>id</td>
+<td nowrap>lr_brac</td>
+<td nowrap>rr_brac</td>
+<td nowrap>semic</td>
+<td nowrap>comma</td>
+<td nowrap>var</td>
+<td nowrap>colon</td>
+<td nowrap>range</td>
+<td nowrap>of</td>
+<td nowrap>array</td>
+<td nowrap>int</td>
+<td nowrap>real</td>
+<td nowrap>ls_brac</td>
+<td nowrap>rs_brac</td>
+<td nowrap>begin</td>
+<td nowrap>end</td>
+<td nowrap>func</td>
+<td nowrap>proc</td>
+<td nowrap>if</td>
+<td nowrap>then</td>
+<td nowrap>else</td>
+<td nowrap>while</td>
+<td nowrap>do</td>
+<td nowrap>assign</td>
+<td nowrap>lt</td>
+<td nowrap>gt</td>
+<td nowrap>le</td>
+<td nowrap>ge</td>
+<td nowrap>ne</td>
+<td nowrap>eq</td>
+<td nowrap>minus</td>
+<td nowrap>plus</td>
+<td nowrap>multi</td>
+<td nowrap>rdiv</td>
+<td nowrap>not</td>
+<td nowrap>$</td>
+<td nowrap>program</td>
+<td nowrap>subprogram_declarations</td>
+<td nowrap>identifier_list</td>
+<td nowrap>declarations</td>
+<td nowrap>compound_statement</td>
+<td nowrap>declaration</td>
+<td nowrap>type</td>
+<td nowrap>standard_type</td>
+<td nowrap>subprogram_declaration</td>
+<td nowrap>subprogram_head</td>
+<td nowrap>arguments</td>
+<td nowrap>parameter_list</td>
+<td nowrap>optional_statements</td>
+<td nowrap>statement_list</td>
+<td nowrap>statement</td>
+<td nowrap>procedure_statement</td>
+<td nowrap>variable</td>
+<td nowrap>expression</td>
+<td nowrap>expression_list</td>
+<td nowrap>simple_expression</td>
+<td nowrap>term</td>
+<td nowrap>factor</td>
+<td nowrap>sign</td>
+<td nowrap>relop</td>
+<td nowrap>addop</td>
+<td nowrap>mulop</td>
+<td nowrap>num</td>
+</tr>
+<tr>
+<td nowrap>0</td>
+<td nowrap>shift 2</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>1</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>1</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>accept</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>2</td>
+<td nowrap> </td>
+<td nowrap>shift 3</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>3</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 4</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>4</td>
+<td nowrap> </td>
+<td nowrap>shift 6</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>5</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>5</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 7</td>
+<td nowrap> </td>
+<td nowrap>shift 8</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>6</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce identifier_list -> id</td>
+<td nowrap> </td>
+<td nowrap>reduce identifier_list -> id</td>
+<td nowrap> </td>
+<td nowrap>reduce identifier_list -> id</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>7</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 9</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>8</td>
+<td nowrap> </td>
+<td nowrap>shift 10</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>9</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 12</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce declarations -> ¦Å</td>
+<td nowrap> </td>
+<td nowrap>reduce declarations -> ¦Å</td>
+<td nowrap>reduce declarations -> ¦Å</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>11</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>10</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce identifier_list -> identifier_list comma id</td>
+<td nowrap> </td>
+<td nowrap>reduce identifier_list -> identifier_list comma id</td>
+<td nowrap> </td>
+<td nowrap>reduce identifier_list -> identifier_list comma id</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>11</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce subprogram_declarations -> ¦Å</td>
+<td nowrap> </td>
+<td nowrap>reduce subprogram_declarations -> ¦Å</td>
+<td nowrap>reduce subprogram_declarations -> ¦Å</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>13</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>12</td>
+<td nowrap> </td>
+<td nowrap>shift 6</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>14</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>15</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>13</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 19</td>
+<td nowrap> </td>
+<td nowrap>shift 20</td>
+<td nowrap>shift 21</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>16</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>17</td>
+<td nowrap>18</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>14</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 8</td>
+<td nowrap> </td>
+<td nowrap>shift 22</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>15</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 23</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>16</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce program -> prog id lr_brac identifier_list rr_brac semic declarations subprogram_declarations compound_statement</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>17</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 24</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>18</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 12</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce declarations -> ¦Å</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>25</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>19</td>
+<td nowrap> </td>
+<td nowrap>shift 32</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 19</td>
+<td nowrap>reduce optional_statements -> ¦Å</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 33</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 34</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>26</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>27</td>
+<td nowrap>28</td>
+<td nowrap>29</td>
+<td nowrap>30</td>
+<td nowrap>31</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>20</td>
+<td nowrap> </td>
+<td nowrap>shift 35</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>21</td>
+<td nowrap> </td>
+<td nowrap>shift 36</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>22</td>
+<td nowrap> </td>
+<td nowrap>shift 39</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 40</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>37</td>
+<td nowrap>38</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>23</td>
+<td nowrap> </td>
+<td nowrap>shift 6</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce declarations -> var declaration semic</td>
+<td nowrap> </td>
+<td nowrap>reduce declarations -> var declaration semic</td>
+<td nowrap>reduce declarations -> var declaration semic</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>41</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>24</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce subprogram_declarations -> subprogram_declarations subprogram_declaration semic</td>
+<td nowrap> </td>
+<td nowrap>reduce subprogram_declarations -> subprogram_declarations subprogram_declaration semic</td>
+<td nowrap>reduce subprogram_declarations -> subprogram_declarations subprogram_declaration semic</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>25</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 19</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>42</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>26</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce statement -> compound_statement</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce statement -> compound_statement</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce statement -> compound_statement</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>27</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 43</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>28</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 44</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce optional_statements -> statement_list</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>29</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce statement_list -> statement</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce statement_list -> statement</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>30</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce statement -> procedure_statement</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce statement -> procedure_statement</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce statement -> procedure_statement</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>31</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 45</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>32</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 46</td>
+<td nowrap> </td>
+<td nowrap>reduce procedure_statement -> id</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 47</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce procedure_statement -> id</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce procedure_statement -> id</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce variable -> id</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>33</td>
+<td nowrap> </td>
+<td nowrap>shift 55</td>
+<td nowrap>shift 56</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 57</td>
+<td nowrap>shift 58</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 59</td>
+<td nowrap>shift 60</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 61</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>48</td>
+<td nowrap> </td>
+<td nowrap>49</td>
+<td nowrap>50</td>
+<td nowrap>51</td>
+<td nowrap>52</td>
+<td nowrap> </td>
+<td nowrap>53</td>
+<td nowrap> </td>
+<td nowrap>54</td>
+</tr>
+<tr>
+<td nowrap>34</td>
+<td nowrap> </td>
+<td nowrap>shift 55</td>
+<td nowrap>shift 56</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 57</td>
+<td nowrap>shift 58</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 59</td>
+<td nowrap>shift 60</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 61</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>62</td>
+<td nowrap> </td>
+<td nowrap>49</td>
+<td nowrap>50</td>
+<td nowrap>51</td>
+<td nowrap>52</td>
+<td nowrap> </td>
+<td nowrap>53</td>
+<td nowrap> </td>
+<td nowrap>54</td>
+</tr>
+<tr>
+<td nowrap>35</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 64</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce arguments -> ¦Å</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>63</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>36</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 64</td>
+<td nowrap> </td>
+<td nowrap>reduce arguments -> ¦Å</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>65</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>37</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce declaration -> identifier_list colon type</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>38</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce type -> standard_type</td>
+<td nowrap>reduce type -> standard_type</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>39</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce standard_type -> id</td>
+<td nowrap>reduce standard_type -> id</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>40</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 66</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>41</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 8</td>
+<td nowrap> </td>
+<td nowrap>shift 67</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>42</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce subprogram_declaration -> subprogram_head declarations compound_statement</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>43</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce compound_statement -> begin optional_statements end</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce compound_statement -> begin optional_statements end</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce compound_statement -> begin optional_statements end</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce compound_statement -> begin optional_statements end</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>44</td>
+<td nowrap> </td>
+<td nowrap>shift 32</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 19</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 33</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 34</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>26</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>68</td>
+<td nowrap>30</td>
+<td nowrap>31</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>45</td>
+<td nowrap> </td>
+<td nowrap>shift 55</td>
+<td nowrap>shift 56</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 57</td>
+<td nowrap>shift 58</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 59</td>
+<td nowrap>shift 60</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 61</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>69</td>
+<td nowrap> </td>
+<td nowrap>49</td>
+<td nowrap>50</td>
+<td nowrap>51</td>
+<td nowrap>52</td>
+<td nowrap> </td>
+<td nowrap>53</td>
+<td nowrap> </td>
+<td nowrap>54</td>
+</tr>
+<tr>
+<td nowrap>46</td>
+<td nowrap> </td>
+<td nowrap>shift 55</td>
+<td nowrap>shift 56</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 57</td>
+<td nowrap>shift 58</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 59</td>
+<td nowrap>shift 60</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 61</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>70</td>
+<td nowrap>71</td>
+<td nowrap>49</td>
+<td nowrap>50</td>
+<td nowrap>51</td>
+<td nowrap>52</td>
+<td nowrap> </td>
+<td nowrap>53</td>
+<td nowrap> </td>
+<td nowrap>54</td>
+</tr>
+<tr>
+<td nowrap>47</td>
+<td nowrap> </td>
+<td nowrap>shift 55</td>
+<td nowrap>shift 56</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 57</td>
+<td nowrap>shift 58</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 59</td>
+<td nowrap>shift 60</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 61</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>72</td>
+<td nowrap> </td>
+<td nowrap>49</td>
+<td nowrap>50</td>
+<td nowrap>51</td>
+<td nowrap>52</td>
+<td nowrap> </td>
+<td nowrap>53</td>
+<td nowrap> </td>
+<td nowrap>54</td>
+</tr>
+<tr>
+<td nowrap>48</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 73</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>49</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce expression -> simple_expression</td>
+<td nowrap>reduce expression -> simple_expression</td>
+<td nowrap>reduce expression -> simple_expression</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce expression -> simple_expression</td>
+<td nowrap> </td>
+<td nowrap>reduce expression -> simple_expression</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce expression -> simple_expression</td>
+<td nowrap>reduce expression -> simple_expression</td>
+<td nowrap> </td>
+<td nowrap>reduce expression -> simple_expression</td>
+<td nowrap> </td>
+<td nowrap>shift 76</td>
+<td nowrap>shift 77</td>
+<td nowrap>shift 78</td>
+<td nowrap>shift 79</td>
+<td nowrap>shift 80</td>
+<td nowrap>shift 81</td>
+<td nowrap>shift 59</td>
+<td nowrap>shift 60</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>74</td>
+<td nowrap>75</td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>50</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce simple_expression -> term</td>
+<td nowrap>reduce simple_expression -> term</td>
+<td nowrap>reduce simple_expression -> term</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce simple_expression -> term</td>
+<td nowrap> </td>
+<td nowrap>reduce simple_expression -> term</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce simple_expression -> term</td>
+<td nowrap>reduce simple_expression -> term</td>
+<td nowrap> </td>
+<td nowrap>reduce simple_expression -> term</td>
+<td nowrap> </td>
+<td nowrap>reduce simple_expression -> term</td>
+<td nowrap>reduce simple_expression -> term</td>
+<td nowrap>reduce simple_expression -> term</td>
+<td nowrap>reduce simple_expression -> term</td>
+<td nowrap>reduce simple_expression -> term</td>
+<td nowrap>reduce simple_expression -> term</td>
+<td nowrap>reduce simple_expression -> term</td>
+<td nowrap>reduce simple_expression -> term</td>
+<td nowrap>shift 83</td>
+<td nowrap>shift 84</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>82</td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>51</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce term -> factor</td>
+<td nowrap>reduce term -> factor</td>
+<td nowrap>reduce term -> factor</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce term -> factor</td>
+<td nowrap> </td>
+<td nowrap>reduce term -> factor</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce term -> factor</td>
+<td nowrap>reduce term -> factor</td>
+<td nowrap> </td>
+<td nowrap>reduce term -> factor</td>
+<td nowrap> </td>
+<td nowrap>reduce term -> factor</td>
+<td nowrap>reduce term -> factor</td>
+<td nowrap>reduce term -> factor</td>
+<td nowrap>reduce term -> factor</td>
+<td nowrap>reduce term -> factor</td>
+<td nowrap>reduce term -> factor</td>
+<td nowrap>reduce term -> factor</td>
+<td nowrap>reduce term -> factor</td>
+<td nowrap>reduce term -> factor</td>
+<td nowrap>reduce term -> factor</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>52</td>
+<td nowrap> </td>
+<td nowrap>shift 55</td>
+<td nowrap>shift 56</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 57</td>
+<td nowrap>shift 58</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 61</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>85</td>
+<td nowrap>51</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>54</td>
+</tr>
+<tr>
+<td nowrap>53</td>
+<td nowrap> </td>
+<td nowrap>reduce sign -> addop</td>
+<td nowrap>reduce sign -> addop</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce sign -> addop</td>
+<td nowrap>reduce sign -> addop</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce sign -> addop</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>54</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce factor -> num</td>
+<td nowrap>reduce factor -> num</td>
+<td nowrap>reduce factor -> num</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce factor -> num</td>
+<td nowrap> </td>
+<td nowrap>reduce factor -> num</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce factor -> num</td>
+<td nowrap>reduce factor -> num</td>
+<td nowrap> </td>
+<td nowrap>reduce factor -> num</td>
+<td nowrap> </td>
+<td nowrap>reduce factor -> num</td>
+<td nowrap>reduce factor -> num</td>
+<td nowrap>reduce factor -> num</td>
+<td nowrap>reduce factor -> num</td>
+<td nowrap>reduce factor -> num</td>
+<td nowrap>reduce factor -> num</td>
+<td nowrap>reduce factor -> num</td>
+<td nowrap>reduce factor -> num</td>
+<td nowrap>reduce factor -> num</td>
+<td nowrap>reduce factor -> num</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>55</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 86</td>
+<td nowrap>reduce factor -> id</td>
+<td nowrap>reduce factor -> id</td>
+<td nowrap>reduce factor -> id</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce factor -> id</td>
+<td nowrap> </td>
+<td nowrap>reduce factor -> id</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce factor -> id</td>
+<td nowrap>reduce factor -> id</td>
+<td nowrap> </td>
+<td nowrap>reduce factor -> id</td>
+<td nowrap> </td>
+<td nowrap>reduce factor -> id</td>
+<td nowrap>reduce factor -> id</td>
+<td nowrap>reduce factor -> id</td>
+<td nowrap>reduce factor -> id</td>
+<td nowrap>reduce factor -> id</td>
+<td nowrap>reduce factor -> id</td>
+<td nowrap>reduce factor -> id</td>
+<td nowrap>reduce factor -> id</td>
+<td nowrap>reduce factor -> id</td>
+<td nowrap>reduce factor -> id</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>56</td>
+<td nowrap> </td>
+<td nowrap>shift 55</td>
+<td nowrap>shift 56</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 57</td>
+<td nowrap>shift 58</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 59</td>
+<td nowrap>shift 60</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 61</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>87</td>
+<td nowrap> </td>
+<td nowrap>49</td>
+<td nowrap>50</td>
+<td nowrap>51</td>
+<td nowrap>52</td>
+<td nowrap> </td>
+<td nowrap>53</td>
+<td nowrap> </td>
+<td nowrap>54</td>
+</tr>
+<tr>
+<td nowrap>57</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce num -> int</td>
+<td nowrap>reduce num -> int</td>
+<td nowrap>reduce num -> int</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce num -> int</td>
+<td nowrap> </td>
+<td nowrap>reduce num -> int</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce num -> int</td>
+<td nowrap>reduce num -> int</td>
+<td nowrap> </td>
+<td nowrap>reduce num -> int</td>
+<td nowrap> </td>
+<td nowrap>reduce num -> int</td>
+<td nowrap>reduce num -> int</td>
+<td nowrap>reduce num -> int</td>
+<td nowrap>reduce num -> int</td>
+<td nowrap>reduce num -> int</td>
+<td nowrap>reduce num -> int</td>
+<td nowrap>reduce num -> int</td>
+<td nowrap>reduce num -> int</td>
+<td nowrap>reduce num -> int</td>
+<td nowrap>reduce num -> int</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>58</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce num -> real</td>
+<td nowrap>reduce num -> real</td>
+<td nowrap>reduce num -> real</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce num -> real</td>
+<td nowrap> </td>
+<td nowrap>reduce num -> real</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce num -> real</td>
+<td nowrap>reduce num -> real</td>
+<td nowrap> </td>
+<td nowrap>reduce num -> real</td>
+<td nowrap> </td>
+<td nowrap>reduce num -> real</td>
+<td nowrap>reduce num -> real</td>
+<td nowrap>reduce num -> real</td>
+<td nowrap>reduce num -> real</td>
+<td nowrap>reduce num -> real</td>
+<td nowrap>reduce num -> real</td>
+<td nowrap>reduce num -> real</td>
+<td nowrap>reduce num -> real</td>
+<td nowrap>reduce num -> real</td>
+<td nowrap>reduce num -> real</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>59</td>
+<td nowrap> </td>
+<td nowrap>reduce addop -> minus</td>
+<td nowrap>reduce addop -> minus</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce addop -> minus</td>
+<td nowrap>reduce addop -> minus</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce addop -> minus</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>60</td>
+<td nowrap> </td>
+<td nowrap>reduce addop -> plus</td>
+<td nowrap>reduce addop -> plus</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce addop -> plus</td>
+<td nowrap>reduce addop -> plus</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce addop -> plus</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>61</td>
+<td nowrap> </td>
+<td nowrap>shift 55</td>
+<td nowrap>shift 56</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 57</td>
+<td nowrap>shift 58</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 61</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>88</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>54</td>
+</tr>
+<tr>
+<td nowrap>62</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 89</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>63</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 90</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>64</td>
+<td nowrap> </td>
+<td nowrap>shift 6</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>91</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>92</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>65</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 93</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>66</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 94</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>67</td>
+<td nowrap> </td>
+<td nowrap>shift 39</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 40</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>95</td>
+<td nowrap>38</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>68</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce statement_list -> statement_list semic statement</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce statement_list -> statement_list semic statement</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>69</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce statement -> variable assign expression</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce statement -> variable assign expression</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce statement -> variable assign expression</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>70</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce expression_list -> expression</td>
+<td nowrap> </td>
+<td nowrap>reduce expression_list -> expression</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>71</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 96</td>
+<td nowrap> </td>
+<td nowrap>shift 97</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>72</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 98</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>73</td>
+<td nowrap> </td>
+<td nowrap>shift 32</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 19</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 33</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 34</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>26</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>99</td>
+<td nowrap>30</td>
+<td nowrap>31</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>74</td>
+<td nowrap> </td>
+<td nowrap>shift 55</td>
+<td nowrap>shift 56</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 57</td>
+<td nowrap>shift 58</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 59</td>
+<td nowrap>shift 60</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 61</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>100</td>
+<td nowrap>50</td>
+<td nowrap>51</td>
+<td nowrap>52</td>
+<td nowrap> </td>
+<td nowrap>53</td>
+<td nowrap> </td>
+<td nowrap>54</td>
+</tr>
+<tr>
+<td nowrap>75</td>
+<td nowrap> </td>
+<td nowrap>shift 55</td>
+<td nowrap>shift 56</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 57</td>
+<td nowrap>shift 58</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 61</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>101</td>
+<td nowrap>51</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>54</td>
+</tr>
+<tr>
+<td nowrap>76</td>
+<td nowrap> </td>
+<td nowrap>reduce relop -> lt</td>
+<td nowrap>reduce relop -> lt</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce relop -> lt</td>
+<td nowrap>reduce relop -> lt</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce relop -> lt</td>
+<td nowrap>reduce relop -> lt</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce relop -> lt</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>77</td>
+<td nowrap> </td>
+<td nowrap>reduce relop -> gt</td>
+<td nowrap>reduce relop -> gt</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce relop -> gt</td>
+<td nowrap>reduce relop -> gt</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce relop -> gt</td>
+<td nowrap>reduce relop -> gt</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce relop -> gt</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>78</td>
+<td nowrap> </td>
+<td nowrap>reduce relop -> le</td>
+<td nowrap>reduce relop -> le</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce relop -> le</td>
+<td nowrap>reduce relop -> le</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce relop -> le</td>
+<td nowrap>reduce relop -> le</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce relop -> le</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>79</td>
+<td nowrap> </td>
+<td nowrap>reduce relop -> ge</td>
+<td nowrap>reduce relop -> ge</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce relop -> ge</td>
+<td nowrap>reduce relop -> ge</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce relop -> ge</td>
+<td nowrap>reduce relop -> ge</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce relop -> ge</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>80</td>
+<td nowrap> </td>
+<td nowrap>reduce relop -> ne</td>
+<td nowrap>reduce relop -> ne</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce relop -> ne</td>
+<td nowrap>reduce relop -> ne</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce relop -> ne</td>
+<td nowrap>reduce relop -> ne</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce relop -> ne</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>81</td>
+<td nowrap> </td>
+<td nowrap>reduce relop -> eq</td>
+<td nowrap>reduce relop -> eq</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce relop -> eq</td>
+<td nowrap>reduce relop -> eq</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce relop -> eq</td>
+<td nowrap>reduce relop -> eq</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce relop -> eq</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>82</td>
+<td nowrap> </td>
+<td nowrap>shift 55</td>
+<td nowrap>shift 56</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 57</td>
+<td nowrap>shift 58</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 61</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>102</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>54</td>
+</tr>
+<tr>
+<td nowrap>83</td>
+<td nowrap> </td>
+<td nowrap>reduce mulop -> multi</td>
+<td nowrap>reduce mulop -> multi</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce mulop -> multi</td>
+<td nowrap>reduce mulop -> multi</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce mulop -> multi</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>84</td>
+<td nowrap> </td>
+<td nowrap>reduce mulop -> rdiv</td>
+<td nowrap>reduce mulop -> rdiv</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce mulop -> rdiv</td>
+<td nowrap>reduce mulop -> rdiv</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce mulop -> rdiv</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>85</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce simple_expression -> sign term</td>
+<td nowrap>reduce simple_expression -> sign term</td>
+<td nowrap>reduce simple_expression -> sign term</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce simple_expression -> sign term</td>
+<td nowrap> </td>
+<td nowrap>reduce simple_expression -> sign term</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce simple_expression -> sign term</td>
+<td nowrap>reduce simple_expression -> sign term</td>
+<td nowrap> </td>
+<td nowrap>reduce simple_expression -> sign term</td>
+<td nowrap> </td>
+<td nowrap>reduce simple_expression -> sign term</td>
+<td nowrap>reduce simple_expression -> sign term</td>
+<td nowrap>reduce simple_expression -> sign term</td>
+<td nowrap>reduce simple_expression -> sign term</td>
+<td nowrap>reduce simple_expression -> sign term</td>
+<td nowrap>reduce simple_expression -> sign term</td>
+<td nowrap>reduce simple_expression -> sign term</td>
+<td nowrap>reduce simple_expression -> sign term</td>
+<td nowrap>shift 83</td>
+<td nowrap>shift 84</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>82</td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>86</td>
+<td nowrap> </td>
+<td nowrap>shift 55</td>
+<td nowrap>shift 56</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 57</td>
+<td nowrap>shift 58</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 59</td>
+<td nowrap>shift 60</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 61</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>70</td>
+<td nowrap>103</td>
+<td nowrap>49</td>
+<td nowrap>50</td>
+<td nowrap>51</td>
+<td nowrap>52</td>
+<td nowrap> </td>
+<td nowrap>53</td>
+<td nowrap> </td>
+<td nowrap>54</td>
+</tr>
+<tr>
+<td nowrap>87</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 104</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>88</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce factor -> not factor</td>
+<td nowrap>reduce factor -> not factor</td>
+<td nowrap>reduce factor -> not factor</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce factor -> not factor</td>
+<td nowrap> </td>
+<td nowrap>reduce factor -> not factor</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce factor -> not factor</td>
+<td nowrap>reduce factor -> not factor</td>
+<td nowrap> </td>
+<td nowrap>reduce factor -> not factor</td>
+<td nowrap> </td>
+<td nowrap>reduce factor -> not factor</td>
+<td nowrap>reduce factor -> not factor</td>
+<td nowrap>reduce factor -> not factor</td>
+<td nowrap>reduce factor -> not factor</td>
+<td nowrap>reduce factor -> not factor</td>
+<td nowrap>reduce factor -> not factor</td>
+<td nowrap>reduce factor -> not factor</td>
+<td nowrap>reduce factor -> not factor</td>
+<td nowrap>reduce factor -> not factor</td>
+<td nowrap>reduce factor -> not factor</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>89</td>
+<td nowrap> </td>
+<td nowrap>shift 32</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 19</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 33</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 34</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>26</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>105</td>
+<td nowrap>30</td>
+<td nowrap>31</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>90</td>
+<td nowrap> </td>
+<td nowrap>shift 39</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>106</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>91</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 8</td>
+<td nowrap> </td>
+<td nowrap>shift 107</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>92</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 108</td>
+<td nowrap>shift 109</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>93</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce subprogram_head -> proc id arguments semic</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce subprogram_head -> proc id arguments semic</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>94</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 110</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>95</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce declaration -> declaration semic identifier_list colon type</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>96</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce procedure_statement -> id lr_brac expression_list rr_brac</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce procedure_statement -> id lr_brac expression_list rr_brac</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce procedure_statement -> id lr_brac expression_list rr_brac</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>97</td>
+<td nowrap> </td>
+<td nowrap>shift 55</td>
+<td nowrap>shift 56</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 57</td>
+<td nowrap>shift 58</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 59</td>
+<td nowrap>shift 60</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 61</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>111</td>
+<td nowrap> </td>
+<td nowrap>49</td>
+<td nowrap>50</td>
+<td nowrap>51</td>
+<td nowrap>52</td>
+<td nowrap> </td>
+<td nowrap>53</td>
+<td nowrap> </td>
+<td nowrap>54</td>
+</tr>
+<tr>
+<td nowrap>98</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce variable -> id ls_brac expression rs_brac</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>99</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 112</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>100</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce expression -> simple_expression relop simple_expression</td>
+<td nowrap>reduce expression -> simple_expression relop simple_expression</td>
+<td nowrap>reduce expression -> simple_expression relop simple_expression</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce expression -> simple_expression relop simple_expression</td>
+<td nowrap> </td>
+<td nowrap>reduce expression -> simple_expression relop simple_expression</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce expression -> simple_expression relop simple_expression</td>
+<td nowrap>reduce expression -> simple_expression relop simple_expression</td>
+<td nowrap> </td>
+<td nowrap>reduce expression -> simple_expression relop simple_expression</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 59</td>
+<td nowrap>shift 60</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>75</td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>101</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce simple_expression -> simple_expression addop term</td>
+<td nowrap>reduce simple_expression -> simple_expression addop term</td>
+<td nowrap>reduce simple_expression -> simple_expression addop term</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce simple_expression -> simple_expression addop term</td>
+<td nowrap> </td>
+<td nowrap>reduce simple_expression -> simple_expression addop term</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce simple_expression -> simple_expression addop term</td>
+<td nowrap>reduce simple_expression -> simple_expression addop term</td>
+<td nowrap> </td>
+<td nowrap>reduce simple_expression -> simple_expression addop term</td>
+<td nowrap> </td>
+<td nowrap>reduce simple_expression -> simple_expression addop term</td>
+<td nowrap>reduce simple_expression -> simple_expression addop term</td>
+<td nowrap>reduce simple_expression -> simple_expression addop term</td>
+<td nowrap>reduce simple_expression -> simple_expression addop term</td>
+<td nowrap>reduce simple_expression -> simple_expression addop term</td>
+<td nowrap>reduce simple_expression -> simple_expression addop term</td>
+<td nowrap>reduce simple_expression -> simple_expression addop term</td>
+<td nowrap>reduce simple_expression -> simple_expression addop term</td>
+<td nowrap>shift 83</td>
+<td nowrap>shift 84</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>82</td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>102</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce term -> term mulop factor</td>
+<td nowrap>reduce term -> term mulop factor</td>
+<td nowrap>reduce term -> term mulop factor</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce term -> term mulop factor</td>
+<td nowrap> </td>
+<td nowrap>reduce term -> term mulop factor</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce term -> term mulop factor</td>
+<td nowrap>reduce term -> term mulop factor</td>
+<td nowrap> </td>
+<td nowrap>reduce term -> term mulop factor</td>
+<td nowrap> </td>
+<td nowrap>reduce term -> term mulop factor</td>
+<td nowrap>reduce term -> term mulop factor</td>
+<td nowrap>reduce term -> term mulop factor</td>
+<td nowrap>reduce term -> term mulop factor</td>
+<td nowrap>reduce term -> term mulop factor</td>
+<td nowrap>reduce term -> term mulop factor</td>
+<td nowrap>reduce term -> term mulop factor</td>
+<td nowrap>reduce term -> term mulop factor</td>
+<td nowrap>reduce term -> term mulop factor</td>
+<td nowrap>reduce term -> term mulop factor</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>103</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 113</td>
+<td nowrap> </td>
+<td nowrap>shift 97</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>104</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce factor -> lr_brac expression rr_brac</td>
+<td nowrap>reduce factor -> lr_brac expression rr_brac</td>
+<td nowrap>reduce factor -> lr_brac expression rr_brac</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce factor -> lr_brac expression rr_brac</td>
+<td nowrap> </td>
+<td nowrap>reduce factor -> lr_brac expression rr_brac</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce factor -> lr_brac expression rr_brac</td>
+<td nowrap>reduce factor -> lr_brac expression rr_brac</td>
+<td nowrap> </td>
+<td nowrap>reduce factor -> lr_brac expression rr_brac</td>
+<td nowrap> </td>
+<td nowrap>reduce factor -> lr_brac expression rr_brac</td>
+<td nowrap>reduce factor -> lr_brac expression rr_brac</td>
+<td nowrap>reduce factor -> lr_brac expression rr_brac</td>
+<td nowrap>reduce factor -> lr_brac expression rr_brac</td>
+<td nowrap>reduce factor -> lr_brac expression rr_brac</td>
+<td nowrap>reduce factor -> lr_brac expression rr_brac</td>
+<td nowrap>reduce factor -> lr_brac expression rr_brac</td>
+<td nowrap>reduce factor -> lr_brac expression rr_brac</td>
+<td nowrap>reduce factor -> lr_brac expression rr_brac</td>
+<td nowrap>reduce factor -> lr_brac expression rr_brac</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>105</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce statement -> while expression do statement</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce statement -> while expression do statement</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce statement -> while expression do statement</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>106</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 114</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>107</td>
+<td nowrap> </td>
+<td nowrap>shift 39</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 40</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>115</td>
+<td nowrap>38</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>108</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce arguments -> lr_brac parameter_list rr_brac</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce arguments -> lr_brac parameter_list rr_brac</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>109</td>
+<td nowrap> </td>
+<td nowrap>shift 6</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>116</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>110</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 117</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>111</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce expression_list -> expression_list comma expression</td>
+<td nowrap> </td>
+<td nowrap>reduce expression_list -> expression_list comma expression</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>112</td>
+<td nowrap> </td>
+<td nowrap>shift 32</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 19</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 33</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 34</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>26</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>118</td>
+<td nowrap>30</td>
+<td nowrap>31</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>113</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce factor -> id lr_brac expression_list rr_brac</td>
+<td nowrap>reduce factor -> id lr_brac expression_list rr_brac</td>
+<td nowrap>reduce factor -> id lr_brac expression_list rr_brac</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce factor -> id lr_brac expression_list rr_brac</td>
+<td nowrap> </td>
+<td nowrap>reduce factor -> id lr_brac expression_list rr_brac</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce factor -> id lr_brac expression_list rr_brac</td>
+<td nowrap>reduce factor -> id lr_brac expression_list rr_brac</td>
+<td nowrap> </td>
+<td nowrap>reduce factor -> id lr_brac expression_list rr_brac</td>
+<td nowrap> </td>
+<td nowrap>reduce factor -> id lr_brac expression_list rr_brac</td>
+<td nowrap>reduce factor -> id lr_brac expression_list rr_brac</td>
+<td nowrap>reduce factor -> id lr_brac expression_list rr_brac</td>
+<td nowrap>reduce factor -> id lr_brac expression_list rr_brac</td>
+<td nowrap>reduce factor -> id lr_brac expression_list rr_brac</td>
+<td nowrap>reduce factor -> id lr_brac expression_list rr_brac</td>
+<td nowrap>reduce factor -> id lr_brac expression_list rr_brac</td>
+<td nowrap>reduce factor -> id lr_brac expression_list rr_brac</td>
+<td nowrap>reduce factor -> id lr_brac expression_list rr_brac</td>
+<td nowrap>reduce factor -> id lr_brac expression_list rr_brac</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>114</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce subprogram_head -> func id arguments colon standard_type semic</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce subprogram_head -> func id arguments colon standard_type semic</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>115</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce parameter_list -> identifier_list colon type</td>
+<td nowrap>reduce parameter_list -> identifier_list colon type</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>116</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 8</td>
+<td nowrap> </td>
+<td nowrap>shift 119</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>117</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 120</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>118</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce statement -> if expression then statement else statement</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce statement -> if expression then statement else statement</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce statement -> if expression then statement else statement</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>119</td>
+<td nowrap> </td>
+<td nowrap>shift 39</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 40</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>121</td>
+<td nowrap>38</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>120</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>shift 122</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>121</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce parameter_list -> parameter_list semic identifier_list colon type</td>
+<td nowrap>reduce parameter_list -> parameter_list semic identifier_list colon type</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>122</td>
+<td nowrap> </td>
+<td nowrap>shift 39</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>123</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
+<tr>
+<td nowrap>123</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce type -> array ls_brac int range int rs_brac of standard_type</td>
+<td nowrap>reduce type -> array ls_brac int range int rs_brac of standard_type</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+</tr>
