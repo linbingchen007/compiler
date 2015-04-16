@@ -31,7 +31,6 @@ class Parser():
             print self.parsetab[self.stk[len(self.stk)-1]]
             next=self.parsetab[self.stk[len(self.stk)-1]][self.intokens[i]]
             print next
-
         #print self.ans
         return self.ans
         
