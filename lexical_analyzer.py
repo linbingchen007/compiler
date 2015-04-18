@@ -237,4 +237,4 @@ try:
 except:
     print 'error'
 hehe = cnm.lex_analyzer(text)
-print hehe
+#print hehe

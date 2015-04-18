@@ -4,6 +4,8 @@ class Produce:
 	def __init__(self,pre,post):
 		self.pre=pre
 		self.post=post
+	def __unicode__(self):
+		return self.pre+' -> '+', '.join(self.post)
 class Solution:
 	def table_analyzer(self,raw_str):
 		re_res=re.findall(r"<tr[^>]*>([\s\S]*?)</tr>",raw_str)

@@ -12,10 +12,10 @@ class Parser():
         i=0
         #print self.intokens
         #print self.intokens[i]
-        print self.stk[len(self.stk)-1]
-        print self.parsetab[self.stk[len(self.stk)-1]]
+        #print self.stk[len(self.stk)-1]
+        #print self.parsetab[self.stk[len(self.stk)-1]]
         next=self.parsetab[self.stk[len(self.stk)-1]][self.intokens[i]]
-        print next
+        #print next
         while(next!="accept"):
             if type(next)==type((1,2)):
                 if next[0]=='s':
@@ -23,15 +23,15 @@ class Parser():
                     i+=1                  
                 elif next[0]=='r':
                     self.ans.append(next[1])
-                    print next[1].post
+                    #print next[1].post
                     if next[1].post[0] != '\xa6\xc5':
                         for j in range(len(next[1].post)):
                             self.stk.pop()
                     self.stk.append(self.parsetab[self.stk[len(self.stk)-1]][next[1].pre])
-            print self.stk[len(self.stk)-1]
-            print self.parsetab[self.stk[len(self.stk)-1]]
+            #print self.stk[len(self.stk)-1]
+            #print self.parsetab[self.stk[len(self.stk)-1]]
             next=self.parsetab[self.stk[len(self.stk)-1]][self.intokens[i]]
-            print next
+            #print next
         #print self.ans
         return self.ans
         
@@ -56,8 +56,10 @@ with open(os.name=='nt' and prefix+"tab.txt" or "tab.txt",'r') as f:
     sol = Solution()
     ans = sol.table_analyzer(raw_str)
 #################################
-print [item[0].lower() for item in hehe]
+#print [item[0].lower() for item in hehe]
 ok = Parser([item[0].lower() for item in hehe],ans)
 ret = ok.play()
+for i in range(len(ret)-1,-1,-1):
+    print ret[i].__unicode__()
 
 
