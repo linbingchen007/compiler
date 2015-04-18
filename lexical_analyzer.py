@@ -1,4 +1,5 @@
 import re
+import os
 keywords = {
     r'[\s\t\n]*and[\s\t\n]+': (1, 'AND'),
     r'[\s\t\n]*array': (2, 'ARRAY'),
@@ -225,7 +226,11 @@ class Solution:
 	"""
 
 cnm = Solution()
-file_object = open('D:\\code.txt')
+if os.name=='nt':
+    prefix=os.path.abspath(os.path.join(os.path.dirname(__file__)))+'\\'
+    file_object = open(prefix+'code.txt')
+else:
+    file_object = open('code.txt')
 text = ""
 try:
     text = file_object.read()

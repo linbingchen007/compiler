@@ -1,5 +1,6 @@
 from tool import Produce, Solution
 import lexical_analyzer
+import os
 class Parser():
     def __init__(self,intokens,parsetab):
         self.parsetab=parsetab
@@ -37,7 +38,10 @@ class Parser():
 
 
 cnm = lexical_analyzer.Solution()
-file_object = open('D:\\code.txt')
+prefix=''
+if os.name=='nt':
+    prefix=os.path.abspath(os.path.join(os.path.dirname(__file__)))+'\\'
+file_object = open(prefix+'code.txt')
 text = ""
 try:
     text = file_object.read()
@@ -47,7 +51,7 @@ hehe = cnm.lex_analyzer(text)
 #######################
 
 ans={}
-with open("D:\\tab.txt",'r') as f:
+with open(os.name=='nt' and prefix+"tab.txt" or "tab.txt",'r') as f:
     raw_str = f.read()
     sol = Solution()
     ans = sol.table_analyzer(raw_str)

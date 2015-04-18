@@ -1,4 +1,5 @@
 import re
+import os
 class Produce:
 	def __init__(self,pre,post):
 		self.pre=pre
@@ -38,8 +39,10 @@ class Solution:
 
 
 
-
-with open("D:\\tab.txt",'r') as f:
+prefix=''
+if os.name=='nt':
+    prefix=os.path.abspath(os.path.join(os.path.dirname(__file__)))+'\\'
+with open(os.name=='nt' and prefix+"tab.txt" or "tab.txt",'r') as f:
 	raw_str = f.read()
 	sol = Solution()
 	ans = sol.table_analyzer(raw_str)
