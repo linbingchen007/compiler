@@ -1,0 +1,504 @@
+lfile => lprogram
+ | lmodule
+ ;
+
+lprogram => llprogram_heading lsemicolon lblock DOT
+ ;
+
+llprogram_heading => PROG lidentifier
+ | PROG lidentifier LR_BRAC llidentifier_list RR_BRAC
+ ;
+
+llidentifier_list => llidentifier_list lcomma lidentifier
+ | lidentifier
+ ;
+
+lblock => lllabel_declaration_part
+ lllconstant_definition_part
+ lltype_definition_part
+ llvariable_declaration_part
+ lprocedure_and_lfunction_declaration_part
+ llstatement_part
+ ;
+
+lmodule => lllconstant_definition_part
+ lltype_definition_part
+ llvariable_declaration_part
+ lprocedure_and_lfunction_declaration_part
+ ;
+
+lllabel_declaration_part => LABEL lllabel_list lsemicolon
+ |
+ ;
+
+lllabel_list => lllabel_list lcomma llabel
+ | llabel
+ ;
+
+llabel => INT
+ ;
+
+lllconstant_definition_part => CONST llconstant_list
+ |
+ ;
+
+llconstant_list => llconstant_list llconstant_definition
+ | llconstant_definition
+ ;
+
+llconstant_definition => lidentifier EQ lclexpression lsemicolon
+ ;
+
+
+lclexpression => lcsimple_lexpression
+ | lcsimple_lexpression lrelop lcsimple_lexpression
+ ;
+
+lcsimple_lexpression => lclterm
+ | lcsimple_lexpression laddop lclterm
+ ;
+
+lclterm => lclfactor
+ | lclterm lmulop lclfactor
+ ;
+
+lclfactor => lsign lclfactor
+ | lclexponentiation
+ ;
+
+lclexponentiation => lclprimary
+ | lclprimary EXP lclexponentiation
+ ;
+
+lclprimary => lidentifier
+ | LR_BRAC lclexpression RR_BRAC
+ | unlsigned_lconstant
+ | NOT lclprimary
+ ;
+
+lconstant => lnon_string
+ | lsign lnon_string
+ | STRING
+ ;
+
+lsign => PLUS
+ | MINUS
+ ;
+
+lnon_string => INT
+ | lidentifier
+ | REAL
+ ;
+
+lltype_definition_part => TYPE lltype_definition_list
+ |
+ ;
+
+lltype_definition_list => lltype_definition_list ltype_definition
+ | ltype_definition
+ ;
+
+ltype_definition => lidentifier EQ ltype_denoter lsemicolon
+ ;
+
+ltype_denoter => lidentifier
+ | lnew_type
+ ;
+
+lnew_type => lnew_lordinal_type
+ | lnew_lstructured_type
+ | lnew_pointer_type
+ ;
+
+lnew_lordinal_type => lenumerated_type
+ | lsubrange_type
+ ;
+
+lenumerated_type => LR_BRAC llidentifier_list RR_BRAC
+ ;
+
+lsubrange_type => lconstant RANGE lconstant
+ ;
+
+lnew_lstructured_type => lstructured_type
+ | PACKED lstructured_type
+ ;
+
+lstructured_type => larray_type
+ | lrecord_type
+ | lset_type
+ | llfile_type
+ ;
+
+larray_type => ARRAY LS_BRAC lindex_list RS_BRAC OF lcomponent_type
+ ;
+
+lindex_list => lindex_list lcomma lindex_type
+ | lindex_type
+ ;
+
+lindex_type => lordinal_type ;
+
+lordinal_type => lnew_lordinal_type
+ | lidentifier
+ ;
+
+lcomponent_type => ltype_denoter ;
+
+lrecord_type => RECORD llrecord_section_list END
+ | RECORD llrecord_section_list lsemicolon llvariant_part END
+ | RECORD llvariant_part END
+ ;
+
+llrecord_section_list => llrecord_section_list lsemicolon lrecord_section
+ | lrecord_section
+ ;
+
+lrecord_section => llidentifier_list COLON ltype_denoter
+ ;
+
+llvariant_part => CASE llvariant_selector OF llvariant_list lsemicolon
+ | CASE llvariant_selector OF llvariant_list
+ |
+ ;
+
+llvariant_selector => ltag_field COLON ltag_type
+ | ltag_type
+ ;
+
+llvariant_list => llvariant_list lsemicolon lvariant
+ | lvariant
+ ;
+
+lvariant => case_llconstant_list COLON LR_BRAC llrecord_section_list RR_BRAC
+ | case_llconstant_list COLON LR_BRAC llrecord_section_list lsemicolon
+  llvariant_part RR_BRAC
+ | case_llconstant_list COLON LR_BRAC llvariant_part RR_BRAC
+ ;
+
+case_llconstant_list => case_llconstant_list lcomma case_lconstant
+ | case_lconstant
+ ;
+
+case_lconstant => lconstant
+ | lconstant RANGE lconstant
+ ;
+
+ltag_field => lidentifier ;
+
+ltag_type => lidentifier ;
+
+lset_type => SET OF lbase_type
+ ;
+
+lbase_type => lordinal_type ;
+
+llfile_type => FILE OF lcomponent_type
+ ;
+
+lnew_pointer_type => CAP ldomain_type
+ ;
+
+ldomain_type => lidentifier ;
+
+llvariable_declaration_part => VAR llvariable_declaration_list lsemicolon
+ |
+ ;
+
+llvariable_declaration_list =>
+   llvariable_declaration_list lsemicolon lvariable_declaration
+ | lvariable_declaration
+ ;
+
+lvariable_declaration => llidentifier_list COLON ltype_denoter
+ ;
+
+lprocedure_and_lfunction_declaration_part =>
+  llproc_or_func_declaration_list lsemicolon
+ |
+ ;
+
+llproc_or_func_declaration_list =>
+   llproc_or_func_declaration_list lsemicolon lproc_or_func_declaration
+ | lproc_or_func_declaration
+ ;
+
+lproc_or_func_declaration => lprocedure_declaration
+ | lfunction_declaration
+ ;
+
+lprocedure_declaration =>  lprocedure_heading lsemicolon procedure_lblock
+ ;
+
+lprocedure_heading => lprocedure_identification
+ | lprocedure_identification lformal_parameter_list
+ ;
+
+
+
+lformal_parameter_list => LR_BRAC llformal_parameter_section_list RR_BRAC ;
+
+llformal_parameter_section_list => llformal_parameter_section_list lsemicolon lformal_parameter_section
+ | lformal_parameter_section
+ ;
+
+lformal_parameter_section => lvalue_parameter_specification
+ | lvariable_parameter_specification
+ | lprocedural_parameter_specification
+ | lfunctional_parameter_specification
+ ;
+
+lvalue_parameter_specification => llidentifier_list COLON lidentifier
+ ;
+
+lvariable_parameter_specification => VAR llidentifier_list COLON lidentifier
+ ;
+
+lprocedural_parameter_specification => lprocedure_heading ;
+
+lfunctional_parameter_specification => lfunction_heading ;
+
+lprocedure_identification => PROC lidentifier ;
+
+procedure_lblock => lblock ;
+
+lfunction_declaration =>  lfunction_identification lsemicolon function_lblock
+ | lfunction_heading lsemicolon function_lblock
+ ;
+
+lfunction_heading => FUNC lidentifier COLON lresult_type
+ | FUNC lidentifier lformal_parameter_list COLON lresult_type
+ ;
+
+lresult_type => lidentifier ;
+
+lfunction_identification => FUNC lidentifier ;
+
+function_lblock => lblock ;
+
+llstatement_part => lcompound_lstatement ;
+
+lcompound_lstatement => BEGIN llstatement_sequence END ;
+
+llstatement_sequence => llstatement_sequence lsemicolon lstatement
+ | lstatement
+ ;
+
+lstatement => open_lstatement
+ | closed_lstatement
+ ;
+
+open_lstatement => llabel COLON non_llabeled_open_lstatement
+ | non_llabeled_open_lstatement
+ ;
+
+closed_lstatement => llabel COLON non_llabeled_closed_lstatement
+ | non_llabeled_closed_lstatement
+ ;
+
+non_llabeled_closed_lstatement => aslsignment_lstatement
+ | procedure_lstatement
+ | goto_lstatement
+ | lcompound_lstatement
+ | case_lstatement
+ | repeat_lstatement
+ | closed_with_lstatement
+ | closed_if_lstatement
+ | closed_while_lstatement
+ | closed_for_lstatement
+ |
+ ;
+
+non_llabeled_open_lstatement => open_with_lstatement
+ | open_if_lstatement
+ | open_while_lstatement
+ | open_for_lstatement
+ ;
+
+repeat_lstatement => REPEAT llstatement_sequence UNTIL lboolean_lexpression
+ ;
+
+open_while_lstatement => WHILE lboolean_lexpression DO open_lstatement
+ ;
+
+closed_while_lstatement => WHILE lboolean_lexpression DO closed_lstatement
+ ;
+
+open_for_lstatement => FOR lcontrol_variable ASSIGN linitial_value ldirection
+   lfinal_value DO open_lstatement
+ ;
+
+closed_for_lstatement => FOR lcontrol_variable ASSIGN linitial_value ldirection
+   lfinal_value DO closed_lstatement
+ ;
+
+open_with_lstatement => WITH lrecord_variable_list DO open_lstatement
+ ;
+
+closed_with_lstatement => WITH lrecord_variable_list DO closed_lstatement
+ ;
+
+open_if_lstatement => IF lboolean_lexpression THEN lstatement
+ | IF lboolean_lexpression THEN closed_lstatement ELSE open_lstatement
+ ;
+
+closed_if_lstatement => IF lboolean_lexpression THEN closed_lstatement
+   ELSE closed_lstatement
+ ;
+
+aslsignment_lstatement => lvariable_access ASSIGN lexpression
+ ;
+
+lvariable_access => lidentifier
+ | lindexed_variable
+ | field_delsignator
+ | lvariable_access CAP
+ ;
+
+lindexed_variable => lvariable_access LS_BRAC index_lexpression_list RS_BRAC
+ ;
+
+index_lexpression_list => index_lexpression_list lcomma index_lexpression
+ | index_lexpression
+ ;
+
+index_lexpression => lexpression ;
+
+field_delsignator => lvariable_access DOT lidentifier
+ ;
+
+procedure_lstatement => lidentifier lparams
+ | lidentifier
+ ;
+
+lparams => LR_BRAC llactual_parameter_list RR_BRAC ;
+
+llactual_parameter_list => llactual_parameter_list lcomma lactual_parameter
+ | lactual_parameter
+ ;
+
+
+lactual_parameter => lexpression
+ | lexpression COLON lexpression
+ | lexpression COLON lexpression COLON lexpression
+ ;
+
+goto_lstatement => GOTO llabel
+ ;
+
+case_lstatement => CASE lcase_index OF llcase_list_element_list END
+ | CASE lcase_index OF llcase_list_element_list SEMIC END
+ ;
+
+lcase_index => lexpression ;
+
+llcase_list_element_list => llcase_list_element_list lsemicolon lcase_list_element
+ | lcase_list_element
+ ;
+
+lcase_list_element => case_llconstant_list COLON lstatement
+ ;
+
+
+lcontrol_variable => lidentifier ;
+
+linitial_value => lexpression ;
+
+ldirection => TO
+ | DOWNTO
+ ;
+
+lfinal_value => lexpression ;
+
+lrecord_variable_list => lrecord_variable_list lcomma lvariable_access
+ | lvariable_access
+ ;
+
+lboolean_lexpression => lexpression ;
+
+lexpression => simple_lexpression
+ | simple_lexpression lrelop simple_lexpression
+ ;
+
+simple_lexpression => lterm
+ | simple_lexpression laddop lterm
+ ;
+
+lterm => lfactor
+ | lterm lmulop lfactor
+ ;
+
+lfactor => lsign lfactor
+ | lexponentiation
+ ;
+
+lexponentiation => lprimary
+ | lprimary EXP lexponentiation
+ ;
+
+lprimary => lvariable_access
+ | unlsigned_lconstant
+ | function_delsignator
+ | lset_constructor
+ | LR_BRAC lexpression RR_BRAC
+ | NOT lprimary
+ ;
+
+unlsigned_lconstant => unlsigned_number
+ | STRING
+ | NIL
+ ;
+
+unlsigned_number => unlsigned_integer | unlsigned_real ;
+
+unlsigned_integer => INT
+ ;
+
+unlsigned_real => REAL
+ ;
+
+
+function_delsignator => lidentifier lparams
+ ;
+
+lset_constructor => LS_BRAC member_delsignator_list RS_BRAC
+ | LS_BRAC RS_BRAC
+ ;
+
+member_delsignator_list => member_delsignator_list lcomma member_delsignator
+ | member_delsignator
+ ;
+
+member_delsignator => member_delsignator RANGE lexpression
+ | lexpression
+ ;
+
+lladdop => PLUS
+ | MINUS
+ | OR
+ ;
+
+lmulop => MULTI
+ | RDIV
+ | DIV
+ | MOD
+ | AND
+ ;
+
+lrelop => EQ
+ | NE
+ | LT
+ | GT
+ | LE
+ | GE
+ | IN
+ ;
+
+lidentifier => ID
+ ;
+
+lsemicolon => SEMIC
+ ;
+
+lcomma => COMMA
+ ;
