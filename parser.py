@@ -14,7 +14,7 @@ class Parser():
 
     def play(self):
         i = 0
-        print self.intokens
+        #print self.intokens
         print self.intokens[i]
         print self.stk[len(self.stk)-1]
         print self.parsetab[self.stk[len(self.stk)-1]]
@@ -28,7 +28,7 @@ class Parser():
                     i += 1
                 elif next[0] == 'r':
                     self.ans.append(next[1])
-                    # print next[1].post
+                    print next[1].post
                     if next[1].post[0] != '\xa6\xc5':
                         for j in range(len(next[1].post)):
                             self.stk.pop()
@@ -66,7 +66,7 @@ hehe = cnm.lex_analyzer(text)
 #######################
 
 ans = {}
-with open(os.name == 'nt' and prefix + "tab.txt" or "tab.txt", 'r') as f:
+with open(os.name == 'nt' and prefix + "lower_tab" or "lower_tab", 'r') as f:
     raw_str = f.read()
     sol = Solution()
     ans = sol.table_analyzer(raw_str)

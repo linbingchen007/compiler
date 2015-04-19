@@ -1,65 +1,65 @@
 <tr>
-<td nowrap>AND</td>
-<td nowrap>ARRAY</td>
-<td nowrap>ASSIGN</td>
-<td nowrap>CASE</td>
-<td nowrap>STRING</td>
-<td nowrap>COLON</td>
-<td nowrap>COMMA</td>
-<td nowrap>CONST</td>
-<td nowrap>INT</td>
-<td nowrap>DIV</td>
-<td nowrap>DO</td>
-<td nowrap>DOT</td>
-<td nowrap>RANGE</td>
-<td nowrap>DOWNTO</td>
-<td nowrap>ELSE</td>
-<td nowrap>END</td>
-<td nowrap>EQ</td>
-<td nowrap>FOR</td>
-<td nowrap>FUNC</td>
-<td nowrap>GE</td>
-<td nowrap>GOTO</td>
-<td nowrap>GT</td>
-<td nowrap>ID</td>
-<td nowrap>IF</td>
-<td nowrap>IN</td>
-<td nowrap>LABEL</td>
-<td nowrap>LS_BRAC</td>
-<td nowrap>LE</td>
-<td nowrap>LR_BRAC</td>
-<td nowrap>LT</td>
-<td nowrap>MINUS</td>
-<td nowrap>MOD</td>
-<td nowrap>NIL</td>
-<td nowrap>NOT</td>
-<td nowrap>NE</td>
-<td nowrap>OF</td>
-<td nowrap>OR</td>
-<td nowrap>PACKED</td>
-<td nowrap>BEGIN</td>
-<td nowrap>FILE</td>
-<td nowrap>PLUS</td>
-<td nowrap>PROC</td>
-<td nowrap>PROG</td>
-<td nowrap>RS_BRAC</td>
-<td nowrap>REAL</td>
-<td nowrap>RECORD</td>
-<td nowrap>REPEAT</td>
-<td nowrap>RR_BRAC</td>
-<td nowrap>SEMIC</td>
-<td nowrap>SET</td>
-<td nowrap>RDIV</td>
-<td nowrap>MULTI</td>
-<td nowrap>EXP</td>
-<td nowrap>THEN</td>
-<td nowrap>TO</td>
-<td nowrap>TYPE</td>
-<td nowrap>UNTIL</td>
-<td nowrap>CAP</td>
-<td nowrap>VAR</td>
-<td nowrap>WHILE</td>
-<td nowrap>WITH</td>
+<td nowrap>and</td>
+<td nowrap>array</td>
+<td nowrap>assign</td>
+<td nowrap>case</td>
+<td nowrap>string</td>
+<td nowrap>colon</td>
+<td nowrap>comma</td>
+<td nowrap>const</td>
+<td nowrap>int</td>
+<td nowrap>div</td>
+<td nowrap>do</td>
+<td nowrap>dot</td>
+<td nowrap>range</td>
+<td nowrap>downto</td>
+<td nowrap>else</td>
+<td nowrap>end</td>
+<td nowrap>eq</td>
+<td nowrap>for</td>
+<td nowrap>func</td>
+<td nowrap>ge</td>
+<td nowrap>goto</td>
+<td nowrap>gt</td>
+<td nowrap>id</td>
+<td nowrap>if</td>
+<td nowrap>in</td>
+<td nowrap>label</td>
+<td nowrap>ls_brac</td>
+<td nowrap>le</td>
+<td nowrap>lr_brac</td>
+<td nowrap>lt</td>
+<td nowrap>minus</td>
+<td nowrap>mod</td>
+<td nowrap>nil</td>
+<td nowrap>not</td>
+<td nowrap>ne</td>
+<td nowrap>of</td>
+<td nowrap>or</td>
+<td nowrap>packed</td>
+<td nowrap>begin</td>
+<td nowrap>file</td>
+<td nowrap>plus</td>
+<td nowrap>proc</td>
+<td nowrap>prog</td>
+<td nowrap>rs_brac</td>
+<td nowrap>real</td>
+<td nowrap>record</td>
+<td nowrap>repeat</td>
+<td nowrap>rr_brac</td>
+<td nowrap>semic</td>
+<td nowrap>set</td>
+<td nowrap>rdiv</td>
+<td nowrap>multi</td>
+<td nowrap>exp</td>
+<td nowrap>then</td>
+<td nowrap>to</td>
+<td nowrap>type</td>
+<td nowrap>until</td>
+<td nowrap>cap</td>
+<td nowrap>var</td>
+<td nowrap>while</td>
+<td nowrap>with</td>
 <td nowrap>$</td>
 <td nowrap>lfile</td>
 <td nowrap>lprogram</td>
@@ -1972,65 +1972,65 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lsemicolon -> SEMIC</td>
-<td nowrap>reduce lsemicolon -> SEMIC</td>
+<td nowrap>reduce lsemicolon -> semic</td>
+<td nowrap>reduce lsemicolon -> semic</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lsemicolon -> SEMIC</td>
-<td nowrap>reduce lsemicolon -> SEMIC</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lsemicolon -> SEMIC</td>
-<td nowrap> </td>
-<td nowrap>reduce lsemicolon -> SEMIC</td>
-<td nowrap>reduce lsemicolon -> SEMIC</td>
-<td nowrap> </td>
-<td nowrap>reduce lsemicolon -> SEMIC</td>
-<td nowrap> </td>
-<td nowrap>reduce lsemicolon -> SEMIC</td>
-<td nowrap>reduce lsemicolon -> SEMIC</td>
-<td nowrap> </td>
-<td nowrap>reduce lsemicolon -> SEMIC</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lsemicolon -> SEMIC</td>
+<td nowrap>reduce lsemicolon -> semic</td>
+<td nowrap>reduce lsemicolon -> semic</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
+<td nowrap>reduce lsemicolon -> semic</td>
 <td nowrap> </td>
-<td nowrap>reduce lsemicolon -> SEMIC</td>
+<td nowrap>reduce lsemicolon -> semic</td>
+<td nowrap>reduce lsemicolon -> semic</td>
 <td nowrap> </td>
-<td nowrap>reduce lsemicolon -> SEMIC</td>
-<td nowrap>reduce lsemicolon -> SEMIC</td>
+<td nowrap>reduce lsemicolon -> semic</td>
 <td nowrap> </td>
+<td nowrap>reduce lsemicolon -> semic</td>
+<td nowrap>reduce lsemicolon -> semic</td>
 <td nowrap> </td>
-<td nowrap>reduce lsemicolon -> SEMIC</td>
-<td nowrap> </td>
-<td nowrap>reduce lsemicolon -> SEMIC</td>
-<td nowrap>reduce lsemicolon -> SEMIC</td>
-<td nowrap>reduce lsemicolon -> SEMIC</td>
-<td nowrap> </td>
+<td nowrap>reduce lsemicolon -> semic</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
+<td nowrap>reduce lsemicolon -> semic</td>
 <td nowrap> </td>
-<td nowrap>reduce lsemicolon -> SEMIC</td>
-<td nowrap>reduce lsemicolon -> SEMIC</td>
 <td nowrap> </td>
-<td nowrap>reduce lsemicolon -> SEMIC</td>
-<td nowrap>reduce lsemicolon -> SEMIC</td>
-<td nowrap>reduce lsemicolon -> SEMIC</td>
-<td nowrap>reduce lsemicolon -> SEMIC</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lsemicolon -> semic</td>
+<td nowrap> </td>
+<td nowrap>reduce lsemicolon -> semic</td>
+<td nowrap>reduce lsemicolon -> semic</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lsemicolon -> semic</td>
+<td nowrap> </td>
+<td nowrap>reduce lsemicolon -> semic</td>
+<td nowrap>reduce lsemicolon -> semic</td>
+<td nowrap>reduce lsemicolon -> semic</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lsemicolon -> semic</td>
+<td nowrap>reduce lsemicolon -> semic</td>
+<td nowrap> </td>
+<td nowrap>reduce lsemicolon -> semic</td>
+<td nowrap>reduce lsemicolon -> semic</td>
+<td nowrap>reduce lsemicolon -> semic</td>
+<td nowrap>reduce lsemicolon -> semic</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -2775,7 +2775,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lllconstant_definition_part -> CONST llconstant_list</td>
+<td nowrap>reduce lllconstant_definition_part -> const llconstant_list</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -2795,13 +2795,10 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lllconstant_definition_part -> CONST llconstant_list</td>
+<td nowrap>reduce lllconstant_definition_part -> const llconstant_list</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lllconstant_definition_part -> CONST llconstant_list</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
+<td nowrap>reduce lllconstant_definition_part -> const llconstant_list</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -2812,13 +2809,16 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lllconstant_definition_part -> CONST llconstant_list</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lllconstant_definition_part -> CONST llconstant_list</td>
+<td nowrap> </td>
+<td nowrap>reduce lllconstant_definition_part -> const llconstant_list</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lllconstant_definition_part -> CONST llconstant_list</td>
+<td nowrap>reduce lllconstant_definition_part -> const llconstant_list</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lllconstant_definition_part -> const llconstant_list</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -3151,64 +3151,64 @@
 </tr>
 <tr>
 <td nowrap>15</td>
-<td nowrap>reduce lidentifier -> ID</td>
+<td nowrap>reduce lidentifier -> id</td>
 <td nowrap> </td>
-<td nowrap>reduce lidentifier -> ID</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lidentifier -> ID</td>
-<td nowrap>reduce lidentifier -> ID</td>
+<td nowrap>reduce lidentifier -> id</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lidentifier -> ID</td>
-<td nowrap>reduce lidentifier -> ID</td>
-<td nowrap>reduce lidentifier -> ID</td>
-<td nowrap>reduce lidentifier -> ID</td>
-<td nowrap>reduce lidentifier -> ID</td>
-<td nowrap>reduce lidentifier -> ID</td>
-<td nowrap>reduce lidentifier -> ID</td>
-<td nowrap>reduce lidentifier -> ID</td>
+<td nowrap>reduce lidentifier -> id</td>
+<td nowrap>reduce lidentifier -> id</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lidentifier -> ID</td>
-<td nowrap> </td>
-<td nowrap>reduce lidentifier -> ID</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lidentifier -> ID</td>
-<td nowrap> </td>
-<td nowrap>reduce lidentifier -> ID</td>
-<td nowrap>reduce lidentifier -> ID</td>
-<td nowrap>reduce lidentifier -> ID</td>
-<td nowrap>reduce lidentifier -> ID</td>
-<td nowrap>reduce lidentifier -> ID</td>
-<td nowrap>reduce lidentifier -> ID</td>
+<td nowrap>reduce lidentifier -> id</td>
+<td nowrap>reduce lidentifier -> id</td>
+<td nowrap>reduce lidentifier -> id</td>
+<td nowrap>reduce lidentifier -> id</td>
+<td nowrap>reduce lidentifier -> id</td>
+<td nowrap>reduce lidentifier -> id</td>
+<td nowrap>reduce lidentifier -> id</td>
+<td nowrap>reduce lidentifier -> id</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lidentifier -> ID</td>
-<td nowrap>reduce lidentifier -> ID</td>
-<td nowrap>reduce lidentifier -> ID</td>
+<td nowrap>reduce lidentifier -> id</td>
+<td nowrap> </td>
+<td nowrap>reduce lidentifier -> id</td>
 <td nowrap> </td>
 <td nowrap> </td>
+<td nowrap>reduce lidentifier -> id</td>
 <td nowrap> </td>
-<td nowrap>reduce lidentifier -> ID</td>
+<td nowrap>reduce lidentifier -> id</td>
+<td nowrap>reduce lidentifier -> id</td>
+<td nowrap>reduce lidentifier -> id</td>
+<td nowrap>reduce lidentifier -> id</td>
+<td nowrap>reduce lidentifier -> id</td>
+<td nowrap>reduce lidentifier -> id</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lidentifier -> ID</td>
+<td nowrap>reduce lidentifier -> id</td>
+<td nowrap>reduce lidentifier -> id</td>
+<td nowrap>reduce lidentifier -> id</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lidentifier -> ID</td>
-<td nowrap>reduce lidentifier -> ID</td>
+<td nowrap>reduce lidentifier -> id</td>
 <td nowrap> </td>
-<td nowrap>reduce lidentifier -> ID</td>
-<td nowrap>reduce lidentifier -> ID</td>
-<td nowrap>reduce lidentifier -> ID</td>
-<td nowrap>reduce lidentifier -> ID</td>
-<td nowrap>reduce lidentifier -> ID</td>
 <td nowrap> </td>
-<td nowrap>reduce lidentifier -> ID</td>
-<td nowrap>reduce lidentifier -> ID</td>
+<td nowrap>reduce lidentifier -> id</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lidentifier -> id</td>
+<td nowrap>reduce lidentifier -> id</td>
+<td nowrap> </td>
+<td nowrap>reduce lidentifier -> id</td>
+<td nowrap>reduce lidentifier -> id</td>
+<td nowrap>reduce lidentifier -> id</td>
+<td nowrap>reduce lidentifier -> id</td>
+<td nowrap>reduce lidentifier -> id</td>
+<td nowrap> </td>
+<td nowrap>reduce lidentifier -> id</td>
+<td nowrap>reduce lidentifier -> id</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -3396,7 +3396,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce llprogram_heading -> PROG lidentifier</td>
+<td nowrap>reduce llprogram_heading -> prog lidentifier</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -4745,7 +4745,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lltype_definition_part -> TYPE lltype_definition_list</td>
+<td nowrap>reduce lltype_definition_part -> type lltype_definition_list</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -4765,13 +4765,10 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lltype_definition_part -> TYPE lltype_definition_list</td>
+<td nowrap>reduce lltype_definition_part -> type lltype_definition_list</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lltype_definition_part -> TYPE lltype_definition_list</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
+<td nowrap>reduce lltype_definition_part -> type lltype_definition_list</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -4785,10 +4782,13 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lltype_definition_part -> TYPE lltype_definition_list</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lltype_definition_part -> TYPE lltype_definition_list</td>
+<td nowrap> </td>
+<td nowrap>reduce lltype_definition_part -> type lltype_definition_list</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lltype_definition_part -> type lltype_definition_list</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -5773,7 +5773,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lprogram -> llprogram_heading lsemicolon lblock DOT</td>
+<td nowrap>reduce lprogram -> llprogram_heading lsemicolon lblock dot</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -6505,8 +6505,8 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce llabel -> INT</td>
-<td nowrap>reduce llabel -> INT</td>
+<td nowrap>reduce llabel -> int</td>
+<td nowrap>reduce llabel -> int</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -6514,16 +6514,8 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce llabel -> INT</td>
-<td nowrap>reduce llabel -> INT</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
+<td nowrap>reduce llabel -> int</td>
+<td nowrap>reduce llabel -> int</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -6548,7 +6540,6 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce llabel -> INT</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -6556,7 +6547,16 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce llabel -> INT</td>
+<td nowrap> </td>
+<td nowrap>reduce llabel -> int</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce llabel -> int</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -12410,63 +12410,63 @@
 </tr>
 <tr>
 <td nowrap>62</td>
-<td nowrap>reduce unlsigned_lconstant -> STRING</td>
+<td nowrap>reduce unlsigned_lconstant -> string</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce unlsigned_lconstant -> STRING</td>
-<td nowrap>reduce unlsigned_lconstant -> STRING</td>
+<td nowrap>reduce unlsigned_lconstant -> string</td>
+<td nowrap>reduce unlsigned_lconstant -> string</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce unlsigned_lconstant -> STRING</td>
-<td nowrap>reduce unlsigned_lconstant -> STRING</td>
+<td nowrap>reduce unlsigned_lconstant -> string</td>
+<td nowrap>reduce unlsigned_lconstant -> string</td>
 <td nowrap> </td>
-<td nowrap>reduce unlsigned_lconstant -> STRING</td>
-<td nowrap>reduce unlsigned_lconstant -> STRING</td>
-<td nowrap>reduce unlsigned_lconstant -> STRING</td>
-<td nowrap>reduce unlsigned_lconstant -> STRING</td>
-<td nowrap>reduce unlsigned_lconstant -> STRING</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce unlsigned_lconstant -> STRING</td>
-<td nowrap> </td>
-<td nowrap>reduce unlsigned_lconstant -> STRING</td>
+<td nowrap>reduce unlsigned_lconstant -> string</td>
+<td nowrap>reduce unlsigned_lconstant -> string</td>
+<td nowrap>reduce unlsigned_lconstant -> string</td>
+<td nowrap>reduce unlsigned_lconstant -> string</td>
+<td nowrap>reduce unlsigned_lconstant -> string</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce unlsigned_lconstant -> STRING</td>
+<td nowrap>reduce unlsigned_lconstant -> string</td>
+<td nowrap> </td>
+<td nowrap>reduce unlsigned_lconstant -> string</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce unlsigned_lconstant -> STRING</td>
-<td nowrap> </td>
-<td nowrap>reduce unlsigned_lconstant -> STRING</td>
-<td nowrap>reduce unlsigned_lconstant -> STRING</td>
-<td nowrap>reduce unlsigned_lconstant -> STRING</td>
+<td nowrap>reduce unlsigned_lconstant -> string</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce unlsigned_lconstant -> STRING</td>
-<td nowrap>reduce unlsigned_lconstant -> STRING</td>
-<td nowrap>reduce unlsigned_lconstant -> STRING</td>
+<td nowrap>reduce unlsigned_lconstant -> string</td>
+<td nowrap> </td>
+<td nowrap>reduce unlsigned_lconstant -> string</td>
+<td nowrap>reduce unlsigned_lconstant -> string</td>
+<td nowrap>reduce unlsigned_lconstant -> string</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce unlsigned_lconstant -> STRING</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce unlsigned_lconstant -> STRING</td>
+<td nowrap>reduce unlsigned_lconstant -> string</td>
+<td nowrap>reduce unlsigned_lconstant -> string</td>
+<td nowrap>reduce unlsigned_lconstant -> string</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce unlsigned_lconstant -> STRING</td>
-<td nowrap>reduce unlsigned_lconstant -> STRING</td>
+<td nowrap>reduce unlsigned_lconstant -> string</td>
 <td nowrap> </td>
-<td nowrap>reduce unlsigned_lconstant -> STRING</td>
-<td nowrap>reduce unlsigned_lconstant -> STRING</td>
-<td nowrap>reduce unlsigned_lconstant -> STRING</td>
-<td nowrap>reduce unlsigned_lconstant -> STRING</td>
-<td nowrap>reduce unlsigned_lconstant -> STRING</td>
 <td nowrap> </td>
-<td nowrap>reduce unlsigned_lconstant -> STRING</td>
+<td nowrap>reduce unlsigned_lconstant -> string</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce unlsigned_lconstant -> string</td>
+<td nowrap>reduce unlsigned_lconstant -> string</td>
+<td nowrap> </td>
+<td nowrap>reduce unlsigned_lconstant -> string</td>
+<td nowrap>reduce unlsigned_lconstant -> string</td>
+<td nowrap>reduce unlsigned_lconstant -> string</td>
+<td nowrap>reduce unlsigned_lconstant -> string</td>
+<td nowrap>reduce unlsigned_lconstant -> string</td>
+<td nowrap> </td>
+<td nowrap>reduce unlsigned_lconstant -> string</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -12607,63 +12607,63 @@
 </tr>
 <tr>
 <td nowrap>63</td>
-<td nowrap>reduce unlsigned_integer -> INT</td>
+<td nowrap>reduce unlsigned_integer -> int</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce unlsigned_integer -> INT</td>
-<td nowrap>reduce unlsigned_integer -> INT</td>
+<td nowrap>reduce unlsigned_integer -> int</td>
+<td nowrap>reduce unlsigned_integer -> int</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce unlsigned_integer -> INT</td>
-<td nowrap>reduce unlsigned_integer -> INT</td>
+<td nowrap>reduce unlsigned_integer -> int</td>
+<td nowrap>reduce unlsigned_integer -> int</td>
 <td nowrap> </td>
-<td nowrap>reduce unlsigned_integer -> INT</td>
-<td nowrap>reduce unlsigned_integer -> INT</td>
-<td nowrap>reduce unlsigned_integer -> INT</td>
-<td nowrap>reduce unlsigned_integer -> INT</td>
-<td nowrap>reduce unlsigned_integer -> INT</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce unlsigned_integer -> INT</td>
-<td nowrap> </td>
-<td nowrap>reduce unlsigned_integer -> INT</td>
+<td nowrap>reduce unlsigned_integer -> int</td>
+<td nowrap>reduce unlsigned_integer -> int</td>
+<td nowrap>reduce unlsigned_integer -> int</td>
+<td nowrap>reduce unlsigned_integer -> int</td>
+<td nowrap>reduce unlsigned_integer -> int</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce unlsigned_integer -> INT</td>
+<td nowrap>reduce unlsigned_integer -> int</td>
+<td nowrap> </td>
+<td nowrap>reduce unlsigned_integer -> int</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce unlsigned_integer -> INT</td>
-<td nowrap> </td>
-<td nowrap>reduce unlsigned_integer -> INT</td>
-<td nowrap>reduce unlsigned_integer -> INT</td>
-<td nowrap>reduce unlsigned_integer -> INT</td>
+<td nowrap>reduce unlsigned_integer -> int</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce unlsigned_integer -> INT</td>
-<td nowrap>reduce unlsigned_integer -> INT</td>
-<td nowrap>reduce unlsigned_integer -> INT</td>
+<td nowrap>reduce unlsigned_integer -> int</td>
+<td nowrap> </td>
+<td nowrap>reduce unlsigned_integer -> int</td>
+<td nowrap>reduce unlsigned_integer -> int</td>
+<td nowrap>reduce unlsigned_integer -> int</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce unlsigned_integer -> INT</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce unlsigned_integer -> INT</td>
+<td nowrap>reduce unlsigned_integer -> int</td>
+<td nowrap>reduce unlsigned_integer -> int</td>
+<td nowrap>reduce unlsigned_integer -> int</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce unlsigned_integer -> INT</td>
-<td nowrap>reduce unlsigned_integer -> INT</td>
+<td nowrap>reduce unlsigned_integer -> int</td>
 <td nowrap> </td>
-<td nowrap>reduce unlsigned_integer -> INT</td>
-<td nowrap>reduce unlsigned_integer -> INT</td>
-<td nowrap>reduce unlsigned_integer -> INT</td>
-<td nowrap>reduce unlsigned_integer -> INT</td>
-<td nowrap>reduce unlsigned_integer -> INT</td>
 <td nowrap> </td>
-<td nowrap>reduce unlsigned_integer -> INT</td>
+<td nowrap>reduce unlsigned_integer -> int</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce unlsigned_integer -> int</td>
+<td nowrap>reduce unlsigned_integer -> int</td>
+<td nowrap> </td>
+<td nowrap>reduce unlsigned_integer -> int</td>
+<td nowrap>reduce unlsigned_integer -> int</td>
+<td nowrap>reduce unlsigned_integer -> int</td>
+<td nowrap>reduce unlsigned_integer -> int</td>
+<td nowrap>reduce unlsigned_integer -> int</td>
+<td nowrap> </td>
+<td nowrap>reduce unlsigned_integer -> int</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -13005,15 +13005,11 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lsign -> MINUS</td>
+<td nowrap>reduce lsign -> minus</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lsign -> MINUS</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
+<td nowrap>reduce lsign -> minus</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -13023,29 +13019,33 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lsign -> MINUS</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lsign -> MINUS</td>
-<td nowrap> </td>
-<td nowrap>reduce lsign -> MINUS</td>
-<td nowrap> </td>
-<td nowrap>reduce lsign -> MINUS</td>
-<td nowrap> </td>
-<td nowrap>reduce lsign -> MINUS</td>
-<td nowrap>reduce lsign -> MINUS</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lsign -> MINUS</td>
+<td nowrap>reduce lsign -> minus</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lsign -> MINUS</td>
+<td nowrap>reduce lsign -> minus</td>
+<td nowrap> </td>
+<td nowrap>reduce lsign -> minus</td>
+<td nowrap> </td>
+<td nowrap>reduce lsign -> minus</td>
+<td nowrap> </td>
+<td nowrap>reduce lsign -> minus</td>
+<td nowrap>reduce lsign -> minus</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lsign -> minus</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lsign -> minus</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -13198,63 +13198,63 @@
 </tr>
 <tr>
 <td nowrap>66</td>
-<td nowrap>reduce unlsigned_lconstant -> NIL</td>
+<td nowrap>reduce unlsigned_lconstant -> nil</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce unlsigned_lconstant -> NIL</td>
-<td nowrap>reduce unlsigned_lconstant -> NIL</td>
+<td nowrap>reduce unlsigned_lconstant -> nil</td>
+<td nowrap>reduce unlsigned_lconstant -> nil</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce unlsigned_lconstant -> NIL</td>
-<td nowrap>reduce unlsigned_lconstant -> NIL</td>
+<td nowrap>reduce unlsigned_lconstant -> nil</td>
+<td nowrap>reduce unlsigned_lconstant -> nil</td>
 <td nowrap> </td>
-<td nowrap>reduce unlsigned_lconstant -> NIL</td>
-<td nowrap>reduce unlsigned_lconstant -> NIL</td>
-<td nowrap>reduce unlsigned_lconstant -> NIL</td>
-<td nowrap>reduce unlsigned_lconstant -> NIL</td>
-<td nowrap>reduce unlsigned_lconstant -> NIL</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce unlsigned_lconstant -> NIL</td>
-<td nowrap> </td>
-<td nowrap>reduce unlsigned_lconstant -> NIL</td>
+<td nowrap>reduce unlsigned_lconstant -> nil</td>
+<td nowrap>reduce unlsigned_lconstant -> nil</td>
+<td nowrap>reduce unlsigned_lconstant -> nil</td>
+<td nowrap>reduce unlsigned_lconstant -> nil</td>
+<td nowrap>reduce unlsigned_lconstant -> nil</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce unlsigned_lconstant -> NIL</td>
+<td nowrap>reduce unlsigned_lconstant -> nil</td>
+<td nowrap> </td>
+<td nowrap>reduce unlsigned_lconstant -> nil</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce unlsigned_lconstant -> NIL</td>
-<td nowrap> </td>
-<td nowrap>reduce unlsigned_lconstant -> NIL</td>
-<td nowrap>reduce unlsigned_lconstant -> NIL</td>
-<td nowrap>reduce unlsigned_lconstant -> NIL</td>
+<td nowrap>reduce unlsigned_lconstant -> nil</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce unlsigned_lconstant -> NIL</td>
-<td nowrap>reduce unlsigned_lconstant -> NIL</td>
-<td nowrap>reduce unlsigned_lconstant -> NIL</td>
+<td nowrap>reduce unlsigned_lconstant -> nil</td>
+<td nowrap> </td>
+<td nowrap>reduce unlsigned_lconstant -> nil</td>
+<td nowrap>reduce unlsigned_lconstant -> nil</td>
+<td nowrap>reduce unlsigned_lconstant -> nil</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce unlsigned_lconstant -> NIL</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce unlsigned_lconstant -> NIL</td>
+<td nowrap>reduce unlsigned_lconstant -> nil</td>
+<td nowrap>reduce unlsigned_lconstant -> nil</td>
+<td nowrap>reduce unlsigned_lconstant -> nil</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce unlsigned_lconstant -> NIL</td>
-<td nowrap>reduce unlsigned_lconstant -> NIL</td>
+<td nowrap>reduce unlsigned_lconstant -> nil</td>
 <td nowrap> </td>
-<td nowrap>reduce unlsigned_lconstant -> NIL</td>
-<td nowrap>reduce unlsigned_lconstant -> NIL</td>
-<td nowrap>reduce unlsigned_lconstant -> NIL</td>
-<td nowrap>reduce unlsigned_lconstant -> NIL</td>
-<td nowrap>reduce unlsigned_lconstant -> NIL</td>
 <td nowrap> </td>
-<td nowrap>reduce unlsigned_lconstant -> NIL</td>
+<td nowrap>reduce unlsigned_lconstant -> nil</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce unlsigned_lconstant -> nil</td>
+<td nowrap>reduce unlsigned_lconstant -> nil</td>
+<td nowrap> </td>
+<td nowrap>reduce unlsigned_lconstant -> nil</td>
+<td nowrap>reduce unlsigned_lconstant -> nil</td>
+<td nowrap>reduce unlsigned_lconstant -> nil</td>
+<td nowrap>reduce unlsigned_lconstant -> nil</td>
+<td nowrap>reduce unlsigned_lconstant -> nil</td>
+<td nowrap> </td>
+<td nowrap>reduce unlsigned_lconstant -> nil</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -13596,15 +13596,11 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lsign -> PLUS</td>
+<td nowrap>reduce lsign -> plus</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lsign -> PLUS</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
+<td nowrap>reduce lsign -> plus</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -13614,29 +13610,33 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lsign -> PLUS</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lsign -> PLUS</td>
-<td nowrap> </td>
-<td nowrap>reduce lsign -> PLUS</td>
-<td nowrap> </td>
-<td nowrap>reduce lsign -> PLUS</td>
-<td nowrap> </td>
-<td nowrap>reduce lsign -> PLUS</td>
-<td nowrap>reduce lsign -> PLUS</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lsign -> PLUS</td>
+<td nowrap>reduce lsign -> plus</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lsign -> PLUS</td>
+<td nowrap>reduce lsign -> plus</td>
+<td nowrap> </td>
+<td nowrap>reduce lsign -> plus</td>
+<td nowrap> </td>
+<td nowrap>reduce lsign -> plus</td>
+<td nowrap> </td>
+<td nowrap>reduce lsign -> plus</td>
+<td nowrap>reduce lsign -> plus</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lsign -> plus</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lsign -> plus</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -13789,63 +13789,63 @@
 </tr>
 <tr>
 <td nowrap>69</td>
-<td nowrap>reduce unlsigned_real -> REAL</td>
+<td nowrap>reduce unlsigned_real -> real</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce unlsigned_real -> REAL</td>
-<td nowrap>reduce unlsigned_real -> REAL</td>
+<td nowrap>reduce unlsigned_real -> real</td>
+<td nowrap>reduce unlsigned_real -> real</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce unlsigned_real -> REAL</td>
-<td nowrap>reduce unlsigned_real -> REAL</td>
+<td nowrap>reduce unlsigned_real -> real</td>
+<td nowrap>reduce unlsigned_real -> real</td>
 <td nowrap> </td>
-<td nowrap>reduce unlsigned_real -> REAL</td>
-<td nowrap>reduce unlsigned_real -> REAL</td>
-<td nowrap>reduce unlsigned_real -> REAL</td>
-<td nowrap>reduce unlsigned_real -> REAL</td>
-<td nowrap>reduce unlsigned_real -> REAL</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce unlsigned_real -> REAL</td>
-<td nowrap> </td>
-<td nowrap>reduce unlsigned_real -> REAL</td>
+<td nowrap>reduce unlsigned_real -> real</td>
+<td nowrap>reduce unlsigned_real -> real</td>
+<td nowrap>reduce unlsigned_real -> real</td>
+<td nowrap>reduce unlsigned_real -> real</td>
+<td nowrap>reduce unlsigned_real -> real</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce unlsigned_real -> REAL</td>
+<td nowrap>reduce unlsigned_real -> real</td>
+<td nowrap> </td>
+<td nowrap>reduce unlsigned_real -> real</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce unlsigned_real -> REAL</td>
-<td nowrap> </td>
-<td nowrap>reduce unlsigned_real -> REAL</td>
-<td nowrap>reduce unlsigned_real -> REAL</td>
-<td nowrap>reduce unlsigned_real -> REAL</td>
+<td nowrap>reduce unlsigned_real -> real</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce unlsigned_real -> REAL</td>
-<td nowrap>reduce unlsigned_real -> REAL</td>
-<td nowrap>reduce unlsigned_real -> REAL</td>
+<td nowrap>reduce unlsigned_real -> real</td>
+<td nowrap> </td>
+<td nowrap>reduce unlsigned_real -> real</td>
+<td nowrap>reduce unlsigned_real -> real</td>
+<td nowrap>reduce unlsigned_real -> real</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce unlsigned_real -> REAL</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce unlsigned_real -> REAL</td>
+<td nowrap>reduce unlsigned_real -> real</td>
+<td nowrap>reduce unlsigned_real -> real</td>
+<td nowrap>reduce unlsigned_real -> real</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce unlsigned_real -> REAL</td>
-<td nowrap>reduce unlsigned_real -> REAL</td>
+<td nowrap>reduce unlsigned_real -> real</td>
 <td nowrap> </td>
-<td nowrap>reduce unlsigned_real -> REAL</td>
-<td nowrap>reduce unlsigned_real -> REAL</td>
-<td nowrap>reduce unlsigned_real -> REAL</td>
-<td nowrap>reduce unlsigned_real -> REAL</td>
-<td nowrap>reduce unlsigned_real -> REAL</td>
 <td nowrap> </td>
-<td nowrap>reduce unlsigned_real -> REAL</td>
+<td nowrap>reduce unlsigned_real -> real</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce unlsigned_real -> real</td>
+<td nowrap>reduce unlsigned_real -> real</td>
+<td nowrap> </td>
+<td nowrap>reduce unlsigned_real -> real</td>
+<td nowrap>reduce unlsigned_real -> real</td>
+<td nowrap>reduce unlsigned_real -> real</td>
+<td nowrap>reduce unlsigned_real -> real</td>
+<td nowrap>reduce unlsigned_real -> real</td>
+<td nowrap> </td>
+<td nowrap>reduce unlsigned_real -> real</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -14387,7 +14387,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lllabel_declaration_part -> LABEL lllabel_list lsemicolon</td>
+<td nowrap>reduce lllabel_declaration_part -> label lllabel_list lsemicolon</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -14398,30 +14398,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lllabel_declaration_part -> LABEL lllabel_list lsemicolon</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lllabel_declaration_part -> LABEL lllabel_list lsemicolon</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lllabel_declaration_part -> LABEL lllabel_list lsemicolon</td>
+<td nowrap>reduce lllabel_declaration_part -> label lllabel_list lsemicolon</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -14435,10 +14412,33 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lllabel_declaration_part -> LABEL lllabel_list lsemicolon</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lllabel_declaration_part -> LABEL lllabel_list lsemicolon</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lllabel_declaration_part -> label lllabel_list lsemicolon</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lllabel_declaration_part -> label lllabel_list lsemicolon</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lllabel_declaration_part -> label lllabel_list lsemicolon</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lllabel_declaration_part -> label lllabel_list lsemicolon</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -14778,15 +14778,11 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lcomma -> COMMA</td>
+<td nowrap>reduce lcomma -> comma</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lcomma -> COMMA</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
+<td nowrap>reduce lcomma -> comma</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -14796,29 +14792,33 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lcomma -> COMMA</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lcomma -> COMMA</td>
-<td nowrap> </td>
-<td nowrap>reduce lcomma -> COMMA</td>
-<td nowrap> </td>
-<td nowrap>reduce lcomma -> COMMA</td>
-<td nowrap> </td>
-<td nowrap>reduce lcomma -> COMMA</td>
-<td nowrap>reduce lcomma -> COMMA</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lcomma -> COMMA</td>
+<td nowrap>reduce lcomma -> comma</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lcomma -> COMMA</td>
+<td nowrap>reduce lcomma -> comma</td>
+<td nowrap> </td>
+<td nowrap>reduce lcomma -> comma</td>
+<td nowrap> </td>
+<td nowrap>reduce lcomma -> comma</td>
+<td nowrap> </td>
+<td nowrap>reduce lcomma -> comma</td>
+<td nowrap>reduce lcomma -> comma</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lcomma -> comma</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lcomma -> comma</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -16201,7 +16201,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lfunction_identification -> FUNC lidentifier</td>
+<td nowrap>reduce lfunction_identification -> func lidentifier</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -16378,7 +16378,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lprocedure_identification -> PROC lidentifier</td>
+<td nowrap>reduce lprocedure_identification -> proc lidentifier</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -16397,8 +16397,8 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lprocedure_identification -> PROC lidentifier</td>
-<td nowrap>reduce lprocedure_identification -> PROC lidentifier</td>
+<td nowrap>reduce lprocedure_identification -> proc lidentifier</td>
+<td nowrap>reduce lprocedure_identification -> proc lidentifier</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -16959,7 +16959,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce llvariable_declaration_part -> VAR llvariable_declaration_list lsemicolon</td>
+<td nowrap>reduce llvariable_declaration_part -> var llvariable_declaration_list lsemicolon</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -16979,13 +16979,10 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce llvariable_declaration_part -> VAR llvariable_declaration_list lsemicolon</td>
+<td nowrap>reduce llvariable_declaration_part -> var llvariable_declaration_list lsemicolon</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce llvariable_declaration_part -> VAR llvariable_declaration_list lsemicolon</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
+<td nowrap>reduce llvariable_declaration_part -> var llvariable_declaration_list lsemicolon</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -17002,7 +16999,10 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce llvariable_declaration_part -> VAR llvariable_declaration_list lsemicolon</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce llvariable_declaration_part -> var llvariable_declaration_list lsemicolon</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -20492,23 +20492,17 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lconstant -> STRING</td>
-<td nowrap>reduce lconstant -> STRING</td>
+<td nowrap>reduce lconstant -> string</td>
+<td nowrap>reduce lconstant -> string</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lconstant -> STRING</td>
+<td nowrap>reduce lconstant -> string</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lconstant -> STRING</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
+<td nowrap>reduce lconstant -> string</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -20530,12 +20524,18 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lconstant -> STRING</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lconstant -> STRING</td>
-<td nowrap>reduce lconstant -> STRING</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lconstant -> string</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lconstant -> string</td>
+<td nowrap>reduce lconstant -> string</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -20689,23 +20689,17 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lnon_string -> INT</td>
-<td nowrap>reduce lnon_string -> INT</td>
+<td nowrap>reduce lnon_string -> int</td>
+<td nowrap>reduce lnon_string -> int</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lnon_string -> INT</td>
+<td nowrap>reduce lnon_string -> int</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lnon_string -> INT</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
+<td nowrap>reduce lnon_string -> int</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -20727,12 +20721,18 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lnon_string -> INT</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lnon_string -> INT</td>
-<td nowrap>reduce lnon_string -> INT</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lnon_string -> int</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lnon_string -> int</td>
+<td nowrap>reduce lnon_string -> int</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -21477,23 +21477,17 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lnon_string -> REAL</td>
-<td nowrap>reduce lnon_string -> REAL</td>
+<td nowrap>reduce lnon_string -> real</td>
+<td nowrap>reduce lnon_string -> real</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lnon_string -> REAL</td>
+<td nowrap>reduce lnon_string -> real</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lnon_string -> REAL</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
+<td nowrap>reduce lnon_string -> real</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -21515,12 +21509,18 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lnon_string -> REAL</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lnon_string -> REAL</td>
-<td nowrap>reduce lnon_string -> REAL</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lnon_string -> real</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lnon_string -> real</td>
+<td nowrap>reduce lnon_string -> real</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -22278,30 +22278,11 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce llconstant_definition -> lidentifier EQ lclexpression lsemicolon</td>
+<td nowrap>reduce llconstant_definition -> lidentifier eq lclexpression lsemicolon</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce llconstant_definition -> lidentifier EQ lclexpression lsemicolon</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce llconstant_definition -> lidentifier EQ lclexpression lsemicolon</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce llconstant_definition -> lidentifier EQ lclexpression lsemicolon</td>
+<td nowrap>reduce llconstant_definition -> lidentifier eq lclexpression lsemicolon</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -22315,13 +22296,32 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce llconstant_definition -> lidentifier EQ lclexpression lsemicolon</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce llconstant_definition -> lidentifier EQ lclexpression lsemicolon</td>
+<td nowrap>reduce llconstant_definition -> lidentifier eq lclexpression lsemicolon</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce llconstant_definition -> lidentifier EQ lclexpression lsemicolon</td>
+<td nowrap>reduce llconstant_definition -> lidentifier eq lclexpression lsemicolon</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce llconstant_definition -> lidentifier eq lclexpression lsemicolon</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce llconstant_definition -> lidentifier eq lclexpression lsemicolon</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce llconstant_definition -> lidentifier eq lclexpression lsemicolon</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -22855,15 +22855,11 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lrelop -> EQ</td>
+<td nowrap>reduce lrelop -> eq</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lrelop -> EQ</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
+<td nowrap>reduce lrelop -> eq</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -22873,29 +22869,33 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lrelop -> EQ</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lrelop -> EQ</td>
-<td nowrap> </td>
-<td nowrap>reduce lrelop -> EQ</td>
-<td nowrap> </td>
-<td nowrap>reduce lrelop -> EQ</td>
-<td nowrap> </td>
-<td nowrap>reduce lrelop -> EQ</td>
-<td nowrap>reduce lrelop -> EQ</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lrelop -> EQ</td>
+<td nowrap>reduce lrelop -> eq</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lrelop -> EQ</td>
+<td nowrap>reduce lrelop -> eq</td>
+<td nowrap> </td>
+<td nowrap>reduce lrelop -> eq</td>
+<td nowrap> </td>
+<td nowrap>reduce lrelop -> eq</td>
+<td nowrap> </td>
+<td nowrap>reduce lrelop -> eq</td>
+<td nowrap>reduce lrelop -> eq</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lrelop -> eq</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lrelop -> eq</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -23052,15 +23052,11 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lrelop -> GE</td>
+<td nowrap>reduce lrelop -> ge</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lrelop -> GE</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
+<td nowrap>reduce lrelop -> ge</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -23070,29 +23066,33 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lrelop -> GE</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lrelop -> GE</td>
-<td nowrap> </td>
-<td nowrap>reduce lrelop -> GE</td>
-<td nowrap> </td>
-<td nowrap>reduce lrelop -> GE</td>
-<td nowrap> </td>
-<td nowrap>reduce lrelop -> GE</td>
-<td nowrap>reduce lrelop -> GE</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lrelop -> GE</td>
+<td nowrap>reduce lrelop -> ge</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lrelop -> GE</td>
+<td nowrap>reduce lrelop -> ge</td>
+<td nowrap> </td>
+<td nowrap>reduce lrelop -> ge</td>
+<td nowrap> </td>
+<td nowrap>reduce lrelop -> ge</td>
+<td nowrap> </td>
+<td nowrap>reduce lrelop -> ge</td>
+<td nowrap>reduce lrelop -> ge</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lrelop -> ge</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lrelop -> ge</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -23249,15 +23249,11 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lrelop -> GT</td>
+<td nowrap>reduce lrelop -> gt</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lrelop -> GT</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
+<td nowrap>reduce lrelop -> gt</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -23267,29 +23263,33 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lrelop -> GT</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lrelop -> GT</td>
-<td nowrap> </td>
-<td nowrap>reduce lrelop -> GT</td>
-<td nowrap> </td>
-<td nowrap>reduce lrelop -> GT</td>
-<td nowrap> </td>
-<td nowrap>reduce lrelop -> GT</td>
-<td nowrap>reduce lrelop -> GT</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lrelop -> GT</td>
+<td nowrap>reduce lrelop -> gt</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lrelop -> GT</td>
+<td nowrap>reduce lrelop -> gt</td>
+<td nowrap> </td>
+<td nowrap>reduce lrelop -> gt</td>
+<td nowrap> </td>
+<td nowrap>reduce lrelop -> gt</td>
+<td nowrap> </td>
+<td nowrap>reduce lrelop -> gt</td>
+<td nowrap>reduce lrelop -> gt</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lrelop -> gt</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lrelop -> gt</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -23446,15 +23446,11 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lrelop -> IN</td>
+<td nowrap>reduce lrelop -> in</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lrelop -> IN</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
+<td nowrap>reduce lrelop -> in</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -23464,29 +23460,33 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lrelop -> IN</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lrelop -> IN</td>
-<td nowrap> </td>
-<td nowrap>reduce lrelop -> IN</td>
-<td nowrap> </td>
-<td nowrap>reduce lrelop -> IN</td>
-<td nowrap> </td>
-<td nowrap>reduce lrelop -> IN</td>
-<td nowrap>reduce lrelop -> IN</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lrelop -> IN</td>
+<td nowrap>reduce lrelop -> in</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lrelop -> IN</td>
+<td nowrap>reduce lrelop -> in</td>
+<td nowrap> </td>
+<td nowrap>reduce lrelop -> in</td>
+<td nowrap> </td>
+<td nowrap>reduce lrelop -> in</td>
+<td nowrap> </td>
+<td nowrap>reduce lrelop -> in</td>
+<td nowrap>reduce lrelop -> in</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lrelop -> in</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lrelop -> in</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -23643,15 +23643,11 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lrelop -> LE</td>
+<td nowrap>reduce lrelop -> le</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lrelop -> LE</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
+<td nowrap>reduce lrelop -> le</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -23661,29 +23657,33 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lrelop -> LE</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lrelop -> LE</td>
-<td nowrap> </td>
-<td nowrap>reduce lrelop -> LE</td>
-<td nowrap> </td>
-<td nowrap>reduce lrelop -> LE</td>
-<td nowrap> </td>
-<td nowrap>reduce lrelop -> LE</td>
-<td nowrap>reduce lrelop -> LE</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lrelop -> LE</td>
+<td nowrap>reduce lrelop -> le</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lrelop -> LE</td>
+<td nowrap>reduce lrelop -> le</td>
+<td nowrap> </td>
+<td nowrap>reduce lrelop -> le</td>
+<td nowrap> </td>
+<td nowrap>reduce lrelop -> le</td>
+<td nowrap> </td>
+<td nowrap>reduce lrelop -> le</td>
+<td nowrap>reduce lrelop -> le</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lrelop -> le</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lrelop -> le</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -23840,15 +23840,11 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lrelop -> LT</td>
+<td nowrap>reduce lrelop -> lt</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lrelop -> LT</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
+<td nowrap>reduce lrelop -> lt</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -23858,29 +23854,33 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lrelop -> LT</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lrelop -> LT</td>
-<td nowrap> </td>
-<td nowrap>reduce lrelop -> LT</td>
-<td nowrap> </td>
-<td nowrap>reduce lrelop -> LT</td>
-<td nowrap> </td>
-<td nowrap>reduce lrelop -> LT</td>
-<td nowrap>reduce lrelop -> LT</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lrelop -> LT</td>
+<td nowrap>reduce lrelop -> lt</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lrelop -> LT</td>
+<td nowrap>reduce lrelop -> lt</td>
+<td nowrap> </td>
+<td nowrap>reduce lrelop -> lt</td>
+<td nowrap> </td>
+<td nowrap>reduce lrelop -> lt</td>
+<td nowrap> </td>
+<td nowrap>reduce lrelop -> lt</td>
+<td nowrap>reduce lrelop -> lt</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lrelop -> lt</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lrelop -> lt</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -24037,15 +24037,11 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce laddop -> MINUS</td>
+<td nowrap>reduce laddop -> minus</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce laddop -> MINUS</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
+<td nowrap>reduce laddop -> minus</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -24055,29 +24051,33 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce laddop -> MINUS</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce laddop -> MINUS</td>
-<td nowrap> </td>
-<td nowrap>reduce laddop -> MINUS</td>
-<td nowrap> </td>
-<td nowrap>reduce laddop -> MINUS</td>
-<td nowrap> </td>
-<td nowrap>reduce laddop -> MINUS</td>
-<td nowrap>reduce laddop -> MINUS</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce laddop -> MINUS</td>
+<td nowrap>reduce laddop -> minus</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce laddop -> MINUS</td>
+<td nowrap>reduce laddop -> minus</td>
+<td nowrap> </td>
+<td nowrap>reduce laddop -> minus</td>
+<td nowrap> </td>
+<td nowrap>reduce laddop -> minus</td>
+<td nowrap> </td>
+<td nowrap>reduce laddop -> minus</td>
+<td nowrap>reduce laddop -> minus</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce laddop -> minus</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce laddop -> minus</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -24234,15 +24234,11 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lrelop -> NE</td>
+<td nowrap>reduce lrelop -> ne</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lrelop -> NE</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
+<td nowrap>reduce lrelop -> ne</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -24252,29 +24248,33 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lrelop -> NE</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lrelop -> NE</td>
-<td nowrap> </td>
-<td nowrap>reduce lrelop -> NE</td>
-<td nowrap> </td>
-<td nowrap>reduce lrelop -> NE</td>
-<td nowrap> </td>
-<td nowrap>reduce lrelop -> NE</td>
-<td nowrap>reduce lrelop -> NE</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lrelop -> NE</td>
+<td nowrap>reduce lrelop -> ne</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lrelop -> NE</td>
+<td nowrap>reduce lrelop -> ne</td>
+<td nowrap> </td>
+<td nowrap>reduce lrelop -> ne</td>
+<td nowrap> </td>
+<td nowrap>reduce lrelop -> ne</td>
+<td nowrap> </td>
+<td nowrap>reduce lrelop -> ne</td>
+<td nowrap>reduce lrelop -> ne</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lrelop -> ne</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lrelop -> ne</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -24431,15 +24431,11 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce laddop -> OR</td>
+<td nowrap>reduce laddop -> or</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce laddop -> OR</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
+<td nowrap>reduce laddop -> or</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -24449,29 +24445,33 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce laddop -> OR</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce laddop -> OR</td>
-<td nowrap> </td>
-<td nowrap>reduce laddop -> OR</td>
-<td nowrap> </td>
-<td nowrap>reduce laddop -> OR</td>
-<td nowrap> </td>
-<td nowrap>reduce laddop -> OR</td>
-<td nowrap>reduce laddop -> OR</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce laddop -> OR</td>
+<td nowrap>reduce laddop -> or</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce laddop -> OR</td>
+<td nowrap>reduce laddop -> or</td>
+<td nowrap> </td>
+<td nowrap>reduce laddop -> or</td>
+<td nowrap> </td>
+<td nowrap>reduce laddop -> or</td>
+<td nowrap> </td>
+<td nowrap>reduce laddop -> or</td>
+<td nowrap>reduce laddop -> or</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce laddop -> or</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce laddop -> or</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -24628,15 +24628,11 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce laddop -> PLUS</td>
+<td nowrap>reduce laddop -> plus</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce laddop -> PLUS</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
+<td nowrap>reduce laddop -> plus</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -24646,29 +24642,33 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce laddop -> PLUS</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce laddop -> PLUS</td>
-<td nowrap> </td>
-<td nowrap>reduce laddop -> PLUS</td>
-<td nowrap> </td>
-<td nowrap>reduce laddop -> PLUS</td>
-<td nowrap> </td>
-<td nowrap>reduce laddop -> PLUS</td>
-<td nowrap>reduce laddop -> PLUS</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce laddop -> PLUS</td>
+<td nowrap>reduce laddop -> plus</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce laddop -> PLUS</td>
+<td nowrap>reduce laddop -> plus</td>
+<td nowrap> </td>
+<td nowrap>reduce laddop -> plus</td>
+<td nowrap> </td>
+<td nowrap>reduce laddop -> plus</td>
+<td nowrap> </td>
+<td nowrap>reduce laddop -> plus</td>
+<td nowrap>reduce laddop -> plus</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce laddop -> plus</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce laddop -> plus</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -25022,15 +25022,11 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lmulop -> AND</td>
+<td nowrap>reduce lmulop -> and</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lmulop -> AND</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
+<td nowrap>reduce lmulop -> and</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -25040,29 +25036,33 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lmulop -> AND</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lmulop -> AND</td>
-<td nowrap> </td>
-<td nowrap>reduce lmulop -> AND</td>
-<td nowrap> </td>
-<td nowrap>reduce lmulop -> AND</td>
-<td nowrap> </td>
-<td nowrap>reduce lmulop -> AND</td>
-<td nowrap>reduce lmulop -> AND</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lmulop -> AND</td>
+<td nowrap>reduce lmulop -> and</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lmulop -> AND</td>
+<td nowrap>reduce lmulop -> and</td>
+<td nowrap> </td>
+<td nowrap>reduce lmulop -> and</td>
+<td nowrap> </td>
+<td nowrap>reduce lmulop -> and</td>
+<td nowrap> </td>
+<td nowrap>reduce lmulop -> and</td>
+<td nowrap>reduce lmulop -> and</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lmulop -> and</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lmulop -> and</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -25219,15 +25219,11 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lmulop -> DIV</td>
+<td nowrap>reduce lmulop -> div</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lmulop -> DIV</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
+<td nowrap>reduce lmulop -> div</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -25237,29 +25233,33 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lmulop -> DIV</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lmulop -> DIV</td>
-<td nowrap> </td>
-<td nowrap>reduce lmulop -> DIV</td>
-<td nowrap> </td>
-<td nowrap>reduce lmulop -> DIV</td>
-<td nowrap> </td>
-<td nowrap>reduce lmulop -> DIV</td>
-<td nowrap>reduce lmulop -> DIV</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lmulop -> DIV</td>
+<td nowrap>reduce lmulop -> div</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lmulop -> DIV</td>
+<td nowrap>reduce lmulop -> div</td>
+<td nowrap> </td>
+<td nowrap>reduce lmulop -> div</td>
+<td nowrap> </td>
+<td nowrap>reduce lmulop -> div</td>
+<td nowrap> </td>
+<td nowrap>reduce lmulop -> div</td>
+<td nowrap>reduce lmulop -> div</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lmulop -> div</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lmulop -> div</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -25416,15 +25416,11 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lmulop -> MOD</td>
+<td nowrap>reduce lmulop -> mod</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lmulop -> MOD</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
+<td nowrap>reduce lmulop -> mod</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -25434,29 +25430,33 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lmulop -> MOD</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lmulop -> MOD</td>
-<td nowrap> </td>
-<td nowrap>reduce lmulop -> MOD</td>
-<td nowrap> </td>
-<td nowrap>reduce lmulop -> MOD</td>
-<td nowrap> </td>
-<td nowrap>reduce lmulop -> MOD</td>
-<td nowrap>reduce lmulop -> MOD</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lmulop -> MOD</td>
+<td nowrap>reduce lmulop -> mod</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lmulop -> MOD</td>
+<td nowrap>reduce lmulop -> mod</td>
+<td nowrap> </td>
+<td nowrap>reduce lmulop -> mod</td>
+<td nowrap> </td>
+<td nowrap>reduce lmulop -> mod</td>
+<td nowrap> </td>
+<td nowrap>reduce lmulop -> mod</td>
+<td nowrap>reduce lmulop -> mod</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lmulop -> mod</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lmulop -> mod</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -25613,15 +25613,11 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lmulop -> RDIV</td>
+<td nowrap>reduce lmulop -> rdiv</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lmulop -> RDIV</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
+<td nowrap>reduce lmulop -> rdiv</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -25631,29 +25627,33 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lmulop -> RDIV</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lmulop -> RDIV</td>
-<td nowrap> </td>
-<td nowrap>reduce lmulop -> RDIV</td>
-<td nowrap> </td>
-<td nowrap>reduce lmulop -> RDIV</td>
-<td nowrap> </td>
-<td nowrap>reduce lmulop -> RDIV</td>
-<td nowrap>reduce lmulop -> RDIV</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lmulop -> RDIV</td>
+<td nowrap>reduce lmulop -> rdiv</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lmulop -> RDIV</td>
+<td nowrap>reduce lmulop -> rdiv</td>
+<td nowrap> </td>
+<td nowrap>reduce lmulop -> rdiv</td>
+<td nowrap> </td>
+<td nowrap>reduce lmulop -> rdiv</td>
+<td nowrap> </td>
+<td nowrap>reduce lmulop -> rdiv</td>
+<td nowrap>reduce lmulop -> rdiv</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lmulop -> rdiv</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lmulop -> rdiv</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -25810,15 +25810,11 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lmulop -> MULTI</td>
+<td nowrap>reduce lmulop -> multi</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lmulop -> MULTI</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
+<td nowrap>reduce lmulop -> multi</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -25828,29 +25824,33 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lmulop -> MULTI</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lmulop -> MULTI</td>
-<td nowrap> </td>
-<td nowrap>reduce lmulop -> MULTI</td>
-<td nowrap> </td>
-<td nowrap>reduce lmulop -> MULTI</td>
-<td nowrap> </td>
-<td nowrap>reduce lmulop -> MULTI</td>
-<td nowrap>reduce lmulop -> MULTI</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lmulop -> MULTI</td>
+<td nowrap>reduce lmulop -> multi</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lmulop -> MULTI</td>
+<td nowrap>reduce lmulop -> multi</td>
+<td nowrap> </td>
+<td nowrap>reduce lmulop -> multi</td>
+<td nowrap> </td>
+<td nowrap>reduce lmulop -> multi</td>
+<td nowrap> </td>
+<td nowrap>reduce lmulop -> multi</td>
+<td nowrap>reduce lmulop -> multi</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lmulop -> multi</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lmulop -> multi</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -26594,7 +26594,7 @@
 </tr>
 <tr>
 <td nowrap>134</td>
-<td nowrap>reduce lclprimary -> NOT lclprimary</td>
+<td nowrap>reduce lclprimary -> not lclprimary</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -26603,50 +26603,50 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lclprimary -> NOT lclprimary</td>
+<td nowrap>reduce lclprimary -> not lclprimary</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lclprimary -> NOT lclprimary</td>
+<td nowrap>reduce lclprimary -> not lclprimary</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lclprimary -> NOT lclprimary</td>
+<td nowrap>reduce lclprimary -> not lclprimary</td>
 <td nowrap> </td>
-<td nowrap>reduce lclprimary -> NOT lclprimary</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lclprimary -> NOT lclprimary</td>
+<td nowrap>reduce lclprimary -> not lclprimary</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lclprimary -> NOT lclprimary</td>
-<td nowrap> </td>
-<td nowrap>reduce lclprimary -> NOT lclprimary</td>
-<td nowrap>reduce lclprimary -> NOT lclprimary</td>
-<td nowrap>reduce lclprimary -> NOT lclprimary</td>
+<td nowrap>reduce lclprimary -> not lclprimary</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lclprimary -> NOT lclprimary</td>
+<td nowrap>reduce lclprimary -> not lclprimary</td>
 <td nowrap> </td>
-<td nowrap>reduce lclprimary -> NOT lclprimary</td>
+<td nowrap>reduce lclprimary -> not lclprimary</td>
+<td nowrap>reduce lclprimary -> not lclprimary</td>
+<td nowrap>reduce lclprimary -> not lclprimary</td>
 <td nowrap> </td>
 <td nowrap> </td>
+<td nowrap>reduce lclprimary -> not lclprimary</td>
 <td nowrap> </td>
-<td nowrap>reduce lclprimary -> NOT lclprimary</td>
+<td nowrap>reduce lclprimary -> not lclprimary</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
+<td nowrap>reduce lclprimary -> not lclprimary</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lclprimary -> NOT lclprimary</td>
-<td nowrap>reduce lclprimary -> NOT lclprimary</td>
 <td nowrap> </td>
-<td nowrap>reduce lclprimary -> NOT lclprimary</td>
-<td nowrap>reduce lclprimary -> NOT lclprimary</td>
-<td nowrap>reduce lclprimary -> NOT lclprimary</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lclprimary -> not lclprimary</td>
+<td nowrap>reduce lclprimary -> not lclprimary</td>
+<td nowrap> </td>
+<td nowrap>reduce lclprimary -> not lclprimary</td>
+<td nowrap>reduce lclprimary -> not lclprimary</td>
+<td nowrap>reduce lclprimary -> not lclprimary</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -26839,7 +26839,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce llprogram_heading -> PROG lidentifier LR_BRAC llidentifier_list RR_BRAC</td>
+<td nowrap>reduce llprogram_heading -> prog lidentifier lr_brac llidentifier_list rr_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -31370,7 +31370,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lvariable_declaration -> llidentifier_list COLON ltype_denoter</td>
+<td nowrap>reduce lvariable_declaration -> llidentifier_list colon ltype_denoter</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -32325,30 +32325,11 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce ltype_definition -> lidentifier EQ ltype_denoter lsemicolon</td>
+<td nowrap>reduce ltype_definition -> lidentifier eq ltype_denoter lsemicolon</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce ltype_definition -> lidentifier EQ ltype_denoter lsemicolon</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce ltype_definition -> lidentifier EQ ltype_denoter lsemicolon</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce ltype_definition -> lidentifier EQ ltype_denoter lsemicolon</td>
+<td nowrap>reduce ltype_definition -> lidentifier eq ltype_denoter lsemicolon</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -32364,11 +32345,30 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
+<td nowrap>reduce ltype_definition -> lidentifier eq ltype_denoter lsemicolon</td>
 <td nowrap> </td>
-<td nowrap>reduce ltype_definition -> lidentifier EQ ltype_denoter lsemicolon</td>
+<td nowrap> </td>
+<td nowrap>reduce ltype_definition -> lidentifier eq ltype_denoter lsemicolon</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce ltype_definition -> lidentifier EQ ltype_denoter lsemicolon</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce ltype_definition -> lidentifier eq ltype_denoter lsemicolon</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce ltype_definition -> lidentifier eq ltype_denoter lsemicolon</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -32913,7 +32913,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lnew_lstructured_type -> PACKED lstructured_type</td>
+<td nowrap>reduce lnew_lstructured_type -> packed lstructured_type</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -32945,8 +32945,8 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lnew_lstructured_type -> PACKED lstructured_type</td>
-<td nowrap>reduce lnew_lstructured_type -> PACKED lstructured_type</td>
+<td nowrap>reduce lnew_lstructured_type -> packed lstructured_type</td>
+<td nowrap>reduce lnew_lstructured_type -> packed lstructured_type</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -34686,7 +34686,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lnew_pointer_type -> CAP ldomain_type</td>
+<td nowrap>reduce lnew_pointer_type -> cap ldomain_type</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -34718,8 +34718,8 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lnew_pointer_type -> CAP ldomain_type</td>
-<td nowrap>reduce lnew_pointer_type -> CAP ldomain_type</td>
+<td nowrap>reduce lnew_pointer_type -> cap ldomain_type</td>
+<td nowrap>reduce lnew_pointer_type -> cap ldomain_type</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -35459,7 +35459,7 @@
 </tr>
 <tr>
 <td nowrap>179</td>
-<td nowrap>reduce lclexponentiation -> lclprimary EXP lclexponentiation</td>
+<td nowrap>reduce lclexponentiation -> lclprimary exp lclexponentiation</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -35468,49 +35468,49 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lclexponentiation -> lclprimary EXP lclexponentiation</td>
+<td nowrap>reduce lclexponentiation -> lclprimary exp lclexponentiation</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lclexponentiation -> lclprimary EXP lclexponentiation</td>
+<td nowrap>reduce lclexponentiation -> lclprimary exp lclexponentiation</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lclexponentiation -> lclprimary EXP lclexponentiation</td>
+<td nowrap>reduce lclexponentiation -> lclprimary exp lclexponentiation</td>
 <td nowrap> </td>
-<td nowrap>reduce lclexponentiation -> lclprimary EXP lclexponentiation</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lclexponentiation -> lclprimary EXP lclexponentiation</td>
+<td nowrap>reduce lclexponentiation -> lclprimary exp lclexponentiation</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lclexponentiation -> lclprimary EXP lclexponentiation</td>
-<td nowrap> </td>
-<td nowrap>reduce lclexponentiation -> lclprimary EXP lclexponentiation</td>
-<td nowrap>reduce lclexponentiation -> lclprimary EXP lclexponentiation</td>
-<td nowrap>reduce lclexponentiation -> lclprimary EXP lclexponentiation</td>
+<td nowrap>reduce lclexponentiation -> lclprimary exp lclexponentiation</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lclexponentiation -> lclprimary EXP lclexponentiation</td>
+<td nowrap>reduce lclexponentiation -> lclprimary exp lclexponentiation</td>
 <td nowrap> </td>
-<td nowrap>reduce lclexponentiation -> lclprimary EXP lclexponentiation</td>
+<td nowrap>reduce lclexponentiation -> lclprimary exp lclexponentiation</td>
+<td nowrap>reduce lclexponentiation -> lclprimary exp lclexponentiation</td>
+<td nowrap>reduce lclexponentiation -> lclprimary exp lclexponentiation</td>
 <td nowrap> </td>
 <td nowrap> </td>
+<td nowrap>reduce lclexponentiation -> lclprimary exp lclexponentiation</td>
 <td nowrap> </td>
-<td nowrap>reduce lclexponentiation -> lclprimary EXP lclexponentiation</td>
+<td nowrap>reduce lclexponentiation -> lclprimary exp lclexponentiation</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
+<td nowrap>reduce lclexponentiation -> lclprimary exp lclexponentiation</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lclexponentiation -> lclprimary EXP lclexponentiation</td>
-<td nowrap>reduce lclexponentiation -> lclprimary EXP lclexponentiation</td>
 <td nowrap> </td>
-<td nowrap>reduce lclexponentiation -> lclprimary EXP lclexponentiation</td>
-<td nowrap>reduce lclexponentiation -> lclprimary EXP lclexponentiation</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lclexponentiation -> lclprimary exp lclexponentiation</td>
+<td nowrap>reduce lclexponentiation -> lclprimary exp lclexponentiation</td>
+<td nowrap> </td>
+<td nowrap>reduce lclexponentiation -> lclprimary exp lclexponentiation</td>
+<td nowrap>reduce lclexponentiation -> lclprimary exp lclexponentiation</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -35656,7 +35656,7 @@
 </tr>
 <tr>
 <td nowrap>180</td>
-<td nowrap>reduce lclprimary -> LR_BRAC lclexpression RR_BRAC</td>
+<td nowrap>reduce lclprimary -> lr_brac lclexpression rr_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -35665,50 +35665,50 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lclprimary -> LR_BRAC lclexpression RR_BRAC</td>
+<td nowrap>reduce lclprimary -> lr_brac lclexpression rr_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lclprimary -> LR_BRAC lclexpression RR_BRAC</td>
+<td nowrap>reduce lclprimary -> lr_brac lclexpression rr_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lclprimary -> LR_BRAC lclexpression RR_BRAC</td>
+<td nowrap>reduce lclprimary -> lr_brac lclexpression rr_brac</td>
 <td nowrap> </td>
-<td nowrap>reduce lclprimary -> LR_BRAC lclexpression RR_BRAC</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lclprimary -> LR_BRAC lclexpression RR_BRAC</td>
+<td nowrap>reduce lclprimary -> lr_brac lclexpression rr_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lclprimary -> LR_BRAC lclexpression RR_BRAC</td>
-<td nowrap> </td>
-<td nowrap>reduce lclprimary -> LR_BRAC lclexpression RR_BRAC</td>
-<td nowrap>reduce lclprimary -> LR_BRAC lclexpression RR_BRAC</td>
-<td nowrap>reduce lclprimary -> LR_BRAC lclexpression RR_BRAC</td>
+<td nowrap>reduce lclprimary -> lr_brac lclexpression rr_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lclprimary -> LR_BRAC lclexpression RR_BRAC</td>
+<td nowrap>reduce lclprimary -> lr_brac lclexpression rr_brac</td>
 <td nowrap> </td>
-<td nowrap>reduce lclprimary -> LR_BRAC lclexpression RR_BRAC</td>
+<td nowrap>reduce lclprimary -> lr_brac lclexpression rr_brac</td>
+<td nowrap>reduce lclprimary -> lr_brac lclexpression rr_brac</td>
+<td nowrap>reduce lclprimary -> lr_brac lclexpression rr_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
+<td nowrap>reduce lclprimary -> lr_brac lclexpression rr_brac</td>
 <td nowrap> </td>
-<td nowrap>reduce lclprimary -> LR_BRAC lclexpression RR_BRAC</td>
+<td nowrap>reduce lclprimary -> lr_brac lclexpression rr_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
+<td nowrap>reduce lclprimary -> lr_brac lclexpression rr_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lclprimary -> LR_BRAC lclexpression RR_BRAC</td>
-<td nowrap>reduce lclprimary -> LR_BRAC lclexpression RR_BRAC</td>
 <td nowrap> </td>
-<td nowrap>reduce lclprimary -> LR_BRAC lclexpression RR_BRAC</td>
-<td nowrap>reduce lclprimary -> LR_BRAC lclexpression RR_BRAC</td>
-<td nowrap>reduce lclprimary -> LR_BRAC lclexpression RR_BRAC</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lclprimary -> lr_brac lclexpression rr_brac</td>
+<td nowrap>reduce lclprimary -> lr_brac lclexpression rr_brac</td>
+<td nowrap> </td>
+<td nowrap>reduce lclprimary -> lr_brac lclexpression rr_brac</td>
+<td nowrap>reduce lclprimary -> lr_brac lclexpression rr_brac</td>
+<td nowrap>reduce lclprimary -> lr_brac lclexpression rr_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -36449,7 +36449,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lformal_parameter_list -> LR_BRAC llformal_parameter_section_list RR_BRAC</td>
+<td nowrap>reduce lformal_parameter_list -> lr_brac llformal_parameter_section_list rr_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -36491,8 +36491,8 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lformal_parameter_list -> LR_BRAC llformal_parameter_section_list RR_BRAC</td>
-<td nowrap>reduce lformal_parameter_list -> LR_BRAC llformal_parameter_section_list RR_BRAC</td>
+<td nowrap>reduce lformal_parameter_list -> lr_brac llformal_parameter_section_list rr_brac</td>
+<td nowrap>reduce lformal_parameter_list -> lr_brac llformal_parameter_section_list rr_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -37476,8 +37476,8 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lfunction_heading -> FUNC lidentifier COLON lresult_type</td>
-<td nowrap>reduce lfunction_heading -> FUNC lidentifier COLON lresult_type</td>
+<td nowrap>reduce lfunction_heading -> func lidentifier colon lresult_type</td>
+<td nowrap>reduce lfunction_heading -> func lidentifier colon lresult_type</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -37632,7 +37632,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lsubrange_type -> lconstant RANGE lconstant</td>
+<td nowrap>reduce lsubrange_type -> lconstant range lconstant</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -37641,16 +37641,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lsubrange_type -> lconstant RANGE lconstant</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
+<td nowrap>reduce lsubrange_type -> lconstant range lconstant</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -37669,12 +37660,21 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lsubrange_type -> lconstant RANGE lconstant</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lsubrange_type -> lconstant RANGE lconstant</td>
-<td nowrap>reduce lsubrange_type -> lconstant RANGE lconstant</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lsubrange_type -> lconstant range lconstant</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lsubrange_type -> lconstant range lconstant</td>
+<td nowrap>reduce lsubrange_type -> lconstant range lconstant</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -38814,7 +38814,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lenumerated_type -> LR_BRAC llidentifier_list RR_BRAC</td>
+<td nowrap>reduce lenumerated_type -> lr_brac llidentifier_list rr_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -38823,16 +38823,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lenumerated_type -> LR_BRAC llidentifier_list RR_BRAC</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
+<td nowrap>reduce lenumerated_type -> lr_brac llidentifier_list rr_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -38851,12 +38842,21 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lenumerated_type -> LR_BRAC llidentifier_list RR_BRAC</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lenumerated_type -> LR_BRAC llidentifier_list RR_BRAC</td>
-<td nowrap>reduce lenumerated_type -> LR_BRAC llidentifier_list RR_BRAC</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lenumerated_type -> lr_brac llidentifier_list rr_brac</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lenumerated_type -> lr_brac llidentifier_list rr_brac</td>
+<td nowrap>reduce lenumerated_type -> lr_brac llidentifier_list rr_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -39217,7 +39217,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce llfile_type -> FILE OF lcomponent_type</td>
+<td nowrap>reduce llfile_type -> file of lcomponent_type</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -39249,8 +39249,8 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce llfile_type -> FILE OF lcomponent_type</td>
-<td nowrap>reduce llfile_type -> FILE OF lcomponent_type</td>
+<td nowrap>reduce llfile_type -> file of lcomponent_type</td>
+<td nowrap>reduce llfile_type -> file of lcomponent_type</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -39808,7 +39808,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lrecord_type -> RECORD llrecord_section_list END</td>
+<td nowrap>reduce lrecord_type -> record llrecord_section_list end</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -39840,8 +39840,8 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lrecord_type -> RECORD llrecord_section_list END</td>
-<td nowrap>reduce lrecord_type -> RECORD llrecord_section_list END</td>
+<td nowrap>reduce lrecord_type -> record llrecord_section_list end</td>
+<td nowrap>reduce lrecord_type -> record llrecord_section_list end</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -40005,7 +40005,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lrecord_type -> RECORD llvariant_part END</td>
+<td nowrap>reduce lrecord_type -> record llvariant_part end</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -40037,8 +40037,8 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lrecord_type -> RECORD llvariant_part END</td>
-<td nowrap>reduce lrecord_type -> RECORD llvariant_part END</td>
+<td nowrap>reduce lrecord_type -> record llvariant_part end</td>
+<td nowrap>reduce lrecord_type -> record llvariant_part end</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -41187,7 +41187,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lset_type -> SET OF lbase_type</td>
+<td nowrap>reduce lset_type -> set of lbase_type</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -41219,8 +41219,8 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lset_type -> SET OF lbase_type</td>
-<td nowrap>reduce lset_type -> SET OF lbase_type</td>
+<td nowrap>reduce lset_type -> set of lbase_type</td>
+<td nowrap>reduce lset_type -> set of lbase_type</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -42007,8 +42007,8 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lvalue_parameter_specification -> llidentifier_list COLON lidentifier</td>
-<td nowrap>reduce lvalue_parameter_specification -> llidentifier_list COLON lidentifier</td>
+<td nowrap>reduce lvalue_parameter_specification -> llidentifier_list colon lidentifier</td>
+<td nowrap>reduce lvalue_parameter_specification -> llidentifier_list colon lidentifier</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -42598,8 +42598,8 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lfunction_heading -> FUNC lidentifier lformal_parameter_list COLON lresult_type</td>
-<td nowrap>reduce lfunction_heading -> FUNC lidentifier lformal_parameter_list COLON lresult_type</td>
+<td nowrap>reduce lfunction_heading -> func lidentifier lformal_parameter_list colon lresult_type</td>
+<td nowrap>reduce lfunction_heading -> func lidentifier lformal_parameter_list colon lresult_type</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -43157,7 +43157,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lrecord_section -> llidentifier_list COLON ltype_denoter</td>
+<td nowrap>reduce lrecord_section -> llidentifier_list colon ltype_denoter</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -43189,8 +43189,8 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lrecord_section -> llidentifier_list COLON ltype_denoter</td>
-<td nowrap>reduce lrecord_section -> llidentifier_list COLON ltype_denoter</td>
+<td nowrap>reduce lrecord_section -> llidentifier_list colon ltype_denoter</td>
+<td nowrap>reduce lrecord_section -> llidentifier_list colon ltype_denoter</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -50478,8 +50478,8 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lvariable_parameter_specification -> VAR llidentifier_list COLON lidentifier</td>
-<td nowrap>reduce lvariable_parameter_specification -> VAR llidentifier_list COLON lidentifier</td>
+<td nowrap>reduce lvariable_parameter_specification -> var llidentifier_list colon lidentifier</td>
+<td nowrap>reduce lvariable_parameter_specification -> var llidentifier_list colon lidentifier</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -51037,7 +51037,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lrecord_type -> RECORD llrecord_section_list lsemicolon llvariant_part END</td>
+<td nowrap>reduce lrecord_type -> record llrecord_section_list lsemicolon llvariant_part end</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -51069,8 +51069,8 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lrecord_type -> RECORD llrecord_section_list lsemicolon llvariant_part END</td>
-<td nowrap>reduce lrecord_type -> RECORD llrecord_section_list lsemicolon llvariant_part END</td>
+<td nowrap>reduce lrecord_type -> record llrecord_section_list lsemicolon llvariant_part end</td>
+<td nowrap>reduce lrecord_type -> record llrecord_section_list lsemicolon llvariant_part end</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -51431,7 +51431,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce llvariant_part -> CASE llvariant_selector OF llvariant_list</td>
+<td nowrap>reduce llvariant_part -> case llvariant_selector of llvariant_list</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -51463,7 +51463,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce llvariant_part -> CASE llvariant_selector OF llvariant_list</td>
+<td nowrap>reduce llvariant_part -> case llvariant_selector of llvariant_list</td>
 <td nowrap>shift 9</td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -52436,7 +52436,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce llvariant_selector -> ltag_field COLON ltag_type</td>
+<td nowrap>reduce llvariant_selector -> ltag_field colon ltag_type</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -53397,14 +53397,11 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lcompound_lstatement -> BEGIN llstatement_sequence END</td>
+<td nowrap>reduce lcompound_lstatement -> begin llstatement_sequence end</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lcompound_lstatement -> BEGIN llstatement_sequence END</td>
-<td nowrap>reduce lcompound_lstatement -> BEGIN llstatement_sequence END</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
+<td nowrap>reduce lcompound_lstatement -> begin llstatement_sequence end</td>
+<td nowrap>reduce lcompound_lstatement -> begin llstatement_sequence end</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -53434,7 +53431,10 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lcompound_lstatement -> BEGIN llstatement_sequence END</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lcompound_lstatement -> begin llstatement_sequence end</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -53442,7 +53442,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lcompound_lstatement -> BEGIN llstatement_sequence END</td>
+<td nowrap>reduce lcompound_lstatement -> begin llstatement_sequence end</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -54174,64 +54174,64 @@
 </tr>
 <tr>
 <td nowrap>274</td>
-<td nowrap>reduce lvariable_access -> lvariable_access CAP</td>
+<td nowrap>reduce lvariable_access -> lvariable_access cap</td>
 <td nowrap> </td>
-<td nowrap>reduce lvariable_access -> lvariable_access CAP</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lvariable_access -> lvariable_access CAP</td>
-<td nowrap>reduce lvariable_access -> lvariable_access CAP</td>
+<td nowrap>reduce lvariable_access -> lvariable_access cap</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lvariable_access -> lvariable_access CAP</td>
-<td nowrap>reduce lvariable_access -> lvariable_access CAP</td>
-<td nowrap>reduce lvariable_access -> lvariable_access CAP</td>
-<td nowrap>reduce lvariable_access -> lvariable_access CAP</td>
-<td nowrap>reduce lvariable_access -> lvariable_access CAP</td>
-<td nowrap>reduce lvariable_access -> lvariable_access CAP</td>
-<td nowrap>reduce lvariable_access -> lvariable_access CAP</td>
-<td nowrap>reduce lvariable_access -> lvariable_access CAP</td>
+<td nowrap>reduce lvariable_access -> lvariable_access cap</td>
+<td nowrap>reduce lvariable_access -> lvariable_access cap</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lvariable_access -> lvariable_access CAP</td>
-<td nowrap> </td>
-<td nowrap>reduce lvariable_access -> lvariable_access CAP</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lvariable_access -> lvariable_access CAP</td>
-<td nowrap> </td>
-<td nowrap>reduce lvariable_access -> lvariable_access CAP</td>
-<td nowrap>reduce lvariable_access -> lvariable_access CAP</td>
-<td nowrap> </td>
-<td nowrap>reduce lvariable_access -> lvariable_access CAP</td>
-<td nowrap>reduce lvariable_access -> lvariable_access CAP</td>
-<td nowrap>reduce lvariable_access -> lvariable_access CAP</td>
+<td nowrap>reduce lvariable_access -> lvariable_access cap</td>
+<td nowrap>reduce lvariable_access -> lvariable_access cap</td>
+<td nowrap>reduce lvariable_access -> lvariable_access cap</td>
+<td nowrap>reduce lvariable_access -> lvariable_access cap</td>
+<td nowrap>reduce lvariable_access -> lvariable_access cap</td>
+<td nowrap>reduce lvariable_access -> lvariable_access cap</td>
+<td nowrap>reduce lvariable_access -> lvariable_access cap</td>
+<td nowrap>reduce lvariable_access -> lvariable_access cap</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lvariable_access -> lvariable_access CAP</td>
-<td nowrap>reduce lvariable_access -> lvariable_access CAP</td>
-<td nowrap>reduce lvariable_access -> lvariable_access CAP</td>
+<td nowrap>reduce lvariable_access -> lvariable_access cap</td>
+<td nowrap> </td>
+<td nowrap>reduce lvariable_access -> lvariable_access cap</td>
 <td nowrap> </td>
 <td nowrap> </td>
+<td nowrap>reduce lvariable_access -> lvariable_access cap</td>
 <td nowrap> </td>
-<td nowrap>reduce lvariable_access -> lvariable_access CAP</td>
+<td nowrap>reduce lvariable_access -> lvariable_access cap</td>
+<td nowrap>reduce lvariable_access -> lvariable_access cap</td>
+<td nowrap> </td>
+<td nowrap>reduce lvariable_access -> lvariable_access cap</td>
+<td nowrap>reduce lvariable_access -> lvariable_access cap</td>
+<td nowrap>reduce lvariable_access -> lvariable_access cap</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lvariable_access -> lvariable_access CAP</td>
+<td nowrap>reduce lvariable_access -> lvariable_access cap</td>
+<td nowrap>reduce lvariable_access -> lvariable_access cap</td>
+<td nowrap>reduce lvariable_access -> lvariable_access cap</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lvariable_access -> lvariable_access CAP</td>
-<td nowrap>reduce lvariable_access -> lvariable_access CAP</td>
+<td nowrap>reduce lvariable_access -> lvariable_access cap</td>
 <td nowrap> </td>
-<td nowrap>reduce lvariable_access -> lvariable_access CAP</td>
-<td nowrap>reduce lvariable_access -> lvariable_access CAP</td>
-<td nowrap>reduce lvariable_access -> lvariable_access CAP</td>
-<td nowrap>reduce lvariable_access -> lvariable_access CAP</td>
-<td nowrap>reduce lvariable_access -> lvariable_access CAP</td>
 <td nowrap> </td>
-<td nowrap>reduce lvariable_access -> lvariable_access CAP</td>
-<td nowrap>reduce lvariable_access -> lvariable_access CAP</td>
+<td nowrap>reduce lvariable_access -> lvariable_access cap</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lvariable_access -> lvariable_access cap</td>
+<td nowrap>reduce lvariable_access -> lvariable_access cap</td>
+<td nowrap> </td>
+<td nowrap>reduce lvariable_access -> lvariable_access cap</td>
+<td nowrap>reduce lvariable_access -> lvariable_access cap</td>
+<td nowrap>reduce lvariable_access -> lvariable_access cap</td>
+<td nowrap>reduce lvariable_access -> lvariable_access cap</td>
+<td nowrap>reduce lvariable_access -> lvariable_access cap</td>
+<td nowrap> </td>
+<td nowrap>reduce lvariable_access -> lvariable_access cap</td>
+<td nowrap>reduce lvariable_access -> lvariable_access cap</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -57931,8 +57931,8 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce goto_lstatement -> GOTO llabel</td>
-<td nowrap>reduce goto_lstatement -> GOTO llabel</td>
+<td nowrap>reduce goto_lstatement -> goto llabel</td>
+<td nowrap>reduce goto_lstatement -> goto llabel</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -57965,7 +57965,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce goto_lstatement -> GOTO llabel</td>
+<td nowrap>reduce goto_lstatement -> goto llabel</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -57973,7 +57973,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce goto_lstatement -> GOTO llabel</td>
+<td nowrap>reduce goto_lstatement -> goto llabel</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -59508,7 +59508,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce larray_type -> ARRAY LS_BRAC lindex_list RS_BRAC OF lcomponent_type</td>
+<td nowrap>reduce larray_type -> array ls_brac lindex_list rs_brac of lcomponent_type</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -59540,8 +59540,8 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce larray_type -> ARRAY LS_BRAC lindex_list RS_BRAC OF lcomponent_type</td>
-<td nowrap>reduce larray_type -> ARRAY LS_BRAC lindex_list RS_BRAC OF lcomponent_type</td>
+<td nowrap>reduce larray_type -> array ls_brac lindex_list rs_brac of lcomponent_type</td>
+<td nowrap>reduce larray_type -> array ls_brac lindex_list rs_brac of lcomponent_type</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -59902,7 +59902,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce llvariant_part -> CASE llvariant_selector OF llvariant_list lsemicolon</td>
+<td nowrap>reduce llvariant_part -> case llvariant_selector of llvariant_list lsemicolon</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -59934,7 +59934,7 @@
 <td nowrap>shift 108</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce llvariant_part -> CASE llvariant_selector OF llvariant_list lsemicolon</td>
+<td nowrap>reduce llvariant_part -> case llvariant_selector of llvariant_list lsemicolon</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -61084,7 +61084,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce open_lstatement -> llabel COLON non_llabeled_open_lstatement</td>
+<td nowrap>reduce open_lstatement -> llabel colon non_llabeled_open_lstatement</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -61117,7 +61117,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce open_lstatement -> llabel COLON non_llabeled_open_lstatement</td>
+<td nowrap>reduce open_lstatement -> llabel colon non_llabeled_open_lstatement</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -61125,7 +61125,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce open_lstatement -> llabel COLON non_llabeled_open_lstatement</td>
+<td nowrap>reduce open_lstatement -> llabel colon non_llabeled_open_lstatement</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -61280,8 +61280,8 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce closed_lstatement -> llabel COLON non_llabeled_closed_lstatement</td>
-<td nowrap>reduce closed_lstatement -> llabel COLON non_llabeled_closed_lstatement</td>
+<td nowrap>reduce closed_lstatement -> llabel colon non_llabeled_closed_lstatement</td>
+<td nowrap>reduce closed_lstatement -> llabel colon non_llabeled_closed_lstatement</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -61314,7 +61314,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce closed_lstatement -> llabel COLON non_llabeled_closed_lstatement</td>
+<td nowrap>reduce closed_lstatement -> llabel colon non_llabeled_closed_lstatement</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -61322,7 +61322,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce closed_lstatement -> llabel COLON non_llabeled_closed_lstatement</td>
+<td nowrap>reduce closed_lstatement -> llabel colon non_llabeled_closed_lstatement</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -61674,8 +61674,8 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce aslsignment_lstatement -> lvariable_access ASSIGN lexpression</td>
-<td nowrap>reduce aslsignment_lstatement -> lvariable_access ASSIGN lexpression</td>
+<td nowrap>reduce aslsignment_lstatement -> lvariable_access assign lexpression</td>
+<td nowrap>reduce aslsignment_lstatement -> lvariable_access assign lexpression</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -61708,7 +61708,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce aslsignment_lstatement -> lvariable_access ASSIGN lexpression</td>
+<td nowrap>reduce aslsignment_lstatement -> lvariable_access assign lexpression</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -61716,7 +61716,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce aslsignment_lstatement -> lvariable_access ASSIGN lexpression</td>
+<td nowrap>reduce aslsignment_lstatement -> lvariable_access assign lexpression</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -61857,64 +61857,64 @@
 </tr>
 <tr>
 <td nowrap>313</td>
-<td nowrap>reduce field_delsignator -> lvariable_access DOT lidentifier</td>
+<td nowrap>reduce field_delsignator -> lvariable_access dot lidentifier</td>
 <td nowrap> </td>
-<td nowrap>reduce field_delsignator -> lvariable_access DOT lidentifier</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce field_delsignator -> lvariable_access DOT lidentifier</td>
-<td nowrap>reduce field_delsignator -> lvariable_access DOT lidentifier</td>
+<td nowrap>reduce field_delsignator -> lvariable_access dot lidentifier</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce field_delsignator -> lvariable_access DOT lidentifier</td>
-<td nowrap>reduce field_delsignator -> lvariable_access DOT lidentifier</td>
-<td nowrap>reduce field_delsignator -> lvariable_access DOT lidentifier</td>
-<td nowrap>reduce field_delsignator -> lvariable_access DOT lidentifier</td>
-<td nowrap>reduce field_delsignator -> lvariable_access DOT lidentifier</td>
-<td nowrap>reduce field_delsignator -> lvariable_access DOT lidentifier</td>
-<td nowrap>reduce field_delsignator -> lvariable_access DOT lidentifier</td>
-<td nowrap>reduce field_delsignator -> lvariable_access DOT lidentifier</td>
+<td nowrap>reduce field_delsignator -> lvariable_access dot lidentifier</td>
+<td nowrap>reduce field_delsignator -> lvariable_access dot lidentifier</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce field_delsignator -> lvariable_access DOT lidentifier</td>
-<td nowrap> </td>
-<td nowrap>reduce field_delsignator -> lvariable_access DOT lidentifier</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce field_delsignator -> lvariable_access DOT lidentifier</td>
-<td nowrap> </td>
-<td nowrap>reduce field_delsignator -> lvariable_access DOT lidentifier</td>
-<td nowrap>reduce field_delsignator -> lvariable_access DOT lidentifier</td>
-<td nowrap> </td>
-<td nowrap>reduce field_delsignator -> lvariable_access DOT lidentifier</td>
-<td nowrap>reduce field_delsignator -> lvariable_access DOT lidentifier</td>
-<td nowrap>reduce field_delsignator -> lvariable_access DOT lidentifier</td>
+<td nowrap>reduce field_delsignator -> lvariable_access dot lidentifier</td>
+<td nowrap>reduce field_delsignator -> lvariable_access dot lidentifier</td>
+<td nowrap>reduce field_delsignator -> lvariable_access dot lidentifier</td>
+<td nowrap>reduce field_delsignator -> lvariable_access dot lidentifier</td>
+<td nowrap>reduce field_delsignator -> lvariable_access dot lidentifier</td>
+<td nowrap>reduce field_delsignator -> lvariable_access dot lidentifier</td>
+<td nowrap>reduce field_delsignator -> lvariable_access dot lidentifier</td>
+<td nowrap>reduce field_delsignator -> lvariable_access dot lidentifier</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce field_delsignator -> lvariable_access DOT lidentifier</td>
-<td nowrap>reduce field_delsignator -> lvariable_access DOT lidentifier</td>
-<td nowrap>reduce field_delsignator -> lvariable_access DOT lidentifier</td>
+<td nowrap>reduce field_delsignator -> lvariable_access dot lidentifier</td>
+<td nowrap> </td>
+<td nowrap>reduce field_delsignator -> lvariable_access dot lidentifier</td>
 <td nowrap> </td>
 <td nowrap> </td>
+<td nowrap>reduce field_delsignator -> lvariable_access dot lidentifier</td>
 <td nowrap> </td>
-<td nowrap>reduce field_delsignator -> lvariable_access DOT lidentifier</td>
+<td nowrap>reduce field_delsignator -> lvariable_access dot lidentifier</td>
+<td nowrap>reduce field_delsignator -> lvariable_access dot lidentifier</td>
+<td nowrap> </td>
+<td nowrap>reduce field_delsignator -> lvariable_access dot lidentifier</td>
+<td nowrap>reduce field_delsignator -> lvariable_access dot lidentifier</td>
+<td nowrap>reduce field_delsignator -> lvariable_access dot lidentifier</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce field_delsignator -> lvariable_access DOT lidentifier</td>
+<td nowrap>reduce field_delsignator -> lvariable_access dot lidentifier</td>
+<td nowrap>reduce field_delsignator -> lvariable_access dot lidentifier</td>
+<td nowrap>reduce field_delsignator -> lvariable_access dot lidentifier</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce field_delsignator -> lvariable_access DOT lidentifier</td>
-<td nowrap>reduce field_delsignator -> lvariable_access DOT lidentifier</td>
+<td nowrap>reduce field_delsignator -> lvariable_access dot lidentifier</td>
 <td nowrap> </td>
-<td nowrap>reduce field_delsignator -> lvariable_access DOT lidentifier</td>
-<td nowrap>reduce field_delsignator -> lvariable_access DOT lidentifier</td>
-<td nowrap>reduce field_delsignator -> lvariable_access DOT lidentifier</td>
-<td nowrap>reduce field_delsignator -> lvariable_access DOT lidentifier</td>
-<td nowrap>reduce field_delsignator -> lvariable_access DOT lidentifier</td>
 <td nowrap> </td>
-<td nowrap>reduce field_delsignator -> lvariable_access DOT lidentifier</td>
-<td nowrap>reduce field_delsignator -> lvariable_access DOT lidentifier</td>
+<td nowrap>reduce field_delsignator -> lvariable_access dot lidentifier</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce field_delsignator -> lvariable_access dot lidentifier</td>
+<td nowrap>reduce field_delsignator -> lvariable_access dot lidentifier</td>
+<td nowrap> </td>
+<td nowrap>reduce field_delsignator -> lvariable_access dot lidentifier</td>
+<td nowrap>reduce field_delsignator -> lvariable_access dot lidentifier</td>
+<td nowrap>reduce field_delsignator -> lvariable_access dot lidentifier</td>
+<td nowrap>reduce field_delsignator -> lvariable_access dot lidentifier</td>
+<td nowrap>reduce field_delsignator -> lvariable_access dot lidentifier</td>
+<td nowrap> </td>
+<td nowrap>reduce field_delsignator -> lvariable_access dot lidentifier</td>
+<td nowrap>reduce field_delsignator -> lvariable_access dot lidentifier</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -64615,63 +64615,63 @@
 </tr>
 <tr>
 <td nowrap>327</td>
-<td nowrap>reduce lset_constructor -> LS_BRAC RS_BRAC</td>
+<td nowrap>reduce lset_constructor -> ls_brac rs_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lset_constructor -> LS_BRAC RS_BRAC</td>
-<td nowrap>reduce lset_constructor -> LS_BRAC RS_BRAC</td>
+<td nowrap>reduce lset_constructor -> ls_brac rs_brac</td>
+<td nowrap>reduce lset_constructor -> ls_brac rs_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lset_constructor -> LS_BRAC RS_BRAC</td>
-<td nowrap>reduce lset_constructor -> LS_BRAC RS_BRAC</td>
+<td nowrap>reduce lset_constructor -> ls_brac rs_brac</td>
+<td nowrap>reduce lset_constructor -> ls_brac rs_brac</td>
 <td nowrap> </td>
-<td nowrap>reduce lset_constructor -> LS_BRAC RS_BRAC</td>
-<td nowrap>reduce lset_constructor -> LS_BRAC RS_BRAC</td>
-<td nowrap>reduce lset_constructor -> LS_BRAC RS_BRAC</td>
-<td nowrap>reduce lset_constructor -> LS_BRAC RS_BRAC</td>
-<td nowrap>reduce lset_constructor -> LS_BRAC RS_BRAC</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lset_constructor -> LS_BRAC RS_BRAC</td>
-<td nowrap> </td>
-<td nowrap>reduce lset_constructor -> LS_BRAC RS_BRAC</td>
+<td nowrap>reduce lset_constructor -> ls_brac rs_brac</td>
+<td nowrap>reduce lset_constructor -> ls_brac rs_brac</td>
+<td nowrap>reduce lset_constructor -> ls_brac rs_brac</td>
+<td nowrap>reduce lset_constructor -> ls_brac rs_brac</td>
+<td nowrap>reduce lset_constructor -> ls_brac rs_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lset_constructor -> LS_BRAC RS_BRAC</td>
+<td nowrap>reduce lset_constructor -> ls_brac rs_brac</td>
+<td nowrap> </td>
+<td nowrap>reduce lset_constructor -> ls_brac rs_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lset_constructor -> LS_BRAC RS_BRAC</td>
-<td nowrap> </td>
-<td nowrap>reduce lset_constructor -> LS_BRAC RS_BRAC</td>
-<td nowrap>reduce lset_constructor -> LS_BRAC RS_BRAC</td>
-<td nowrap>reduce lset_constructor -> LS_BRAC RS_BRAC</td>
+<td nowrap>reduce lset_constructor -> ls_brac rs_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lset_constructor -> LS_BRAC RS_BRAC</td>
-<td nowrap>reduce lset_constructor -> LS_BRAC RS_BRAC</td>
-<td nowrap>reduce lset_constructor -> LS_BRAC RS_BRAC</td>
+<td nowrap>reduce lset_constructor -> ls_brac rs_brac</td>
+<td nowrap> </td>
+<td nowrap>reduce lset_constructor -> ls_brac rs_brac</td>
+<td nowrap>reduce lset_constructor -> ls_brac rs_brac</td>
+<td nowrap>reduce lset_constructor -> ls_brac rs_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lset_constructor -> LS_BRAC RS_BRAC</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lset_constructor -> LS_BRAC RS_BRAC</td>
+<td nowrap>reduce lset_constructor -> ls_brac rs_brac</td>
+<td nowrap>reduce lset_constructor -> ls_brac rs_brac</td>
+<td nowrap>reduce lset_constructor -> ls_brac rs_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lset_constructor -> LS_BRAC RS_BRAC</td>
-<td nowrap>reduce lset_constructor -> LS_BRAC RS_BRAC</td>
+<td nowrap>reduce lset_constructor -> ls_brac rs_brac</td>
 <td nowrap> </td>
-<td nowrap>reduce lset_constructor -> LS_BRAC RS_BRAC</td>
-<td nowrap>reduce lset_constructor -> LS_BRAC RS_BRAC</td>
-<td nowrap>reduce lset_constructor -> LS_BRAC RS_BRAC</td>
-<td nowrap>reduce lset_constructor -> LS_BRAC RS_BRAC</td>
-<td nowrap>reduce lset_constructor -> LS_BRAC RS_BRAC</td>
 <td nowrap> </td>
-<td nowrap>reduce lset_constructor -> LS_BRAC RS_BRAC</td>
+<td nowrap>reduce lset_constructor -> ls_brac rs_brac</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lset_constructor -> ls_brac rs_brac</td>
+<td nowrap>reduce lset_constructor -> ls_brac rs_brac</td>
+<td nowrap> </td>
+<td nowrap>reduce lset_constructor -> ls_brac rs_brac</td>
+<td nowrap>reduce lset_constructor -> ls_brac rs_brac</td>
+<td nowrap>reduce lset_constructor -> ls_brac rs_brac</td>
+<td nowrap>reduce lset_constructor -> ls_brac rs_brac</td>
+<td nowrap>reduce lset_constructor -> ls_brac rs_brac</td>
+<td nowrap> </td>
+<td nowrap>reduce lset_constructor -> ls_brac rs_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -65009,63 +65009,63 @@
 </tr>
 <tr>
 <td nowrap>329</td>
-<td nowrap>reduce lprimary -> NOT lprimary</td>
+<td nowrap>reduce lprimary -> not lprimary</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lprimary -> NOT lprimary</td>
-<td nowrap>reduce lprimary -> NOT lprimary</td>
+<td nowrap>reduce lprimary -> not lprimary</td>
+<td nowrap>reduce lprimary -> not lprimary</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lprimary -> NOT lprimary</td>
-<td nowrap>reduce lprimary -> NOT lprimary</td>
+<td nowrap>reduce lprimary -> not lprimary</td>
+<td nowrap>reduce lprimary -> not lprimary</td>
 <td nowrap> </td>
-<td nowrap>reduce lprimary -> NOT lprimary</td>
-<td nowrap>reduce lprimary -> NOT lprimary</td>
-<td nowrap>reduce lprimary -> NOT lprimary</td>
-<td nowrap>reduce lprimary -> NOT lprimary</td>
-<td nowrap>reduce lprimary -> NOT lprimary</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lprimary -> NOT lprimary</td>
-<td nowrap> </td>
-<td nowrap>reduce lprimary -> NOT lprimary</td>
+<td nowrap>reduce lprimary -> not lprimary</td>
+<td nowrap>reduce lprimary -> not lprimary</td>
+<td nowrap>reduce lprimary -> not lprimary</td>
+<td nowrap>reduce lprimary -> not lprimary</td>
+<td nowrap>reduce lprimary -> not lprimary</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lprimary -> NOT lprimary</td>
+<td nowrap>reduce lprimary -> not lprimary</td>
+<td nowrap> </td>
+<td nowrap>reduce lprimary -> not lprimary</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lprimary -> NOT lprimary</td>
-<td nowrap> </td>
-<td nowrap>reduce lprimary -> NOT lprimary</td>
-<td nowrap>reduce lprimary -> NOT lprimary</td>
-<td nowrap>reduce lprimary -> NOT lprimary</td>
+<td nowrap>reduce lprimary -> not lprimary</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lprimary -> NOT lprimary</td>
-<td nowrap>reduce lprimary -> NOT lprimary</td>
-<td nowrap>reduce lprimary -> NOT lprimary</td>
+<td nowrap>reduce lprimary -> not lprimary</td>
+<td nowrap> </td>
+<td nowrap>reduce lprimary -> not lprimary</td>
+<td nowrap>reduce lprimary -> not lprimary</td>
+<td nowrap>reduce lprimary -> not lprimary</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lprimary -> NOT lprimary</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lprimary -> NOT lprimary</td>
+<td nowrap>reduce lprimary -> not lprimary</td>
+<td nowrap>reduce lprimary -> not lprimary</td>
+<td nowrap>reduce lprimary -> not lprimary</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lprimary -> NOT lprimary</td>
-<td nowrap>reduce lprimary -> NOT lprimary</td>
+<td nowrap>reduce lprimary -> not lprimary</td>
 <td nowrap> </td>
-<td nowrap>reduce lprimary -> NOT lprimary</td>
-<td nowrap>reduce lprimary -> NOT lprimary</td>
-<td nowrap>reduce lprimary -> NOT lprimary</td>
-<td nowrap>reduce lprimary -> NOT lprimary</td>
-<td nowrap>reduce lprimary -> NOT lprimary</td>
 <td nowrap> </td>
-<td nowrap>reduce lprimary -> NOT lprimary</td>
+<td nowrap>reduce lprimary -> not lprimary</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lprimary -> not lprimary</td>
+<td nowrap>reduce lprimary -> not lprimary</td>
+<td nowrap> </td>
+<td nowrap>reduce lprimary -> not lprimary</td>
+<td nowrap>reduce lprimary -> not lprimary</td>
+<td nowrap>reduce lprimary -> not lprimary</td>
+<td nowrap>reduce lprimary -> not lprimary</td>
+<td nowrap>reduce lprimary -> not lprimary</td>
+<td nowrap> </td>
+<td nowrap>reduce lprimary -> not lprimary</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -66393,8 +66393,8 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce case_lconstant -> lconstant RANGE lconstant</td>
-<td nowrap>reduce case_lconstant -> lconstant RANGE lconstant</td>
+<td nowrap>reduce case_lconstant -> lconstant range lconstant</td>
+<td nowrap>reduce case_lconstant -> lconstant range lconstant</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -67570,63 +67570,63 @@
 </tr>
 <tr>
 <td nowrap>342</td>
-<td nowrap>reduce lparams -> LR_BRAC llactual_parameter_list RR_BRAC</td>
+<td nowrap>reduce lparams -> lr_brac llactual_parameter_list rr_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lparams -> LR_BRAC llactual_parameter_list RR_BRAC</td>
-<td nowrap>reduce lparams -> LR_BRAC llactual_parameter_list RR_BRAC</td>
+<td nowrap>reduce lparams -> lr_brac llactual_parameter_list rr_brac</td>
+<td nowrap>reduce lparams -> lr_brac llactual_parameter_list rr_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lparams -> LR_BRAC llactual_parameter_list RR_BRAC</td>
-<td nowrap>reduce lparams -> LR_BRAC llactual_parameter_list RR_BRAC</td>
+<td nowrap>reduce lparams -> lr_brac llactual_parameter_list rr_brac</td>
+<td nowrap>reduce lparams -> lr_brac llactual_parameter_list rr_brac</td>
 <td nowrap> </td>
-<td nowrap>reduce lparams -> LR_BRAC llactual_parameter_list RR_BRAC</td>
-<td nowrap>reduce lparams -> LR_BRAC llactual_parameter_list RR_BRAC</td>
-<td nowrap>reduce lparams -> LR_BRAC llactual_parameter_list RR_BRAC</td>
-<td nowrap>reduce lparams -> LR_BRAC llactual_parameter_list RR_BRAC</td>
-<td nowrap>reduce lparams -> LR_BRAC llactual_parameter_list RR_BRAC</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lparams -> LR_BRAC llactual_parameter_list RR_BRAC</td>
-<td nowrap> </td>
-<td nowrap>reduce lparams -> LR_BRAC llactual_parameter_list RR_BRAC</td>
+<td nowrap>reduce lparams -> lr_brac llactual_parameter_list rr_brac</td>
+<td nowrap>reduce lparams -> lr_brac llactual_parameter_list rr_brac</td>
+<td nowrap>reduce lparams -> lr_brac llactual_parameter_list rr_brac</td>
+<td nowrap>reduce lparams -> lr_brac llactual_parameter_list rr_brac</td>
+<td nowrap>reduce lparams -> lr_brac llactual_parameter_list rr_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lparams -> LR_BRAC llactual_parameter_list RR_BRAC</td>
+<td nowrap>reduce lparams -> lr_brac llactual_parameter_list rr_brac</td>
+<td nowrap> </td>
+<td nowrap>reduce lparams -> lr_brac llactual_parameter_list rr_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lparams -> LR_BRAC llactual_parameter_list RR_BRAC</td>
-<td nowrap> </td>
-<td nowrap>reduce lparams -> LR_BRAC llactual_parameter_list RR_BRAC</td>
-<td nowrap>reduce lparams -> LR_BRAC llactual_parameter_list RR_BRAC</td>
-<td nowrap>reduce lparams -> LR_BRAC llactual_parameter_list RR_BRAC</td>
+<td nowrap>reduce lparams -> lr_brac llactual_parameter_list rr_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lparams -> LR_BRAC llactual_parameter_list RR_BRAC</td>
-<td nowrap>reduce lparams -> LR_BRAC llactual_parameter_list RR_BRAC</td>
-<td nowrap>reduce lparams -> LR_BRAC llactual_parameter_list RR_BRAC</td>
+<td nowrap>reduce lparams -> lr_brac llactual_parameter_list rr_brac</td>
+<td nowrap> </td>
+<td nowrap>reduce lparams -> lr_brac llactual_parameter_list rr_brac</td>
+<td nowrap>reduce lparams -> lr_brac llactual_parameter_list rr_brac</td>
+<td nowrap>reduce lparams -> lr_brac llactual_parameter_list rr_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lparams -> LR_BRAC llactual_parameter_list RR_BRAC</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lparams -> LR_BRAC llactual_parameter_list RR_BRAC</td>
+<td nowrap>reduce lparams -> lr_brac llactual_parameter_list rr_brac</td>
+<td nowrap>reduce lparams -> lr_brac llactual_parameter_list rr_brac</td>
+<td nowrap>reduce lparams -> lr_brac llactual_parameter_list rr_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lparams -> LR_BRAC llactual_parameter_list RR_BRAC</td>
-<td nowrap>reduce lparams -> LR_BRAC llactual_parameter_list RR_BRAC</td>
+<td nowrap>reduce lparams -> lr_brac llactual_parameter_list rr_brac</td>
 <td nowrap> </td>
-<td nowrap>reduce lparams -> LR_BRAC llactual_parameter_list RR_BRAC</td>
-<td nowrap>reduce lparams -> LR_BRAC llactual_parameter_list RR_BRAC</td>
-<td nowrap>reduce lparams -> LR_BRAC llactual_parameter_list RR_BRAC</td>
-<td nowrap>reduce lparams -> LR_BRAC llactual_parameter_list RR_BRAC</td>
-<td nowrap>reduce lparams -> LR_BRAC llactual_parameter_list RR_BRAC</td>
 <td nowrap> </td>
-<td nowrap>reduce lparams -> LR_BRAC llactual_parameter_list RR_BRAC</td>
+<td nowrap>reduce lparams -> lr_brac llactual_parameter_list rr_brac</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lparams -> lr_brac llactual_parameter_list rr_brac</td>
+<td nowrap>reduce lparams -> lr_brac llactual_parameter_list rr_brac</td>
+<td nowrap> </td>
+<td nowrap>reduce lparams -> lr_brac llactual_parameter_list rr_brac</td>
+<td nowrap>reduce lparams -> lr_brac llactual_parameter_list rr_brac</td>
+<td nowrap>reduce lparams -> lr_brac llactual_parameter_list rr_brac</td>
+<td nowrap>reduce lparams -> lr_brac llactual_parameter_list rr_brac</td>
+<td nowrap>reduce lparams -> lr_brac llactual_parameter_list rr_brac</td>
+<td nowrap> </td>
+<td nowrap>reduce lparams -> lr_brac llactual_parameter_list rr_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -67964,64 +67964,64 @@
 </tr>
 <tr>
 <td nowrap>344</td>
-<td nowrap>reduce lindexed_variable -> lvariable_access LS_BRAC index_lexpression_list RS_BRAC</td>
+<td nowrap>reduce lindexed_variable -> lvariable_access ls_brac index_lexpression_list rs_brac</td>
 <td nowrap> </td>
-<td nowrap>reduce lindexed_variable -> lvariable_access LS_BRAC index_lexpression_list RS_BRAC</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lindexed_variable -> lvariable_access LS_BRAC index_lexpression_list RS_BRAC</td>
-<td nowrap>reduce lindexed_variable -> lvariable_access LS_BRAC index_lexpression_list RS_BRAC</td>
+<td nowrap>reduce lindexed_variable -> lvariable_access ls_brac index_lexpression_list rs_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lindexed_variable -> lvariable_access LS_BRAC index_lexpression_list RS_BRAC</td>
-<td nowrap>reduce lindexed_variable -> lvariable_access LS_BRAC index_lexpression_list RS_BRAC</td>
-<td nowrap>reduce lindexed_variable -> lvariable_access LS_BRAC index_lexpression_list RS_BRAC</td>
-<td nowrap>reduce lindexed_variable -> lvariable_access LS_BRAC index_lexpression_list RS_BRAC</td>
-<td nowrap>reduce lindexed_variable -> lvariable_access LS_BRAC index_lexpression_list RS_BRAC</td>
-<td nowrap>reduce lindexed_variable -> lvariable_access LS_BRAC index_lexpression_list RS_BRAC</td>
-<td nowrap>reduce lindexed_variable -> lvariable_access LS_BRAC index_lexpression_list RS_BRAC</td>
-<td nowrap>reduce lindexed_variable -> lvariable_access LS_BRAC index_lexpression_list RS_BRAC</td>
+<td nowrap>reduce lindexed_variable -> lvariable_access ls_brac index_lexpression_list rs_brac</td>
+<td nowrap>reduce lindexed_variable -> lvariable_access ls_brac index_lexpression_list rs_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lindexed_variable -> lvariable_access LS_BRAC index_lexpression_list RS_BRAC</td>
-<td nowrap> </td>
-<td nowrap>reduce lindexed_variable -> lvariable_access LS_BRAC index_lexpression_list RS_BRAC</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lindexed_variable -> lvariable_access LS_BRAC index_lexpression_list RS_BRAC</td>
-<td nowrap> </td>
-<td nowrap>reduce lindexed_variable -> lvariable_access LS_BRAC index_lexpression_list RS_BRAC</td>
-<td nowrap>reduce lindexed_variable -> lvariable_access LS_BRAC index_lexpression_list RS_BRAC</td>
-<td nowrap> </td>
-<td nowrap>reduce lindexed_variable -> lvariable_access LS_BRAC index_lexpression_list RS_BRAC</td>
-<td nowrap>reduce lindexed_variable -> lvariable_access LS_BRAC index_lexpression_list RS_BRAC</td>
-<td nowrap>reduce lindexed_variable -> lvariable_access LS_BRAC index_lexpression_list RS_BRAC</td>
+<td nowrap>reduce lindexed_variable -> lvariable_access ls_brac index_lexpression_list rs_brac</td>
+<td nowrap>reduce lindexed_variable -> lvariable_access ls_brac index_lexpression_list rs_brac</td>
+<td nowrap>reduce lindexed_variable -> lvariable_access ls_brac index_lexpression_list rs_brac</td>
+<td nowrap>reduce lindexed_variable -> lvariable_access ls_brac index_lexpression_list rs_brac</td>
+<td nowrap>reduce lindexed_variable -> lvariable_access ls_brac index_lexpression_list rs_brac</td>
+<td nowrap>reduce lindexed_variable -> lvariable_access ls_brac index_lexpression_list rs_brac</td>
+<td nowrap>reduce lindexed_variable -> lvariable_access ls_brac index_lexpression_list rs_brac</td>
+<td nowrap>reduce lindexed_variable -> lvariable_access ls_brac index_lexpression_list rs_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lindexed_variable -> lvariable_access LS_BRAC index_lexpression_list RS_BRAC</td>
-<td nowrap>reduce lindexed_variable -> lvariable_access LS_BRAC index_lexpression_list RS_BRAC</td>
-<td nowrap>reduce lindexed_variable -> lvariable_access LS_BRAC index_lexpression_list RS_BRAC</td>
+<td nowrap>reduce lindexed_variable -> lvariable_access ls_brac index_lexpression_list rs_brac</td>
+<td nowrap> </td>
+<td nowrap>reduce lindexed_variable -> lvariable_access ls_brac index_lexpression_list rs_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
+<td nowrap>reduce lindexed_variable -> lvariable_access ls_brac index_lexpression_list rs_brac</td>
 <td nowrap> </td>
-<td nowrap>reduce lindexed_variable -> lvariable_access LS_BRAC index_lexpression_list RS_BRAC</td>
+<td nowrap>reduce lindexed_variable -> lvariable_access ls_brac index_lexpression_list rs_brac</td>
+<td nowrap>reduce lindexed_variable -> lvariable_access ls_brac index_lexpression_list rs_brac</td>
+<td nowrap> </td>
+<td nowrap>reduce lindexed_variable -> lvariable_access ls_brac index_lexpression_list rs_brac</td>
+<td nowrap>reduce lindexed_variable -> lvariable_access ls_brac index_lexpression_list rs_brac</td>
+<td nowrap>reduce lindexed_variable -> lvariable_access ls_brac index_lexpression_list rs_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lindexed_variable -> lvariable_access LS_BRAC index_lexpression_list RS_BRAC</td>
+<td nowrap>reduce lindexed_variable -> lvariable_access ls_brac index_lexpression_list rs_brac</td>
+<td nowrap>reduce lindexed_variable -> lvariable_access ls_brac index_lexpression_list rs_brac</td>
+<td nowrap>reduce lindexed_variable -> lvariable_access ls_brac index_lexpression_list rs_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lindexed_variable -> lvariable_access LS_BRAC index_lexpression_list RS_BRAC</td>
-<td nowrap>reduce lindexed_variable -> lvariable_access LS_BRAC index_lexpression_list RS_BRAC</td>
+<td nowrap>reduce lindexed_variable -> lvariable_access ls_brac index_lexpression_list rs_brac</td>
 <td nowrap> </td>
-<td nowrap>reduce lindexed_variable -> lvariable_access LS_BRAC index_lexpression_list RS_BRAC</td>
-<td nowrap>reduce lindexed_variable -> lvariable_access LS_BRAC index_lexpression_list RS_BRAC</td>
-<td nowrap>reduce lindexed_variable -> lvariable_access LS_BRAC index_lexpression_list RS_BRAC</td>
-<td nowrap>reduce lindexed_variable -> lvariable_access LS_BRAC index_lexpression_list RS_BRAC</td>
-<td nowrap>reduce lindexed_variable -> lvariable_access LS_BRAC index_lexpression_list RS_BRAC</td>
 <td nowrap> </td>
-<td nowrap>reduce lindexed_variable -> lvariable_access LS_BRAC index_lexpression_list RS_BRAC</td>
-<td nowrap>reduce lindexed_variable -> lvariable_access LS_BRAC index_lexpression_list RS_BRAC</td>
+<td nowrap>reduce lindexed_variable -> lvariable_access ls_brac index_lexpression_list rs_brac</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lindexed_variable -> lvariable_access ls_brac index_lexpression_list rs_brac</td>
+<td nowrap>reduce lindexed_variable -> lvariable_access ls_brac index_lexpression_list rs_brac</td>
+<td nowrap> </td>
+<td nowrap>reduce lindexed_variable -> lvariable_access ls_brac index_lexpression_list rs_brac</td>
+<td nowrap>reduce lindexed_variable -> lvariable_access ls_brac index_lexpression_list rs_brac</td>
+<td nowrap>reduce lindexed_variable -> lvariable_access ls_brac index_lexpression_list rs_brac</td>
+<td nowrap>reduce lindexed_variable -> lvariable_access ls_brac index_lexpression_list rs_brac</td>
+<td nowrap>reduce lindexed_variable -> lvariable_access ls_brac index_lexpression_list rs_brac</td>
+<td nowrap> </td>
+<td nowrap>reduce lindexed_variable -> lvariable_access ls_brac index_lexpression_list rs_brac</td>
+<td nowrap>reduce lindexed_variable -> lvariable_access ls_brac index_lexpression_list rs_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -69343,63 +69343,63 @@
 </tr>
 <tr>
 <td nowrap>351</td>
-<td nowrap>reduce lexponentiation -> lprimary EXP lexponentiation</td>
+<td nowrap>reduce lexponentiation -> lprimary exp lexponentiation</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lexponentiation -> lprimary EXP lexponentiation</td>
-<td nowrap>reduce lexponentiation -> lprimary EXP lexponentiation</td>
+<td nowrap>reduce lexponentiation -> lprimary exp lexponentiation</td>
+<td nowrap>reduce lexponentiation -> lprimary exp lexponentiation</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lexponentiation -> lprimary EXP lexponentiation</td>
-<td nowrap>reduce lexponentiation -> lprimary EXP lexponentiation</td>
+<td nowrap>reduce lexponentiation -> lprimary exp lexponentiation</td>
+<td nowrap>reduce lexponentiation -> lprimary exp lexponentiation</td>
 <td nowrap> </td>
-<td nowrap>reduce lexponentiation -> lprimary EXP lexponentiation</td>
-<td nowrap>reduce lexponentiation -> lprimary EXP lexponentiation</td>
-<td nowrap>reduce lexponentiation -> lprimary EXP lexponentiation</td>
-<td nowrap>reduce lexponentiation -> lprimary EXP lexponentiation</td>
-<td nowrap>reduce lexponentiation -> lprimary EXP lexponentiation</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lexponentiation -> lprimary EXP lexponentiation</td>
-<td nowrap> </td>
-<td nowrap>reduce lexponentiation -> lprimary EXP lexponentiation</td>
+<td nowrap>reduce lexponentiation -> lprimary exp lexponentiation</td>
+<td nowrap>reduce lexponentiation -> lprimary exp lexponentiation</td>
+<td nowrap>reduce lexponentiation -> lprimary exp lexponentiation</td>
+<td nowrap>reduce lexponentiation -> lprimary exp lexponentiation</td>
+<td nowrap>reduce lexponentiation -> lprimary exp lexponentiation</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lexponentiation -> lprimary EXP lexponentiation</td>
+<td nowrap>reduce lexponentiation -> lprimary exp lexponentiation</td>
+<td nowrap> </td>
+<td nowrap>reduce lexponentiation -> lprimary exp lexponentiation</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lexponentiation -> lprimary EXP lexponentiation</td>
-<td nowrap> </td>
-<td nowrap>reduce lexponentiation -> lprimary EXP lexponentiation</td>
-<td nowrap>reduce lexponentiation -> lprimary EXP lexponentiation</td>
-<td nowrap>reduce lexponentiation -> lprimary EXP lexponentiation</td>
+<td nowrap>reduce lexponentiation -> lprimary exp lexponentiation</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lexponentiation -> lprimary EXP lexponentiation</td>
-<td nowrap>reduce lexponentiation -> lprimary EXP lexponentiation</td>
-<td nowrap>reduce lexponentiation -> lprimary EXP lexponentiation</td>
+<td nowrap>reduce lexponentiation -> lprimary exp lexponentiation</td>
+<td nowrap> </td>
+<td nowrap>reduce lexponentiation -> lprimary exp lexponentiation</td>
+<td nowrap>reduce lexponentiation -> lprimary exp lexponentiation</td>
+<td nowrap>reduce lexponentiation -> lprimary exp lexponentiation</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lexponentiation -> lprimary EXP lexponentiation</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lexponentiation -> lprimary EXP lexponentiation</td>
+<td nowrap>reduce lexponentiation -> lprimary exp lexponentiation</td>
+<td nowrap>reduce lexponentiation -> lprimary exp lexponentiation</td>
+<td nowrap>reduce lexponentiation -> lprimary exp lexponentiation</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lexponentiation -> lprimary EXP lexponentiation</td>
-<td nowrap>reduce lexponentiation -> lprimary EXP lexponentiation</td>
+<td nowrap>reduce lexponentiation -> lprimary exp lexponentiation</td>
 <td nowrap> </td>
-<td nowrap>reduce lexponentiation -> lprimary EXP lexponentiation</td>
-<td nowrap>reduce lexponentiation -> lprimary EXP lexponentiation</td>
 <td nowrap> </td>
-<td nowrap>reduce lexponentiation -> lprimary EXP lexponentiation</td>
-<td nowrap>reduce lexponentiation -> lprimary EXP lexponentiation</td>
+<td nowrap>reduce lexponentiation -> lprimary exp lexponentiation</td>
 <td nowrap> </td>
-<td nowrap>reduce lexponentiation -> lprimary EXP lexponentiation</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lexponentiation -> lprimary exp lexponentiation</td>
+<td nowrap>reduce lexponentiation -> lprimary exp lexponentiation</td>
+<td nowrap> </td>
+<td nowrap>reduce lexponentiation -> lprimary exp lexponentiation</td>
+<td nowrap>reduce lexponentiation -> lprimary exp lexponentiation</td>
+<td nowrap> </td>
+<td nowrap>reduce lexponentiation -> lprimary exp lexponentiation</td>
+<td nowrap>reduce lexponentiation -> lprimary exp lexponentiation</td>
+<td nowrap> </td>
+<td nowrap>reduce lexponentiation -> lprimary exp lexponentiation</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -69737,63 +69737,63 @@
 </tr>
 <tr>
 <td nowrap>353</td>
-<td nowrap>reduce lset_constructor -> LS_BRAC member_delsignator_list RS_BRAC</td>
+<td nowrap>reduce lset_constructor -> ls_brac member_delsignator_list rs_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lset_constructor -> LS_BRAC member_delsignator_list RS_BRAC</td>
-<td nowrap>reduce lset_constructor -> LS_BRAC member_delsignator_list RS_BRAC</td>
+<td nowrap>reduce lset_constructor -> ls_brac member_delsignator_list rs_brac</td>
+<td nowrap>reduce lset_constructor -> ls_brac member_delsignator_list rs_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lset_constructor -> LS_BRAC member_delsignator_list RS_BRAC</td>
-<td nowrap>reduce lset_constructor -> LS_BRAC member_delsignator_list RS_BRAC</td>
+<td nowrap>reduce lset_constructor -> ls_brac member_delsignator_list rs_brac</td>
+<td nowrap>reduce lset_constructor -> ls_brac member_delsignator_list rs_brac</td>
 <td nowrap> </td>
-<td nowrap>reduce lset_constructor -> LS_BRAC member_delsignator_list RS_BRAC</td>
-<td nowrap>reduce lset_constructor -> LS_BRAC member_delsignator_list RS_BRAC</td>
-<td nowrap>reduce lset_constructor -> LS_BRAC member_delsignator_list RS_BRAC</td>
-<td nowrap>reduce lset_constructor -> LS_BRAC member_delsignator_list RS_BRAC</td>
-<td nowrap>reduce lset_constructor -> LS_BRAC member_delsignator_list RS_BRAC</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lset_constructor -> LS_BRAC member_delsignator_list RS_BRAC</td>
-<td nowrap> </td>
-<td nowrap>reduce lset_constructor -> LS_BRAC member_delsignator_list RS_BRAC</td>
+<td nowrap>reduce lset_constructor -> ls_brac member_delsignator_list rs_brac</td>
+<td nowrap>reduce lset_constructor -> ls_brac member_delsignator_list rs_brac</td>
+<td nowrap>reduce lset_constructor -> ls_brac member_delsignator_list rs_brac</td>
+<td nowrap>reduce lset_constructor -> ls_brac member_delsignator_list rs_brac</td>
+<td nowrap>reduce lset_constructor -> ls_brac member_delsignator_list rs_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lset_constructor -> LS_BRAC member_delsignator_list RS_BRAC</td>
+<td nowrap>reduce lset_constructor -> ls_brac member_delsignator_list rs_brac</td>
+<td nowrap> </td>
+<td nowrap>reduce lset_constructor -> ls_brac member_delsignator_list rs_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lset_constructor -> LS_BRAC member_delsignator_list RS_BRAC</td>
-<td nowrap> </td>
-<td nowrap>reduce lset_constructor -> LS_BRAC member_delsignator_list RS_BRAC</td>
-<td nowrap>reduce lset_constructor -> LS_BRAC member_delsignator_list RS_BRAC</td>
-<td nowrap>reduce lset_constructor -> LS_BRAC member_delsignator_list RS_BRAC</td>
+<td nowrap>reduce lset_constructor -> ls_brac member_delsignator_list rs_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lset_constructor -> LS_BRAC member_delsignator_list RS_BRAC</td>
-<td nowrap>reduce lset_constructor -> LS_BRAC member_delsignator_list RS_BRAC</td>
-<td nowrap>reduce lset_constructor -> LS_BRAC member_delsignator_list RS_BRAC</td>
+<td nowrap>reduce lset_constructor -> ls_brac member_delsignator_list rs_brac</td>
+<td nowrap> </td>
+<td nowrap>reduce lset_constructor -> ls_brac member_delsignator_list rs_brac</td>
+<td nowrap>reduce lset_constructor -> ls_brac member_delsignator_list rs_brac</td>
+<td nowrap>reduce lset_constructor -> ls_brac member_delsignator_list rs_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lset_constructor -> LS_BRAC member_delsignator_list RS_BRAC</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lset_constructor -> LS_BRAC member_delsignator_list RS_BRAC</td>
+<td nowrap>reduce lset_constructor -> ls_brac member_delsignator_list rs_brac</td>
+<td nowrap>reduce lset_constructor -> ls_brac member_delsignator_list rs_brac</td>
+<td nowrap>reduce lset_constructor -> ls_brac member_delsignator_list rs_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lset_constructor -> LS_BRAC member_delsignator_list RS_BRAC</td>
-<td nowrap>reduce lset_constructor -> LS_BRAC member_delsignator_list RS_BRAC</td>
+<td nowrap>reduce lset_constructor -> ls_brac member_delsignator_list rs_brac</td>
 <td nowrap> </td>
-<td nowrap>reduce lset_constructor -> LS_BRAC member_delsignator_list RS_BRAC</td>
-<td nowrap>reduce lset_constructor -> LS_BRAC member_delsignator_list RS_BRAC</td>
-<td nowrap>reduce lset_constructor -> LS_BRAC member_delsignator_list RS_BRAC</td>
-<td nowrap>reduce lset_constructor -> LS_BRAC member_delsignator_list RS_BRAC</td>
-<td nowrap>reduce lset_constructor -> LS_BRAC member_delsignator_list RS_BRAC</td>
 <td nowrap> </td>
-<td nowrap>reduce lset_constructor -> LS_BRAC member_delsignator_list RS_BRAC</td>
+<td nowrap>reduce lset_constructor -> ls_brac member_delsignator_list rs_brac</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lset_constructor -> ls_brac member_delsignator_list rs_brac</td>
+<td nowrap>reduce lset_constructor -> ls_brac member_delsignator_list rs_brac</td>
+<td nowrap> </td>
+<td nowrap>reduce lset_constructor -> ls_brac member_delsignator_list rs_brac</td>
+<td nowrap>reduce lset_constructor -> ls_brac member_delsignator_list rs_brac</td>
+<td nowrap>reduce lset_constructor -> ls_brac member_delsignator_list rs_brac</td>
+<td nowrap>reduce lset_constructor -> ls_brac member_delsignator_list rs_brac</td>
+<td nowrap>reduce lset_constructor -> ls_brac member_delsignator_list rs_brac</td>
+<td nowrap> </td>
+<td nowrap>reduce lset_constructor -> ls_brac member_delsignator_list rs_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -70131,63 +70131,63 @@
 </tr>
 <tr>
 <td nowrap>355</td>
-<td nowrap>reduce lprimary -> LR_BRAC lexpression RR_BRAC</td>
+<td nowrap>reduce lprimary -> lr_brac lexpression rr_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lprimary -> LR_BRAC lexpression RR_BRAC</td>
-<td nowrap>reduce lprimary -> LR_BRAC lexpression RR_BRAC</td>
+<td nowrap>reduce lprimary -> lr_brac lexpression rr_brac</td>
+<td nowrap>reduce lprimary -> lr_brac lexpression rr_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lprimary -> LR_BRAC lexpression RR_BRAC</td>
-<td nowrap>reduce lprimary -> LR_BRAC lexpression RR_BRAC</td>
+<td nowrap>reduce lprimary -> lr_brac lexpression rr_brac</td>
+<td nowrap>reduce lprimary -> lr_brac lexpression rr_brac</td>
 <td nowrap> </td>
-<td nowrap>reduce lprimary -> LR_BRAC lexpression RR_BRAC</td>
-<td nowrap>reduce lprimary -> LR_BRAC lexpression RR_BRAC</td>
-<td nowrap>reduce lprimary -> LR_BRAC lexpression RR_BRAC</td>
-<td nowrap>reduce lprimary -> LR_BRAC lexpression RR_BRAC</td>
-<td nowrap>reduce lprimary -> LR_BRAC lexpression RR_BRAC</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lprimary -> LR_BRAC lexpression RR_BRAC</td>
-<td nowrap> </td>
-<td nowrap>reduce lprimary -> LR_BRAC lexpression RR_BRAC</td>
+<td nowrap>reduce lprimary -> lr_brac lexpression rr_brac</td>
+<td nowrap>reduce lprimary -> lr_brac lexpression rr_brac</td>
+<td nowrap>reduce lprimary -> lr_brac lexpression rr_brac</td>
+<td nowrap>reduce lprimary -> lr_brac lexpression rr_brac</td>
+<td nowrap>reduce lprimary -> lr_brac lexpression rr_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lprimary -> LR_BRAC lexpression RR_BRAC</td>
+<td nowrap>reduce lprimary -> lr_brac lexpression rr_brac</td>
+<td nowrap> </td>
+<td nowrap>reduce lprimary -> lr_brac lexpression rr_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lprimary -> LR_BRAC lexpression RR_BRAC</td>
-<td nowrap> </td>
-<td nowrap>reduce lprimary -> LR_BRAC lexpression RR_BRAC</td>
-<td nowrap>reduce lprimary -> LR_BRAC lexpression RR_BRAC</td>
-<td nowrap>reduce lprimary -> LR_BRAC lexpression RR_BRAC</td>
+<td nowrap>reduce lprimary -> lr_brac lexpression rr_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lprimary -> LR_BRAC lexpression RR_BRAC</td>
-<td nowrap>reduce lprimary -> LR_BRAC lexpression RR_BRAC</td>
-<td nowrap>reduce lprimary -> LR_BRAC lexpression RR_BRAC</td>
+<td nowrap>reduce lprimary -> lr_brac lexpression rr_brac</td>
+<td nowrap> </td>
+<td nowrap>reduce lprimary -> lr_brac lexpression rr_brac</td>
+<td nowrap>reduce lprimary -> lr_brac lexpression rr_brac</td>
+<td nowrap>reduce lprimary -> lr_brac lexpression rr_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lprimary -> LR_BRAC lexpression RR_BRAC</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce lprimary -> LR_BRAC lexpression RR_BRAC</td>
+<td nowrap>reduce lprimary -> lr_brac lexpression rr_brac</td>
+<td nowrap>reduce lprimary -> lr_brac lexpression rr_brac</td>
+<td nowrap>reduce lprimary -> lr_brac lexpression rr_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lprimary -> LR_BRAC lexpression RR_BRAC</td>
-<td nowrap>reduce lprimary -> LR_BRAC lexpression RR_BRAC</td>
+<td nowrap>reduce lprimary -> lr_brac lexpression rr_brac</td>
 <td nowrap> </td>
-<td nowrap>reduce lprimary -> LR_BRAC lexpression RR_BRAC</td>
-<td nowrap>reduce lprimary -> LR_BRAC lexpression RR_BRAC</td>
-<td nowrap>reduce lprimary -> LR_BRAC lexpression RR_BRAC</td>
-<td nowrap>reduce lprimary -> LR_BRAC lexpression RR_BRAC</td>
-<td nowrap>reduce lprimary -> LR_BRAC lexpression RR_BRAC</td>
 <td nowrap> </td>
-<td nowrap>reduce lprimary -> LR_BRAC lexpression RR_BRAC</td>
+<td nowrap>reduce lprimary -> lr_brac lexpression rr_brac</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce lprimary -> lr_brac lexpression rr_brac</td>
+<td nowrap>reduce lprimary -> lr_brac lexpression rr_brac</td>
+<td nowrap> </td>
+<td nowrap>reduce lprimary -> lr_brac lexpression rr_brac</td>
+<td nowrap>reduce lprimary -> lr_brac lexpression rr_brac</td>
+<td nowrap>reduce lprimary -> lr_brac lexpression rr_brac</td>
+<td nowrap>reduce lprimary -> lr_brac lexpression rr_brac</td>
+<td nowrap>reduce lprimary -> lr_brac lexpression rr_brac</td>
+<td nowrap> </td>
+<td nowrap>reduce lprimary -> lr_brac lexpression rr_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -70737,7 +70737,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce open_if_lstatement -> IF lboolean_lexpression THEN lstatement</td>
+<td nowrap>reduce open_if_lstatement -> if lboolean_lexpression then lstatement</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -70770,7 +70770,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce open_if_lstatement -> IF lboolean_lexpression THEN lstatement</td>
+<td nowrap>reduce open_if_lstatement -> if lboolean_lexpression then lstatement</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -70778,7 +70778,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce open_if_lstatement -> IF lboolean_lexpression THEN lstatement</td>
+<td nowrap>reduce open_if_lstatement -> if lboolean_lexpression then lstatement</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -71130,8 +71130,8 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce repeat_lstatement -> REPEAT llstatement_sequence UNTIL lboolean_lexpression</td>
-<td nowrap>reduce repeat_lstatement -> REPEAT llstatement_sequence UNTIL lboolean_lexpression</td>
+<td nowrap>reduce repeat_lstatement -> repeat llstatement_sequence until lboolean_lexpression</td>
+<td nowrap>reduce repeat_lstatement -> repeat llstatement_sequence until lboolean_lexpression</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -71164,7 +71164,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce repeat_lstatement -> REPEAT llstatement_sequence UNTIL lboolean_lexpression</td>
+<td nowrap>reduce repeat_lstatement -> repeat llstatement_sequence until lboolean_lexpression</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -71172,7 +71172,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce repeat_lstatement -> REPEAT llstatement_sequence UNTIL lboolean_lexpression</td>
+<td nowrap>reduce repeat_lstatement -> repeat llstatement_sequence until lboolean_lexpression</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -71328,7 +71328,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce open_while_lstatement -> WHILE lboolean_lexpression DO open_lstatement</td>
+<td nowrap>reduce open_while_lstatement -> while lboolean_lexpression do open_lstatement</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -71361,7 +71361,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce open_while_lstatement -> WHILE lboolean_lexpression DO open_lstatement</td>
+<td nowrap>reduce open_while_lstatement -> while lboolean_lexpression do open_lstatement</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -71369,7 +71369,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce open_while_lstatement -> WHILE lboolean_lexpression DO open_lstatement</td>
+<td nowrap>reduce open_while_lstatement -> while lboolean_lexpression do open_lstatement</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -71524,8 +71524,8 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce closed_while_lstatement -> WHILE lboolean_lexpression DO closed_lstatement</td>
-<td nowrap>reduce closed_while_lstatement -> WHILE lboolean_lexpression DO closed_lstatement</td>
+<td nowrap>reduce closed_while_lstatement -> while lboolean_lexpression do closed_lstatement</td>
+<td nowrap>reduce closed_while_lstatement -> while lboolean_lexpression do closed_lstatement</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -71558,7 +71558,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce closed_while_lstatement -> WHILE lboolean_lexpression DO closed_lstatement</td>
+<td nowrap>reduce closed_while_lstatement -> while lboolean_lexpression do closed_lstatement</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -71566,7 +71566,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce closed_while_lstatement -> WHILE lboolean_lexpression DO closed_lstatement</td>
+<td nowrap>reduce closed_while_lstatement -> while lboolean_lexpression do closed_lstatement</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -71919,7 +71919,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce open_with_lstatement -> WITH lrecord_variable_list DO open_lstatement</td>
+<td nowrap>reduce open_with_lstatement -> with lrecord_variable_list do open_lstatement</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -71952,7 +71952,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce open_with_lstatement -> WITH lrecord_variable_list DO open_lstatement</td>
+<td nowrap>reduce open_with_lstatement -> with lrecord_variable_list do open_lstatement</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -71960,7 +71960,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce open_with_lstatement -> WITH lrecord_variable_list DO open_lstatement</td>
+<td nowrap>reduce open_with_lstatement -> with lrecord_variable_list do open_lstatement</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -72115,8 +72115,8 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce closed_with_lstatement -> WITH lrecord_variable_list DO closed_lstatement</td>
-<td nowrap>reduce closed_with_lstatement -> WITH lrecord_variable_list DO closed_lstatement</td>
+<td nowrap>reduce closed_with_lstatement -> with lrecord_variable_list do closed_lstatement</td>
+<td nowrap>reduce closed_with_lstatement -> with lrecord_variable_list do closed_lstatement</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -72149,7 +72149,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce closed_with_lstatement -> WITH lrecord_variable_list DO closed_lstatement</td>
+<td nowrap>reduce closed_with_lstatement -> with lrecord_variable_list do closed_lstatement</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -72157,7 +72157,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce closed_with_lstatement -> WITH lrecord_variable_list DO closed_lstatement</td>
+<td nowrap>reduce closed_with_lstatement -> with lrecord_variable_list do closed_lstatement</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -72698,7 +72698,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap>shift 384</td>
-<td nowrap>reduce lactual_parameter -> lexpression COLON lexpression</td>
+<td nowrap>reduce lactual_parameter -> lexpression colon lexpression</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -72739,7 +72739,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lactual_parameter -> lexpression COLON lexpression</td>
+<td nowrap>reduce lactual_parameter -> lexpression colon lexpression</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -73691,8 +73691,8 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce case_lstatement -> CASE lcase_index OF llcase_list_element_list END</td>
-<td nowrap>reduce case_lstatement -> CASE lcase_index OF llcase_list_element_list END</td>
+<td nowrap>reduce case_lstatement -> case lcase_index of llcase_list_element_list end</td>
+<td nowrap>reduce case_lstatement -> case lcase_index of llcase_list_element_list end</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -73725,7 +73725,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce case_lstatement -> CASE lcase_index OF llcase_list_element_list END</td>
+<td nowrap>reduce case_lstatement -> case lcase_index of llcase_list_element_list end</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -73733,7 +73733,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce case_lstatement -> CASE lcase_index OF llcase_list_element_list END</td>
+<td nowrap>reduce case_lstatement -> case lcase_index of llcase_list_element_list end</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -73878,11 +73878,11 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lsemicolon -> SEMIC</td>
+<td nowrap>reduce lsemicolon -> semic</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lsemicolon -> SEMIC</td>
+<td nowrap>reduce lsemicolon -> semic</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -73896,7 +73896,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lsemicolon -> SEMIC</td>
+<td nowrap>reduce lsemicolon -> semic</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -73904,7 +73904,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lsemicolon -> SEMIC</td>
+<td nowrap>reduce lsemicolon -> semic</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -73914,11 +73914,11 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lsemicolon -> SEMIC</td>
+<td nowrap>reduce lsemicolon -> semic</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lsemicolon -> SEMIC</td>
+<td nowrap>reduce lsemicolon -> semic</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -74274,19 +74274,13 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce member_delsignator -> member_delsignator RANGE lexpression</td>
+<td nowrap>reduce member_delsignator -> member_delsignator range lexpression</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce member_delsignator -> member_delsignator RANGE lexpression</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
+<td nowrap>reduce member_delsignator -> member_delsignator range lexpression</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -74311,7 +74305,13 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce member_delsignator -> member_delsignator RANGE lexpression</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce member_delsignator -> member_delsignator range lexpression</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -74666,15 +74666,11 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce ldirection -> DOWNTO</td>
+<td nowrap>reduce ldirection -> downto</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce ldirection -> DOWNTO</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
+<td nowrap>reduce ldirection -> downto</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -74684,29 +74680,33 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce ldirection -> DOWNTO</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce ldirection -> DOWNTO</td>
-<td nowrap> </td>
-<td nowrap>reduce ldirection -> DOWNTO</td>
-<td nowrap> </td>
-<td nowrap>reduce ldirection -> DOWNTO</td>
-<td nowrap> </td>
-<td nowrap>reduce ldirection -> DOWNTO</td>
-<td nowrap>reduce ldirection -> DOWNTO</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce ldirection -> DOWNTO</td>
+<td nowrap>reduce ldirection -> downto</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce ldirection -> DOWNTO</td>
+<td nowrap>reduce ldirection -> downto</td>
+<td nowrap> </td>
+<td nowrap>reduce ldirection -> downto</td>
+<td nowrap> </td>
+<td nowrap>reduce ldirection -> downto</td>
+<td nowrap> </td>
+<td nowrap>reduce ldirection -> downto</td>
+<td nowrap>reduce ldirection -> downto</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce ldirection -> downto</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce ldirection -> downto</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -74863,15 +74863,11 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce ldirection -> TO</td>
+<td nowrap>reduce ldirection -> to</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce ldirection -> TO</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
+<td nowrap>reduce ldirection -> to</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -74881,29 +74877,33 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce ldirection -> TO</td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce ldirection -> TO</td>
-<td nowrap> </td>
-<td nowrap>reduce ldirection -> TO</td>
-<td nowrap> </td>
-<td nowrap>reduce ldirection -> TO</td>
-<td nowrap> </td>
-<td nowrap>reduce ldirection -> TO</td>
-<td nowrap>reduce ldirection -> TO</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap> </td>
-<td nowrap> </td>
-<td nowrap>reduce ldirection -> TO</td>
+<td nowrap>reduce ldirection -> to</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce ldirection -> TO</td>
+<td nowrap>reduce ldirection -> to</td>
+<td nowrap> </td>
+<td nowrap>reduce ldirection -> to</td>
+<td nowrap> </td>
+<td nowrap>reduce ldirection -> to</td>
+<td nowrap> </td>
+<td nowrap>reduce ldirection -> to</td>
+<td nowrap>reduce ldirection -> to</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce ldirection -> to</td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap> </td>
+<td nowrap>reduce ldirection -> to</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -75465,7 +75465,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lvariant -> case_llconstant_list COLON LR_BRAC llrecord_section_list RR_BRAC</td>
+<td nowrap>reduce lvariant -> case_llconstant_list colon lr_brac llrecord_section_list rr_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -75497,8 +75497,8 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lvariant -> case_llconstant_list COLON LR_BRAC llrecord_section_list RR_BRAC</td>
-<td nowrap>reduce lvariant -> case_llconstant_list COLON LR_BRAC llrecord_section_list RR_BRAC</td>
+<td nowrap>reduce lvariant -> case_llconstant_list colon lr_brac llrecord_section_list rr_brac</td>
+<td nowrap>reduce lvariant -> case_llconstant_list colon lr_brac llrecord_section_list rr_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -75662,7 +75662,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lvariant -> case_llconstant_list COLON LR_BRAC llvariant_part RR_BRAC</td>
+<td nowrap>reduce lvariant -> case_llconstant_list colon lr_brac llvariant_part rr_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -75694,8 +75694,8 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lvariant -> case_llconstant_list COLON LR_BRAC llvariant_part RR_BRAC</td>
-<td nowrap>reduce lvariant -> case_llconstant_list COLON LR_BRAC llvariant_part RR_BRAC</td>
+<td nowrap>reduce lvariant -> case_llconstant_list colon lr_brac llvariant_part rr_brac</td>
+<td nowrap>reduce lvariant -> case_llconstant_list colon lr_brac llvariant_part rr_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -76056,7 +76056,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lcase_list_element -> case_llconstant_list COLON lstatement</td>
+<td nowrap>reduce lcase_list_element -> case_llconstant_list colon lstatement</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -76089,7 +76089,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lcase_list_element -> case_llconstant_list COLON lstatement</td>
+<td nowrap>reduce lcase_list_element -> case_llconstant_list colon lstatement</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -76449,8 +76449,8 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce case_lstatement -> CASE lcase_index OF llcase_list_element_list SEMIC END</td>
-<td nowrap>reduce case_lstatement -> CASE lcase_index OF llcase_list_element_list SEMIC END</td>
+<td nowrap>reduce case_lstatement -> case lcase_index of llcase_list_element_list semic end</td>
+<td nowrap>reduce case_lstatement -> case lcase_index of llcase_list_element_list semic end</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -76483,7 +76483,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce case_lstatement -> CASE lcase_index OF llcase_list_element_list SEMIC END</td>
+<td nowrap>reduce case_lstatement -> case lcase_index of llcase_list_element_list semic end</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -76491,7 +76491,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce case_lstatement -> CASE lcase_index OF llcase_list_element_list SEMIC END</td>
+<td nowrap>reduce case_lstatement -> case lcase_index of llcase_list_element_list semic end</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -77041,7 +77041,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce open_if_lstatement -> IF lboolean_lexpression THEN closed_lstatement ELSE open_lstatement</td>
+<td nowrap>reduce open_if_lstatement -> if lboolean_lexpression then closed_lstatement else open_lstatement</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -77074,7 +77074,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce open_if_lstatement -> IF lboolean_lexpression THEN closed_lstatement ELSE open_lstatement</td>
+<td nowrap>reduce open_if_lstatement -> if lboolean_lexpression then closed_lstatement else open_lstatement</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -77082,7 +77082,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce open_if_lstatement -> IF lboolean_lexpression THEN closed_lstatement ELSE open_lstatement</td>
+<td nowrap>reduce open_if_lstatement -> if lboolean_lexpression then closed_lstatement else open_lstatement</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -77237,8 +77237,8 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce closed_if_lstatement -> IF lboolean_lexpression THEN closed_lstatement ELSE closed_lstatement</td>
-<td nowrap>reduce closed_if_lstatement -> IF lboolean_lexpression THEN closed_lstatement ELSE closed_lstatement</td>
+<td nowrap>reduce closed_if_lstatement -> if lboolean_lexpression then closed_lstatement else closed_lstatement</td>
+<td nowrap>reduce closed_if_lstatement -> if lboolean_lexpression then closed_lstatement else closed_lstatement</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -77271,7 +77271,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce closed_if_lstatement -> IF lboolean_lexpression THEN closed_lstatement ELSE closed_lstatement</td>
+<td nowrap>reduce closed_if_lstatement -> if lboolean_lexpression then closed_lstatement else closed_lstatement</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -77279,7 +77279,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce closed_if_lstatement -> IF lboolean_lexpression THEN closed_lstatement ELSE closed_lstatement</td>
+<td nowrap>reduce closed_if_lstatement -> if lboolean_lexpression then closed_lstatement else closed_lstatement</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -77623,7 +77623,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lactual_parameter -> lexpression COLON lexpression COLON lexpression</td>
+<td nowrap>reduce lactual_parameter -> lexpression colon lexpression colon lexpression</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -77664,7 +77664,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lactual_parameter -> lexpression COLON lexpression COLON lexpression</td>
+<td nowrap>reduce lactual_parameter -> lexpression colon lexpression colon lexpression</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -78026,7 +78026,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lvariant -> case_llconstant_list COLON LR_BRAC llrecord_section_list lsemicolon llvariant_part RR_BRAC</td>
+<td nowrap>reduce lvariant -> case_llconstant_list colon lr_brac llrecord_section_list lsemicolon llvariant_part rr_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -78058,8 +78058,8 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce lvariant -> case_llconstant_list COLON LR_BRAC llrecord_section_list lsemicolon llvariant_part RR_BRAC</td>
-<td nowrap>reduce lvariant -> case_llconstant_list COLON LR_BRAC llrecord_section_list lsemicolon llvariant_part RR_BRAC</td>
+<td nowrap>reduce lvariant -> case_llconstant_list colon lr_brac llrecord_section_list lsemicolon llvariant_part rr_brac</td>
+<td nowrap>reduce lvariant -> case_llconstant_list colon lr_brac llrecord_section_list lsemicolon llvariant_part rr_brac</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -78223,7 +78223,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce open_for_lstatement -> FOR lcontrol_variable ASSIGN linitial_value ldirection lfinal_value DO open_lstatement</td>
+<td nowrap>reduce open_for_lstatement -> for lcontrol_variable assign linitial_value ldirection lfinal_value do open_lstatement</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -78256,7 +78256,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce open_for_lstatement -> FOR lcontrol_variable ASSIGN linitial_value ldirection lfinal_value DO open_lstatement</td>
+<td nowrap>reduce open_for_lstatement -> for lcontrol_variable assign linitial_value ldirection lfinal_value do open_lstatement</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -78264,7 +78264,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce open_for_lstatement -> FOR lcontrol_variable ASSIGN linitial_value ldirection lfinal_value DO open_lstatement</td>
+<td nowrap>reduce open_for_lstatement -> for lcontrol_variable assign linitial_value ldirection lfinal_value do open_lstatement</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -78419,8 +78419,8 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce closed_for_lstatement -> FOR lcontrol_variable ASSIGN linitial_value ldirection lfinal_value DO closed_lstatement</td>
-<td nowrap>reduce closed_for_lstatement -> FOR lcontrol_variable ASSIGN linitial_value ldirection lfinal_value DO closed_lstatement</td>
+<td nowrap>reduce closed_for_lstatement -> for lcontrol_variable assign linitial_value ldirection lfinal_value do closed_lstatement</td>
+<td nowrap>reduce closed_for_lstatement -> for lcontrol_variable assign linitial_value ldirection lfinal_value do closed_lstatement</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -78453,7 +78453,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce closed_for_lstatement -> FOR lcontrol_variable ASSIGN linitial_value ldirection lfinal_value DO closed_lstatement</td>
+<td nowrap>reduce closed_for_lstatement -> for lcontrol_variable assign linitial_value ldirection lfinal_value do closed_lstatement</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
@@ -78461,7 +78461,7 @@
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>
-<td nowrap>reduce closed_for_lstatement -> FOR lcontrol_variable ASSIGN linitial_value ldirection lfinal_value DO closed_lstatement</td>
+<td nowrap>reduce closed_for_lstatement -> for lcontrol_variable assign linitial_value ldirection lfinal_value do closed_lstatement</td>
 <td nowrap> </td>
 <td nowrap> </td>
 <td nowrap> </td>

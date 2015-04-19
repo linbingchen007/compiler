@@ -44,7 +44,7 @@ class Solution:
 prefix=''
 if os.name=='nt':
     prefix=os.path.abspath(os.path.join(os.path.dirname(__file__)))+'\\'
-with open(os.name=='nt' and prefix+"tab.txt" or "tab.txt",'r') as f:
+with open(os.name=='nt' and prefix+"lower_tab" or "lower_tab",'r') as f:
 	raw_str = f.read()
 	sol = Solution()
 	ans = sol.table_analyzer(raw_str)

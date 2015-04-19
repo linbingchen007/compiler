@@ -52,7 +52,7 @@ keywords = {
     r'[\s\t\n]*,': (52, 'COMMA'),
     r'[\s\t\n]*`': (53, 'P_MARK'),
     r'[\s\t\n]*\.\.': (55, 'RANGE'),
-    r'[\s\t\n]*\.': (54, 'F_STOP'),
+    r'[\s\t\n]*\.': (54, 'DOT'),
     r'[\s\t\n]*:=': (57, 'ASSIGN'),
     r'[\s\t\n]*:': (56, 'COLON'),
     r'[\s\t\n]*;': (58, 'SEMIC'),
@@ -119,7 +119,7 @@ class Solution:
             fg = False
             for keyword in keywords:
                 dupfg=(False,None,0)
-                if keywords[keyword][1]=='F_STOP':
+                if keywords[keyword][1]=='DOT':
                     re_res = re.match(r'[\s\t\n]*\.\.',t_str[i:])
                     if re_res:
                         dupfg=(True,'RANGE',len(re_res.group(0)))
