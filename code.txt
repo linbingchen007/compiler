@@ -1,5 +1,9 @@
 program p1(output) ;
-var h:integer ;
+var h,a:integer ;
+ b,c:float ;
 begin
-  h := (1+2) * 3+881
+  h := ((1+2) * 3+881 )/3 ;
+  a := h * 2 - 10 ;
+  h := h mod 10;
+  h := h ** 10 
 end.

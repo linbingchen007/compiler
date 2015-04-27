@@ -5,19 +5,18 @@ import os
 def iseql(prea,preb,posta,postb):
     return prea==preb and posta==postb
 
-def tokentonum(tokenx):
-    if(tokenx[0]=='INT'):
-        return int(tokenx[1])
-    elif (tokenx[0]=='REAL'):
-        return float(tokenx[1])
-    else:
-        print tokenx
-        pass #! ID
+
 def numtoken(res):
     if type(res)==type(1):
         return ('INT',res)
     else:
         return ('REAL',res)
+class Var():
+    def __init__(self,val,tp):
+        self.val=val
+        self.type=tp # 0 integer 1 float
+    def __unicode__(self):
+        return str(self.val)+','+str(self.type)
 class Parser():
 
     def __init__(self, intokens, parsetab,lexbuff):
@@ -29,22 +28,71 @@ class Parser():
         self.ans = []
         self.intokens = intokens
         self.intokens.append('$')
+        self.globevar={}
+
+    def tokentonum(self,tokenx):
+        if(tokenx[0]=='INT'):
+            return int(tokenx[1])
+        elif (tokenx[0]=='REAL'):
+            return float(tokenx[1])
+        elif (tokenx[0]=='ID'):
+            return self.globevar[tokenx[1]].val
+        else:
+            print tokenx
+            pass #! ID
+
     def semantic_analyze(self,pre,oripost,post):
         if oripost[0]!= '\xa6\xc5' and  len(oripost)==1:
             #print '*,*'
             return post[0]
         else:
             if iseql(pre,'simple_lexpression',oripost,['simple_lexpression', 'laddop', 'lterm']):
+                res=0
                 if post[1][0]=='PLUS':
-                    res = tokentonum(post[0])+tokentonum(post[2])
-                    return numtoken(res)                    
+                    res = self.tokentonum(post[0])+self.tokentonum(post[2])
+                elif post[1][0]=='MINUS':
+                    res = self.tokentonum(post[0])-self.tokentonum(post[2]) 
+                elif post[1][0]=='OR':
+                    res = self.tokentonum(post[0]) | self.tokentonum(post[2])  
+                return numtoken(res)   
                 #!!! MUL
             elif iseql(pre,'lprimary',oripost,['lr_brac', 'lexpression', 'rr_brac']):
                 return post[1]
             elif iseql(pre,'lterm',oripost,['lterm', 'lmulop', 'lfactor']):
+                res=0
                 if post[1][0]=='MULTI':
-                    res = tokentonum(post[0])*tokentonum(post[2])
-                    return numtoken(res)
+                    res = self.tokentonum(post[0])*self.tokentonum(post[2])
+                elif post[1][0]=='RDIV' or post[1][0]=='DIV':
+                    res = self.tokentonum(post[0])/self.tokentonum(post[2])
+                elif post[1][0]=='MOD':
+                    res = self.tokentonum(post[0])%self.tokentonum(post[2])
+                elif post[1][0]=='AND':
+                    res = self.tokentonum(post[0]) & self.tokentonum(post[2])
+                return numtoken(res)
+            elif iseql(pre,'lvariable_declaration',oripost,['llidentifier_list', 'colon', 'ltype_denoter']): #lvariable_declaration -> llidentifier_list, colon, ltype_denoter
+                ret=[]
+                if post[2][1].lower()=='integer':
+                    for item in post[0]:
+                        if item==('COMMA', 0):
+                            continue
+                        ret+=item[1]
+                        self.globevar[item[1]]=Var(0,0)
+                elif post[2][1].lower()=='float':
+                    for item in post[0]:
+                        if item==('COMMA', 0):
+                            continue
+                        ret+=item[1]
+                        self.globevar[item[1]]=Var(0.0,1)
+                return ret
+            #lexponentiation -> lprimary, exp, lexponentiation
+            elif iseql(pre,'lexponentiation',oripost,['lprimary', 'exp', 'lexponentiation']): 
+                res =  self.tokentonum(post[0])**self.tokentonum(post[2])
+                return numtoken(res)
+            #aslsignment_lstatement -> lvariable_access, assign, lexpression
+            elif iseql(pre,'aslsignment_lstatement',oripost,['lvariable_access', 'assign', 'lexpression']):
+                self.globevar[post[0][1]].val=post[2][1]
+                print "XD:"+self.globevar[post[0][1]].__unicode__()
+                return post[2][1]
             else:
                 return post
 
