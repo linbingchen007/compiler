@@ -46,6 +46,9 @@ class Parser():
             #print '*,*'
             return post[0]
         else:
+            ##
+            return post
+            ##
             if iseql(pre,'simple_lexpression',oripost,['simple_lexpression', 'laddop', 'lterm']):
                 res=0
                 if post[1][0]=='PLUS':
