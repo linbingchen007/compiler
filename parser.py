@@ -5,6 +5,18 @@ import os
 def iseql(prea,preb,posta,postb):
     return prea==preb and posta==postb
 
+def flay(candidate):
+    if type(candidate)!=type([]):
+        return candidate
+    res=[]
+    for item in candidate:
+        if type(item)==type([]):
+            flayeditems=flay(item)
+            for flayeditem in flayeditems:
+                res.append(flayeditem)
+        else:
+            res.append(item)
+    return res
 
 def numtoken(res):
     if type(res)==type(1):
@@ -98,6 +110,39 @@ class Parser():
                 return post[2][1]
             else:
                 return post
+    def test(self):
+        next = ('s',15)
+        tokbuf=[(('ID', 'e'), ('s', 15), 380), (('ASSIGN', 0), ('s', 271), 245), (('ID', 'e'), ('s', 15), 271), (('MINUS', 0), ('s', 121), 281), (('INT', '1'), ('s', 63), 321),(('SEMIC', 0),)]
+        tokptr=0
+        stk=[tokbuf[0][2]]
+        stkitem=[]
+        while(1):
+            if type(next) == type((1,2)):
+                if next[0] == 's':
+                    stk.append(next[1])
+                    stkitem.append(tokbuf[tokptr][0])
+                    tokptr+=1
+                elif next[0] == 'r':
+                    tpost=[]
+                    if next[1].post[0]!='\xa6\xc5':
+                        for j in range(len(next[1].post)):
+                            stk.pop()
+                            tpost.append(stkitem.pop())
+                    tpost.reverse()
+                    stk.append(self.parsetab[stk[len(stk)-1]][next[1].pre])
+                    stkitem.append(self.semantic_analyze(next[1].pre,next[1].post,tpost))
+                    print stkitem[len(stkitem)-1]
+                    print next[1].__unicode__()
+            try:
+                if type(next)!=type((1,2)) and 'closed_lstatement'==next[1].pre:
+                    break;
+                next=self.parsetab[stk[len(stk)-1]][tokbuf[tokptr][0][0].lower()]
+            except:
+                print tokbuf[tokptr]
+                print tokbuf[tokptr][0]
+                print tokbuf[tokptr][0][0].lower()
+                print "error"
+                break
 
     def play(self):
         i = 0
@@ -112,7 +157,9 @@ class Parser():
             if type(next) == type((1, 2)):
                 if next[0] == 's':
                     self.stk.append(next[1])
-                    self.stkitem.append(self.lexbuff[self.lexptr]) 
+                    self.stkitem.append((self.lexbuff[self.lexptr],next,self.stk[len(self.stk)-2]))
+                    print 's'
+                    print self.lexbuff[self.lexptr]
                     self.lexptr+=1
                     i += 1
                 elif next[0] == 'r':
@@ -129,12 +176,15 @@ class Parser():
                         self.parsetab[self.stk[len(self.stk) - 1]][next[1].pre])
                     self.stkitem.append(self.semantic_analyze(next[1].pre,next[1].post,tpost))
                     print self.stkitem[len(self.stkitem)-1]
+                    if self.lexptr!=len(self.lexbuff):
+                        print self.lexbuff[self.lexptr]
                     print next[1].__unicode__()
             #print self.stk[len(self.stk)-1]
             #print self.parsetab[self.stk[len(self.stk)-1]]
             try:
                 next = self.parsetab[
                     self.stk[len(self.stk) - 1]][self.intokens[i]]
+                print next
             except:
             	print "failed"
             	ac=False
@@ -172,8 +222,10 @@ with open(os.name == 'nt' and prefix + "lower_tab" or "lower_tab", 'r') as f:
 #print ans
 #print "toolok"
 ok = Parser([item[0].lower() for item in hehe], ans,hehe)
-ret = ok.play()
-for i in range(len(ret) - 1, -1, -1):
-    print ret[i].__unicode__()
+#ret = ok.play()
+ok.test()
+#for i in range(len(ret) - 1, -1, -1):
+#    print ret[i].__unicode__()
 
-print hehe
+#print hehe
+

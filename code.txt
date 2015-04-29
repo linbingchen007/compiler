@@ -2,24 +2,15 @@ program p1(output) ;
 var h,a:integer ;
  b,c:float ;
 begin
-  h := ((1+2) * 3+881 )/3 ;
-  a := h * 2 - 10 ;
-  h := h mod 10;
-  h := h ** 10 ;
-  for j:=1 to 99 do begin
-  	  a:= a -1;
-  	  b:= b -1;
-  	  c:= c -1;
-      if d>0 then begin
-        e:= e -1;
-        f:= f -1;
-        g:= g -1;
-      end;
-      h:= h -1;
-      i:= i -1;
-      j:= j -1;
-   end;
-   k:= k -1;
-   l:= l -1;
-   m:= m -1;
+
+
+      if d>0 then 
+        e:= e -1        
+      else 
+      e:= e -1;
+
+
+      
+
+
 end.
