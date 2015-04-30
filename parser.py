@@ -117,6 +117,8 @@ class Parser():
         stk=[tokbuf[0][2]]
         stkitem=[]
         while(1):
+            print tokbuf[tokptr]
+            print stk
             if type(next) == type((1,2)):
                 if next[0] == 's':
                     stk.append(next[1])
@@ -124,6 +126,8 @@ class Parser():
                     tokptr+=1
                 elif next[0] == 'r':
                     tpost=[]
+                    if len(next[1].post)>len(stk):
+                        break
                     if next[1].post[0]!='\xa6\xc5':
                         for j in range(len(next[1].post)):
                             stk.pop()
@@ -159,7 +163,8 @@ class Parser():
                     self.stk.append(next[1])
                     self.stkitem.append((self.lexbuff[self.lexptr],next,self.stk[len(self.stk)-2]))
                     print 's'
-                    print self.lexbuff[self.lexptr]
+                    if  self.lexbuff[self.lexptr]==('ID', 'writeln'):
+                        print self.lexbuff[self.lexptr]
                     self.lexptr+=1
                     i += 1
                 elif next[0] == 'r':
@@ -222,8 +227,8 @@ with open(os.name == 'nt' and prefix + "lower_tab" or "lower_tab", 'r') as f:
 #print ans
 #print "toolok"
 ok = Parser([item[0].lower() for item in hehe], ans,hehe)
-#ret = ok.play()
-ok.test()
+ret = ok.play()
+#ok.test()
 #for i in range(len(ret) - 1, -1, -1):
 #    print ret[i].__unicode__()
 

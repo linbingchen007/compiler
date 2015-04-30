@@ -3,7 +3,7 @@ var h,a:integer ;
  b,c:float ;
 begin
 
-
+	 writeln('Hello World');
       if d>0 then 
         e:= e -1        
       else 

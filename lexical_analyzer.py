@@ -183,7 +183,7 @@ class Solution:
             if fg:
                 continue
             if t_str[i] == "'":
-                ret.append(('Q_MARK', 0))
+                #ret.append(('Q_MARK', 0))
                 j = 1
                 while i + j < strlen and (t_str[i + j] != "'" or (i + j + 1 < strlen and t_str[i + j + 1] == "'")):
                     if t_str[i + j] == "'":
@@ -191,10 +191,12 @@ class Solution:
                     else:
                         j += 1
                 ret.append(('STRING', t_str[i + 1:i + j]))
+                """
                 if i + j < strlen:
                     pass
                 else:
                     ret.append(('Q_MARK', 0))
+                """
                 i += j
             elif t_str[i] == "{":
                 j = 1
