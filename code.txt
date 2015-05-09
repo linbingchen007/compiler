@@ -1,16 +1,26 @@
 program p1(output) ;
-var h,a:integer ;
- b,c:float ;
+var h,a,b,c:integer ;
+ d,e:float ;
 begin
+  a:=23;
+  b:=2;
+  c:=8;
+  c:=(a+b*c)/2**3;
+   if c >0 then
+	begin
+      if a =23 then
+      	begin
+        h:= a-c ;
+        a:=a+2;
+        end
+      else
+      	begin
+      	h:=33;
+      	a:=a-2;
+      	end;
+     end;
 
 
-      if d>0 then 
-        e:= e -1        
-      else 
-      e:= e -1;
-
-
-      
 
 
 end.
