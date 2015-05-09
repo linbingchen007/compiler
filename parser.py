@@ -239,8 +239,7 @@ class Parser():
             self.midrun(self.stknode[1])
         return self.ans
 
-    def calboolexp(self,xnode): #lboolean_lexpression node
-        pass
+
 
     def calexp(self,xnode): #lexpression node
         for child in xnode.childlist:
@@ -344,10 +343,18 @@ class Parser():
     def midrun(self,xnode):
         #print xnode.name
         #print xnode.val
+
         retfg=False
         if xnode.name=='llvariable_declaration_part':
+            retfg=True
             self.declarevar(xnode.childlist[1])
             print 'ok'
+        elif xnode.name=='closed_while_lstatement' or xnode.name=='open_while_lstatement':
+            retfg=True
+            cdtfg=self.calexp(xnode.childlist[1])
+            while cdtfg:
+                self.midrun(xnode.childlist[3])
+                cdtfg=self.calexp(xnode.childlist[1])
         elif xnode.name=='open_if_lstatement' or xnode.name=='closed_if_lstatement':
             retfg=True
             if len(xnode.childlist)==4:
@@ -361,6 +368,7 @@ class Parser():
                 else:
                     self.midrun(xnode.childlist[5])
         elif xnode.name=='aslsignment_lstatement':
+            retfg=True
             varname =self.getvar(xnode.childlist[0])
             self.globevar[varname].val=self.calexp(xnode.childlist[2])
             #self.setvar(self.getvar(xnode.childlist[0]),self.calexp(xnode.childlist[2]))
@@ -368,6 +376,7 @@ class Parser():
                   +' ,varval:'+ str(self.globevar[varname].val)
         if retfg:
             return
+
         for child in xnode.childlist:
             self.midrun(child)
 

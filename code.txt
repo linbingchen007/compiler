@@ -5,6 +5,7 @@ begin
   a:=23;
   b:=2;
   c:=8;
+  while c>3 do begin
   c:=(a+b*c)/2**3;
    if c >0 then
 	begin
@@ -20,7 +21,7 @@ begin
       	end;
      end;
 
-
+    end;
 
 
 end.
