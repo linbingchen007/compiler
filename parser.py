@@ -12,6 +12,7 @@ class PTree():
         self.type = type  # 1为叶子 0为中间节点
         self.val = val
         self.name = name
+        self.tname=None
 
 
 def iseql(prea, preb, posta, postb):
@@ -62,6 +63,7 @@ class Parser():
         self.intokens = intokens
         self.intokens.append('$')
         self.globevar = {}
+        self.tid=0
 
     def tokentonum(self, tokenx):
         if(tokenx[0] == 'INT'):
@@ -251,13 +253,29 @@ class Parser():
             if len(xnode.childlist)==1:
                 if xnode.name=='lidentifier':
                     xnode.val=self.globevar[xnode.childlist[0].val].val
+                    xnode.tname =xnode.childlist[0].val
                 else:
                     xnode.val=xnode.childlist[0].val
+                    xnode.tname=xnode.childlist[0].tname
             elif len(xnode.childlist)==2:
                 if xnode.name=='lprimary':
                     xnode.val=not xnode.childlist[1].val
+                    xnode.tname=xnode.childlist[1].tname
+                    oriname=xnode.tname
+                    if xnode.tname==None:
+                        xnode.tname='t'+str(self.tid)
+                        self.tid+=1
+                        oriname=str(xnode.childlist[1].val)
+                    print xnode.tname +'= not ' + oriname
                 elif xnode.name=='lfactor':
-                    xnode.val=( xnode.childlist[1].val if xnode.childlist[0].val=='PLUS' else -xnode.childlist[1].val)
+                    xnode.val=( int(xnode.childlist[1].val) if xnode.childlist[0].val=='PLUS' else -int(xnode.childlist[1].val))
+                    xnode.tname=xnode.childlist[1].tname
+                    oriname=xnode.tname
+                    if xnode.tname==None:
+                        xnode.tname='t'+str(self.tid)
+                        self.tid+=1
+                        oriname=str(xnode.childlist[1].val)
+                    print xnode.tname + ( '= + ' if xnode.childlist[0].val=='PLUS' else '= - ') + oriname
             elif len(xnode.childlist)==3:
                 if xnode.name=='lprimary':
                     xnode.val=xnode.childlist[1].val
@@ -265,7 +283,16 @@ class Parser():
                     midop=(xnode.childlist[1].val)
                     preval=int(xnode.childlist[0].val)
                     postval=int(xnode.childlist[2].val)
+                    prename=xnode.childlist[0].tname
+                    postname=xnode.childlist[2].tname
+                    xnode.tname='t'+str(self.tid)
+                    self.tid+=1
                     resval=None
+                    if prename==None:
+                        prename=str(xnode.childlist[0].val)
+                    if postname==None:
+                        postname=str(xnode.childlist[2].val)
+                    print   xnode.tname + ' = '+prename+' '+midop+' '+postname
                     if midop=='EXP':
                         resval= preval ** postval
                     elif midop=='MULTI':
@@ -371,6 +398,10 @@ class Parser():
             retfg=True
             varname =self.getvar(xnode.childlist[0])
             self.globevar[varname].val=self.calexp(xnode.childlist[2])
+            oriname=xnode.childlist[2].tname
+            if oriname==None:
+                oriname=str(xnode.childlist[2].val)
+            print varname + ' = ' + oriname
             #self.setvar(self.getvar(xnode.childlist[0]),self.calexp(xnode.childlist[2]))
             print 'assign ok! varname:'+varname \
                   +' ,varval:'+ str(self.globevar[varname].val)
